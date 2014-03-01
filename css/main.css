@@ -40,6 +40,10 @@ a:visited { color: #1abc9c; opacity: .8; }
 
 
 .temp_lp .page-content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
