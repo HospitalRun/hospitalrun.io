@@ -1,0 +1,7 @@
+name:              HospitalRun
+markdown:          kramdown
+pygments:          true
+description:       "We're building open source hospital information management software that doesn't suck."
+url: "http://hospitalrun.github.io"
+permalink:         /blog/:year/:month/:title
+exclude:           ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "scss"]
