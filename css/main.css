@@ -24,6 +24,10 @@ body {
   /* W3C Markup, IE10 Release Preview */
   background-image: radial-gradient(circle farthest-side at center, #2F4358 0%, #263648 100%);
 
+  background-image: url(/img/bg-img-patients.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
