@@ -262,3 +262,9 @@ a:visited { color: #1abc9c; opacity: .8; }
   .post-content ol { padding-left: 10px; }
 
 }
+
+@media screen and (max-width: 500px) {
+
+  .temp_lp_content .logo { margin-top: 80px; }
+
+}
