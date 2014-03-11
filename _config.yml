@@ -1,7 +1,7 @@
 name:              HospitalRun
 markdown:          kramdown
 pygments:          true
-description:       "We're building open source, modern software for charitable health care in the developing world."
+description:       "We're building open source, modern software for charitable hospitals in the developing world."
 url: "http://hospitalrun.io"
 permalink:         /blog/:year/:month/:title
 exclude:           ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "scss"]
