@@ -1,3 +1,6 @@
+---
+---
+
 /* Base */
 /* ----------------------------------------------------------*/
 
@@ -79,7 +82,22 @@ a:visited { color: #1abc9c; opacity: .8; }
   height:100%;
   width: 100%;
   box-sizing: border-box;
+}
 
+.temp_lp .primary-cta {
+  display: block;
+  margin: 60px auto 0;
+  background: #1abc9c;
+  color: white;
+  text-align: center;
+  padding: 8px 40px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  max-width: 200px;
+  font-weight: 300;
+}
+.temp_lp .primary-cta:hover {
+  text-decoration: none;
 }
 
 /* Layout Styles */
@@ -88,10 +106,19 @@ a:visited { color: #1abc9c; opacity: .8; }
 /* Site header */
 
 .site-header {
-  border-top: 5px solid #333;
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
-  background-color: white;
+  background-color: #253649;
+}
+
+.site-header .site-home-link {
+  display: block;
+  float: left;
+  height: 56px;
+}
+
+.site-header .site-home-link .logo {
+  width: 160px;
+  position: relative;
+  top: 14px;
 }
 
 .site-title,
@@ -115,27 +142,46 @@ a:visited { color: #1abc9c; opacity: .8; }
 .site-nav .menu-icon { display: none; }
 
 .site-nav .page-link {
-  margin-left: 20px;
-  color: #727272;
+  margin-left: 30px;
+  color: white;
   letter-spacing: -.5px;
+  font-weight: 300;
+}
+.site-nav .page-link:hover {
+  color: #00bd9c;
+  text-decoration: none;
+}
+
+.site-nav .page-link.primary-cta {
+  border: 1px solid white;
+  padding: 6px 14px;
+  border-radius: 3px;
+}
+.site-nav .page-link.primary-cta:hover {
+  background: #00bd9c;
+  border-color: #00bd9c;
+  color: white;
 }
 
 /* Post styles */
 /* ----------------------------------------------------------*/
 
-.post-header { margin: 10px 0 30px; }
+.post-header {
+  margin: 10px 0 30px;
 
-.post-header h1 {
-  font-size: 42px;
-  letter-spacing: -1.75px;
-  line-height: 1;
-  font-weight: 300;
-}
+  h1 {
+    font-size: 42px;
+    letter-spacing: -1.75px;
+    line-height: 1;
+    font-weight: 300;
+  }
 
-.post-header .meta {
-  font-size: 15px;
-  color: #818181;
-  margin-top: 5px;
+  .meta {
+    font-size: 15px;
+    color: #818181;
+    margin-top: 5px;
+  }
+
 }
 
 .post-content { margin: 0 0 30px; }
