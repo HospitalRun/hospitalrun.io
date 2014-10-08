@@ -4,3 +4,5 @@ description:       "Open source, modern software for charitable hospitals in the
 url: "http://hospitalrun.io"
 permalink:         /blog/:year/:month/:title
 exclude:           ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "scss"]
+sass:
+  sass_dir:        _sass
