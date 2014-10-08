@@ -3,7 +3,7 @@ layout: demo
 title: "Accessing the HospitalRun demo site"
 ---
 
-# HospitalRun demo site
+# Accessing the HospitalRun demo site
 
 ## Site URL: [beta.hospitalrun.io](https://beta.hospitalrun.io/)
 
