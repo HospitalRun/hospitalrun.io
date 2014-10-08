@@ -1,0 +1,50 @@
+// Temp Landing Page Styles
+// ----------------------------------------------------------
+
+.temp_lp {
+
+  .page-content {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .primary-cta {
+    display: block;
+    margin: 60px auto 0;
+    background: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 8px 40px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    max-width: 200px;
+    font-weight: 300;
+
+    &:hover { text-decoration: none; }
+
+  }
+
+}
+
+.temp_lp_content {
+
+  .logo { width: 100%; height: 100%; }
+
+  .description {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px; }
+
+}
+
+.page-content {
+  padding: 15px;
+  height:100%;
+  width: 100%;
+  box-sizing: border-box;
+}
