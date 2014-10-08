@@ -1,6 +1,6 @@
 ---
 layout: demo
-title: "HospitalRun demo site"
+title: "Accessing the HospitalRun demo site"
 ---
 
 # HospitalRun demo site
