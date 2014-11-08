@@ -3,6 +3,6 @@ highlighter:       pygments
 description:       "Open source, modern software for charitable hospitals in the developing world."
 url: "http://hospitalrun.io"
 permalink:         /blog/:year/:month/:title
-exclude:           ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "scss"]
+exclude:           ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md"]
 sass:
   sass_dir:        _sass
