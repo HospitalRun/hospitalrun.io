@@ -1,64 +1,15 @@
 // Layout Styles
 // ----------------------------------------------------------
 
-  // Site header
+// Site header
 
 .site-header {
-  background-color: #253649;
-}
 
-.site-header .site-home-link {
-  display: block;
-  float: left;
-  height: 56px;
-}
-
-.site-header .site-home-link .logo {
-  width: 160px;
-  position: relative;
-  top: 14px;
-}
-
-.site-title,
-.site-title:hover,
-.site-title:visited {
-  display: block;
-  color: #333;
-  font-size: 26px;
-  letter-spacing: -1px;
-  float: left;
-  line-height: 56px;
-  position: relative;
-  z-index: 1;
-}
-
-.site-nav {
-  float: right;
-  line-height: 56px;
-}
-
-.site-nav .menu-icon { display: none; }
-
-.site-nav .page-link {
-  margin-left: 30px;
-  color: white;
-  letter-spacing: -.5px;
-  font-weight: 300;
-}
-.site-nav .page-link:hover {
-  color: #00bd9c;
-  text-decoration: none;
-}
-
-.site-nav .page-link.primary-cta {
-  border: 1px solid white;
-  padding: 6px 14px;
-  border-radius: 3px;
-}
-.site-nav .page-link.primary-cta:hover {
-  background: #00bd9c;
-  border-color: #00bd9c;
-  color: white;
+  .logo {
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+  }
 }
 
 // Post styles
