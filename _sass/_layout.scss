@@ -5,10 +5,12 @@
 
 .site-header {
 
-  .logo {
-    display: block;
-    margin: 30px auto;
-    width: 200px;
+  &.home {
+    .logo {
+      display: block;
+      margin: 40px auto 30px;
+      width: 200px;
+    }
   }
 }
 
