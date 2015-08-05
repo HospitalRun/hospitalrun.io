@@ -5,12 +5,33 @@
 
 .site-header {
 
+  &.site {
+    background: $navy-drk;
+    @include clearfix;
+
+    .logo {
+      display: block;
+      float: left;
+      padding: 6px 0;
+    }
+  }
+
   &.home {
     .logo {
       display: block;
       margin: 40px auto 30px;
-      width: 200px;
     }
+  }
+
+  .site-nav {
+    float: right;
+  }
+
+  .nav-link {
+    color: $white;
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 60px;
   }
 }
 
