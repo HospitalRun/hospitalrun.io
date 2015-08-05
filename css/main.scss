@@ -1,18 +1,14 @@
 ---
 ---
 
-// variables & util
+// "Reset" styles and SCSS reusable components
+@import "normalize";
+@import "mixins";
 @import "variables";
 
-// general styles
+// Generic site base & layout styles
 @import "base";
 @import "layout";
-@import "post";
-@import "page";
 
-// specific styles
-@import "temp_lp";
-@import "demo";
-
-// media queries
-@import "media_queries";
+// Layouts
+@import "home";

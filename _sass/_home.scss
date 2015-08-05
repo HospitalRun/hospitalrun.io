@@ -1,0 +1,116 @@
+// Home styles
+// ---------------------------------------/
+
+.page-home {
+
+  .page-top {
+    overflow: hidden;
+    background-image: url(/img/bg-img-patients.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.hero-heading {
+  text-align: center;
+  font-size: 2.625rem;
+  line-height: 3.25rem;
+  max-width: 820px;
+  margin: 0 auto 36px;
+}
+
+.home-hero {
+
+  .cta-row {
+    max-width: 485px;
+    margin: 0 auto 56px;
+    text-align: center;
+  }
+
+  .cta {
+    width: 225px;
+    border-radius: 5px;
+    font-size: 1.125rem;
+    line-height: 46px;
+    display: inline-block;
+    color: $white;
+
+    &:hover { text-decoration: none; }
+
+    &.primary { background: $green; }
+
+    &.secondary {
+      background: transparent;
+      border: 1px solid $green;
+      margin-left: 30px;
+    }
+  }
+
+  .screenshot-img {
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto -25px;
+    max-width: 90%;
+    box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.50);
+  }
+}
+
+.product-summary {
+  padding: 60px 0;
+  text-align: center;
+  background: $navy-drk;
+
+  .summary-heading {
+    max-width: 640px;
+    margin: 0 auto 65px;
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .why-hospitalrun {
+
+    h2 {
+      font-size: 1.625rem;
+      line-height: 2rem;
+      max-width: 840px;
+      margin: 56px auto 40px;
+    }
+  }
+
+  .read-more {
+    font-size: 1.625rem;
+    margin-bottom: 0;
+
+    > a {
+      border-bottom: 1px solid;
+
+      &:hover { text-decoration: none; }
+    }
+  }
+}
+
+.features {
+  max-width: 850px;
+  margin: 0 auto;
+  border-bottom: 1px solid #546a83;
+
+  .feature-row { @include clearfix; }
+
+  .feature-item {
+    display: inline-block;
+    width: 332px;
+    margin: 0 40px 60px;
+  }
+
+  .feature-heading {
+    font-size: 1.625rem;
+    color: $green;
+    margin: 0 0 25px;
+  }
+
+  .description {
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    margin: 0;
+  }
+}
