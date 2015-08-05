@@ -25,6 +25,8 @@
     display: inline-block;
     color: $white;
 
+    &:hover { text-decoration: none; }
+
     &.primary { background: $green; }
 
     &.secondary {
