@@ -17,6 +17,11 @@
   line-height: 3.25rem;
   max-width: 820px;
   margin: 0 auto 36px;
+
+  @include media_max($bp_mobile) {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
 }
 
 .home-hero {
@@ -43,6 +48,13 @@
       background: transparent;
       border: 1px solid $green;
       margin-left: 30px;
+
+      @include media_max($bp_mobile) { margin-left: auto; }
+    }
+
+    @include media_max($bp_mobile) {
+      display: block;
+      margin: 0 auto 20px;
     }
   }
 
@@ -65,21 +77,38 @@
     margin: 0 auto 65px;
     font-size: 1.625rem;
     line-height: 2rem;
+
+    @include media_max($bp_mobile) {
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+    }
   }
 
   .why-hospitalrun {
+
+    blockquote { margin: 0; }
 
     h2 {
       font-size: 1.625rem;
       line-height: 2rem;
       max-width: 840px;
       margin: 56px auto 40px;
+
+      @include media_max($bp_mobile) {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+      }
     }
   }
 
   .read-more {
     font-size: 1.625rem;
     margin-bottom: 0;
+
+    @include media_max($bp_mobile) {
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+    }
 
     > a {
       border-bottom: 1px solid;
@@ -98,8 +127,12 @@
 
   .feature-item {
     display: inline-block;
-    width: 332px;
+    max-width: 332px;
     margin: 0 40px 60px;
+
+    @include media_max($bp_mobile) {
+      margin: 0 auto 40px;
+    }
   }
 
   .feature-heading {
