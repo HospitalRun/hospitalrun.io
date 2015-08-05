@@ -35,4 +35,12 @@
       margin-left: 30px;
     }
   }
+
+  .screenshot-img {
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 90%;
+    box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.50);
+  }
 }
