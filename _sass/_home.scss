@@ -57,20 +57,38 @@
 
 .product-summary {
   padding: 60px 0;
+  text-align: center;
 
   .summary-heading {
     max-width: 640px;
     margin: 0 auto 65px;
-    text-align: center;
     font-size: 1.625rem;
     line-height: 2rem;
+  }
+
+  .why-hospitalrun {
+
+    h2 {
+      font-size: 1.625rem;
+      line-height: 2rem;
+      max-width: 840px;
+      margin: 56px auto 40px;
+    }
+  }
+
+  .read-more { font-size: 1.625rem;
+
+    > a {
+      border-bottom: 1px solid;
+
+      &:hover { text-decoration: none; }
+    }
   }
 }
 
 .features {
   max-width: 850px;
   margin: 0 auto;
-  text-align: center;
   border-bottom: 1px solid #546a83;
 
   .feature-row { @include clearfix; }
