@@ -7,25 +7,10 @@
   box-sizing: border-box;
 }
 
-html {
-  background: $white;
-  height: 100%;
-}
-
 body {
   @include sans;
   background-color: $bg-navy;
   height: 100%;
-
-  // IE10 Consumer Preview
-  background-image: -ms-radial-gradient(center, circle farthest-side, #2F4358 0%, #263648 100%);
-  // Mozilla Firefox
-  background-image: -moz-radial-gradient(center, circle farthest-side, #2F4358 0%, #263648 100%);
-  // Webkit (Chrome 11+)
-  background-image: -webkit-radial-gradient(center, circle farthest-side, #2F4358 0%, #263648 100%);
-  // W3C Markup, IE10 Release Preview
-  background-image: radial-gradient(circle farthest-side at center, #2F4358 0%, #263648 100%);
-
   background-image: url(/img/bg-img-patients.jpg);
   background-repeat: no-repeat;
   background-size: cover;
