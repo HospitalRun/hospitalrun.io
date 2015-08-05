@@ -11,9 +11,6 @@ body {
   @include sans;
   background-color: $bg-navy;
   height: 100%;
-  background-image: url(/img/bg-img-patients.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 
   // typography
   @include sans;
