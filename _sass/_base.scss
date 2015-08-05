@@ -39,14 +39,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 a         {
   color: $green;
   text-decoration: none;
-  font-weight: 700;
 
   &:hover {
     opacity: .8;
