@@ -1,8 +1,8 @@
 name:              HospitalRun
 highlighter:       pygments
-description:       "Open source, modern software for hospitals in the developing world."
+description:       "Open source hospital software for the developing world."
 url: "http://hospitalrun.io"
 permalink:         /blog/:year/:month/:title
 exclude:           ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md"]
 sass:
-  sass_dir:        _sass
+sass_dir:        _sass
