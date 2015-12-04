@@ -10,8 +10,8 @@ title: "Accessing the HospitalRun demo site"
 ## Account info
 Use any of the following login credentials to demo the software as a user with these permissions.
 
-### System Admin role
-**id:** hr.system.admin@hospitalrun.io
+### Hospital Admin role
+**id:** hr.hospital.admin@hospitalrun.io
 **pw:** HRt3st12
 
 ### Business Office role
