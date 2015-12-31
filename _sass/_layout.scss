@@ -12,14 +12,16 @@
     .logo {
       display: block;
       float: left;
-      padding: 6px 0;
+      padding: 10px 0;
+      margin-top: 6px;
     }
   }
 
   &.home {
     .logo {
       display: block;
-      margin: 40px auto 30px;
+      margin: 55px auto 30px;
+      text-align: center;
     }
   }
 
@@ -31,7 +33,7 @@
     color: $white;
     display: inline-block;
     padding: 0 10px;
-    line-height: 60px;
+    line-height: 63px;
   }
 }
 
