@@ -19,10 +19,10 @@ You're responsible for getting yourself there, taking the time off to participat
 Many companies provide time off to work on volunteer efforts, and some will even pay for your airfare if you ask nicely. So give it a shot :)
 
 # Cool. How do I participate?
-We vet everyone who participates, so being a part of the project team already helps; but ultimately, you need to apply using the Google Form below.
+We vet everyone who participates, so already [being a part of the project team](https://github.com/HospitalRun/hospitalrun-frontend/blob/master/CONTRIBUTING.md) helps; but ultimately, you need to apply using the Google Form below.
 
 ## [Click Here to Apply](https://docs.google.com/forms/d/1TBk9TSc92j9NJKzzQ73OzAesSNjeT_fPQqoKazQbkts/viewform)
 Clear enough?
 
 # Next Retreat: March 13-19, Lake Tahoe, CA
-Our first ever HospitalRun Hack Week will be a small team of 8-11 participants held in Lake Tahoe, CA at [this lodge](https://www.vrbo.com/644606), within walking distance of Heavenly Ski Resort. Again you can [Apply Here](https://docs.google.com/forms/d/1TBk9TSc92j9NJKzzQ73OzAesSNjeT_fPQqoKazQbkts/viewform) to participate.
+Thanks to the efforts of an anonymous and generous donor, we're pleased to share that our first ever HospitalRun Hack Week will be a small team of 8-11 participants held in Lake Tahoe, CA at [this lodge](https://www.vrbo.com/644606), within walking distance of Heavenly Ski Resort. Again you can [apply here](https://docs.google.com/forms/d/1TBk9TSc92j9NJKzzQ73OzAesSNjeT_fPQqoKazQbkts/viewform) to participate.
