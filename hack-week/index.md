@@ -28,7 +28,7 @@ We vet everyone who participates, so already [being a part of the project team](
 ## [Click Here to Apply](https://docs.google.com/forms/d/1TBk9TSc92j9NJKzzQ73OzAesSNjeT_fPQqoKazQbkts/viewform)
 Clear enough?
 
-# Next Retreat: March 13-19, Lake Tahoe, CA
+# Next Retreat: March 13-19, 2016, Lake Tahoe, CA
 Thanks to the efforts of an anonymous and generous benefactor, our first ever HospitalRun Hack Week will be a small team of 8-11 participants held in Lake Tahoe, CA at [this lodge](https://www.vrbo.com/644606), within walking distance of Heavenly Ski Resort. Again you can [apply here](https://docs.google.com/forms/d/1TBk9TSc92j9NJKzzQ73OzAesSNjeT_fPQqoKazQbkts/viewform) to participate.
 
 Here's hoping we're working together in Tahoe!
