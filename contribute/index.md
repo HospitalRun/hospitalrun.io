@@ -10,7 +10,7 @@ Currently, there are a few ways to contribute. As the project grows, they'll be 
 HospitalRun is proudly built with technologies like [Ember](http://emberjs.com), [Node](http://nodejs.org), and [CouchDB](http://couchdb.apache.org/). If you work with those technologies already or have software development experience and are interested in learning them, consider [contributing to HospitalRun](https://github.com/HospitalRun/hospitalrun-frontend/blob/master/CONTRIBUTING.md). If you're serious about contributing, we also encourage you to [join our Slack](https://hospitalrun-slackin.herokuapp.com/), where the majority of the project communication happens.
 
 ## Make a financial contribution to support the development and deployment of HospitalRun
-Currently, 100% of the resources (financial and human) devoted to HospitalRun are coming from [CURE International](http://cure.org). 
+Currently, the resources (financial and human) standing behind HospitalRun are coming from [CURE International](http://cure.org). 
 
 [Founded in 1996](https://cure.org/about/history/) as a [US 501(c)3](http://cure.org/finances), CURE International is a network of hospitals and surgical programs around the world that focuses on the needs of children with surgically correctable disabilities and their families. 
 
