@@ -10,11 +10,13 @@ Currently, there are a few ways to contribute. As the project grows, they'll be 
 HospitalRun is proudly built with technologies like [Ember](http://emberjs.com), [Node](http://nodejs.org), and [CouchDB](http://couchdb.apache.org/). If you work with those technologies already or have software development experience and are interested in learning them, consider [contributing to HospitalRun](https://github.com/HospitalRun/hospitalrun-frontend/blob/master/CONTRIBUTING.md). If you're serious about contributing, we also encourage you to [join our Slack](https://hospitalrun-slackin.herokuapp.com/), where the majority of the project communication happens.
 
 ## Make a financial contribution to support the development and deployment of HospitalRun
-Currently, 100% of the financial (and full-time human resources) devoted to HospitalRun are coming from [CURE International](http://cure.org). [Founded in 1996](https://cure.org/about/history/) as a [US 501(c)3](http://cure.org/finances), CURE International is a network of hospitals and surgical programs around the world that focuses on the needs of children with disabilities and their families. 
+Currently, 100% of the resources (financial and human) devoted to HospitalRun are coming from [CURE International](http://cure.org). 
 
-CURE started HospitalRun to solve a problem for their network. CURE made HospitalRun open source because we have a vision that [thousands of other facilities around the world](http://goo.gl/NCJDnJ) could benefit from this work.
+[Founded in 1996](https://cure.org/about/history/) as a [US 501(c)3](http://cure.org/finances), CURE International is a network of hospitals and surgical programs around the world that focuses on the needs of children with surgically correctable disabilities and their families. 
 
-If you want to discuss a contribution, email Joel Worrall, CTO of CURE International and member of the HospitalRun core team at <mailto:joel@cure.org>.
+CURE started HospitalRun to solve a problem for network of hospitals and programs in [30 countries](http://cure.org/map). CURE open sourced HospitalRun because we share a vision that [thousands of other facilities around the world](http://goo.gl/NCJDnJ) could benefit from this work.
 
-<a href="https://twitter.com/intent/tweet?screen_name=HospitalRun&text=modern%2C%20open%20source%20software%20for%20developing%20world%20hospitals" class="twitter-mention-button" data-size="large" data-related="HospitalRun">Tweet to @HospitalRun</a>
+If you want to discuss a financial contribution, email Joel Worrall, CTO of CURE International and member of the HospitalRun core team at <mailto:joel@cure.org>.
+
+<a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://hospitalrun.io" data-text="HospitalRun, open source software for developing world hospitals" data-via="HospitalRun" data-size="large">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
