@@ -16,4 +16,8 @@ Currently, the resources (financial and human) standing behind HospitalRun are c
 
 CURE started HospitalRun to solve a problem for their network of hospitals and programs in [30 countries](http://cure.org/map). CURE open sourced HospitalRun because we share a vision that [thousands of other facilities around the world](http://goo.gl/NCJDnJ) could benefit from this work.
 
-If you want to discuss a financial contribution, email Joel Worrall, CTO of CURE International and member of the HospitalRun core team at <mailto:joel@cure.org>.
+If you'd like to make a contribution to CURE International that will be used for the development and deployment of HospitalRun, CURE has set up an online donation form at the link below.
+
+## [Give a gift on cure.org in support of HospitalRun](http://cure.org/donate/hospitalrun)
+
+If you have more questions about making a financial contribution or want to discuss a corporate or foundation gift, email Joel Worrall, CTO of CURE International and member of the HospitalRun core team at <mailto:joel@cure.org>.
