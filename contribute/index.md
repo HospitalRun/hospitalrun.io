@@ -14,7 +14,7 @@ Currently, the resources (financial and human) standing behind HospitalRun are c
 
 [Founded in 1996](https://cure.org/about/history/) as a [US 501(c)3](http://cure.org/finances), CURE International is a network of hospitals and surgical programs around the world that focuses on the needs of children with surgically correctable disabilities and their families. 
 
-CURE started HospitalRun to solve a problem for network of hospitals and programs in [30 countries](http://cure.org/map). CURE open sourced HospitalRun because we share a vision that [thousands of other facilities around the world](http://goo.gl/NCJDnJ) could benefit from this work.
+CURE started HospitalRun to solve a problem for their network of hospitals and programs in [30 countries](http://cure.org/map). CURE open sourced HospitalRun because we share a vision that [thousands of other facilities around the world](http://goo.gl/NCJDnJ) could benefit from this work.
 
 If you want to discuss a financial contribution, email Joel Worrall, CTO of CURE International and member of the HospitalRun core team at <mailto:joel@cure.org>.
 
