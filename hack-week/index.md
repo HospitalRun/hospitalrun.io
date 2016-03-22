@@ -27,7 +27,7 @@ You're responsible for getting yourself there, taking the time off to participat
 Many companies provide time off to work on volunteer efforts, and some will even pay for your airfare if you ask nicely. So give it a shot :)
 
 # Cool. How do I participate?
-We vet everyone who participates, so already [being a part of the project team](https://github.com/HospitalRun/hospitalrun-frontend/blob/master/CONTRIBUTING.md) helps; but ultimately, everyone needs to apply using the Google Form below.
+We vet everyone who participates, so already [being a part of the project team](https://github.com/HospitalRun/hospitalrun-frontend/blob/master/.github/CONTRIBUTING.md) helps; but ultimately, everyone needs to apply using the Google Form below.
 
 ## [Click Here to Apply](https://docs.google.com/forms/d/1TBk9TSc92j9NJKzzQ73OzAesSNjeT_fPQqoKazQbkts/viewform)
 Clear enough?
