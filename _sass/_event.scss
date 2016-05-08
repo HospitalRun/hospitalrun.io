@@ -4,12 +4,43 @@
 
   .top {
     padding-bottom: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     overflow: hidden;
     background-image: url(/img/bg-img-patients.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
+  }
+
+  hr {
+    border-width: 1px;
+    border-color: #546a83;
+    border-style: solid;
+  }
+
+  .vspacer {
+    margin-bottom: 30px;
+  }
+
+  .teams {
+    .team {
+      height: 150px;
+      margin: 30px 0;
+
+      .photo {
+        height: 150px;
+        width: 300px;
+        background-size: cover;
+        float: left;
+        display: block;
+        margin-right: 15px;
+      }
+
+      .description {
+        display: block;
+        text-align: left;
+      }
+    }
   }
 }
 
@@ -49,3 +80,4 @@
     margin: 0 auto 20px;
   }
 }
+
