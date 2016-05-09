@@ -24,21 +24,33 @@
 
   .teams {
     .team {
-      height: 150px;
+      height: 200px;
       margin: 30px 0;
+      display: block;
 
       .photo {
-        height: 150px;
-        width: 300px;
+        height: 200px;
         background-size: cover;
-        float: left;
+        background-position: center;
         display: block;
         margin-right: 15px;
+        float: left;
+        width: 30%;
+        @include media_max($bp_mobile) { width: 100%; }
       }
 
       .description {
         display: block;
         text-align: left;
+        float: left;
+        width: 60%;
+        @include media_max($bp_mobile) { width: 100%; }
+      }
+
+      &:after {
+        content: "";
+        clear: both;
+        display: block;
       }
     }
   }
