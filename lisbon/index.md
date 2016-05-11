@@ -106,7 +106,7 @@ There are plenty of issues on the github projects to choose from.
 
 # Lisbon, June 18th
 
-The event will run from 10am to 6pm. The venue will be announced soon.
+The event will run from 10am to 6pm at Microsoft, Rua Sinais de Fogo Lote 2.07.02, 1990–110 Lisboa.
 There will be WiFi, food and drinks.
 
 
