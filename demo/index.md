@@ -5,7 +5,7 @@ title: "Accessing the HospitalRun demo site"
 
 # Accessing the HospitalRun demo site
 
-## Visit: [beta.hospitalrun.io](https://beta.hospitalrun.io/)
+## Visit: [beta.hospitalrun.io](https://beta.hospitalrun.io/){:target="_blank"}
 
 ## Account info
 Use any of the following login credentials to demo the software as a user with these permissions.
