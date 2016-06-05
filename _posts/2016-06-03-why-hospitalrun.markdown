@@ -15,90 +15,161 @@ This article tries to answer that question: Why Hospital?
 # 2011: In Kenya
 The journey that led to HospitalRun started in 2011 at a [CURE International](http://cure.org) hospital in [Kijabe, Kenya](http://cure.org/kenya). 
 
-Like all CURE hospital, CURE Kenya primarily treats children with surgically correctible conditions. Things like clubfoot, bowed legs, cleft lip and palette, and other conditions that are commonly addressed by public health initiatives in areas of the world with more resources. The kids CURE treats tend to be on the bottom of the priority list in the resource-scarce environments of low-to-medium income countries (commonly referred to as the developing world).
+Like all CURE hospitals, [CURE Kenya](http://cure.org/kenya) primarily treats children with surgically correctible conditions. Things like clubfoot, bowed legs, cleft lip and palate, and other conditions that are commonly addressed by public health initiatives in areas of the world with more resources - all these are the primary mission of CURE. Issues of [essential surgery](http://www.essentialsurgery.com/) and the kids CURE treats tend to be on the bottom of priority lists in the resource-scarce environments of low-to-medium income countries (commonly referred to as "the developing world").
 
-Anyway, I was in Kenya in 2011 to check out the effectiveness of a [real-time patient reporting platform](http://cure.org/curekids) CURE had just released, to see how our embedded bloggers were performing their day-to-day job, when I saw this.
+Back in April 2011, I was in Kenya to check out the effectiveness of a [real-time patient reporting platform](http://cure.org/curekids) CURE had just released, to see how our embedded bloggers were performing their day-to-day job.
 
-<img src="/img/kenya_medical_records.jpg" width="90%" />
+That's when I saw this.
 
-Not surprisingly, this was the medical records system for a hospital that had been providing life-changing treatment to children throughout Kenya since 1998. In and of itself, paper-based records in low resource environments are that surprising, and there are plenty of commercial and open source projects that have tried (one might argue unsuccessfully) to truly solve the issue of moving health management away from paper record-keeping and to electronic systems. 
+<p>
+  <img src="/img/kenya_medical_records.jpg" width="90%" /><br/>
+  <em>The medical record system at the CURE hospital in Kenya, 2011</em>
+</p>
 
-However, it was when I saw this that I knew we had a bigger problem to solve.
+Not surprisingly, this was the medical records system for a hospital that had been providing life-changing treatment to children throughout Kenya since 1998. In and of itself, paper-based records in low resource environments are <i>not</i> that surprising, and there are plenty of commercial and open source projects that have tried (one might argue unsuccessfully) to <i>truly</i> solve the issue of moving health management away from paper record-keeping to electronic systems. 
 
-<img src="/img/kenya_medical_records_2.jpg" width="90%" />
+However, it was when I saw this that I knew we had an even bigger problem to solve.
 
-You see, that day, I was heading off campus with a team from the hospital to conduct what we refer to as a "mobile clinic." Because CURE provides such specialized care, we attract and treat patients from throughout the couuntry, and 3-4 times per year, a team from the hospital will visit a region 6-8 hours away from the hospital to see hundreds of children and their parents in one day. Some of these children are patients receiving long-term followup care. The majority are parents desparate to find a cure for their little boy or girl, bringing them to a CURE clinic to learn whether or not we can help. Experiencing that mobile clinic helped me "feel the problem." 
+<p>
+  <img src="/img/kenya_medical_records_2.jpg" width="90%" /><br/>
+  <em>Doctors and clinicians at CURE's hospital in Kenya, loading medical record bins onto an ambulance that is headed out on a mobile clinic</em>
+</p>  
+
+You see, that day, I was heading <i>off campus</i> with a team from the CURE hospital to conduct what we refer to as a "mobile clinic." 
+
+Because CURE provides such specialized care, we attract and treat patients from throughout the couuntry, 3-4 times per year and in regions throughout Kenya, a team from the hospital will visit a region 6-8 hours away from the hospital to see hundreds of children and their parents in one day. Some of these children are patients receiving long-term followup care. The majority are parents desparate to find a cure for their little boy or girl, bringing them to a CURE clinic to learn whether or not we can help. 
+
+Experiencing that mobile clinic helped me "feel the problem." 
 
 This wasn't just an EMR (electronic medical record) problem. This was an offline problem.
 
 ## An Offline Problem
-As a software professional, I knew that the right, long-term solution for any software solution was to go to the cloud, but this environment presented two big challenges - challenges that (heretofore) have dissuaded technology professionals from moving to a cloud delivery solution for low resource parts of the world:
+As a software professional, I knew that the right, long-term solution for any software solution was to go to the cloud, but this environment presented two big challenges - challenges that (heretofore) have dissuaded technology professionals from moving to a cloud solution for low resource parts of the world:
 
-1. Unreliable Internet Infrastructure: The reality is that Internet reliability globally continues to improve, but it is far from ubiquitous and anything but reliable.
+1. Unreliable infrastructure: The reality is that Internet reliability globally continues to improve, but it is far from ubiquitous and anything but reliable.
 2. Disconnected environments: health providers like CURE have patients that may live far enough away from the facility to require travel. Therefore, having the option to carry medical records outside of the facility was a real need.
 
-When I got to Pennsylvania the next week, I shared what I saw, and my colleague [John](http://twitter.com/jkleinsc) started working with a newer design paradigm called [Offline First](http://alistapart.com/article/offline-first).
+When I got to my office in Pennsylvania, I shared what I saw, and (subsequently) my colleague [John](http://twitter.com/jkleinsc) started working with a design paradigm called [Offline First](http://alistapart.com/article/offline-first).
 
 # 2012: An Offline First Database
-The core concept of Offline First is simple: stop treating the lack of connectivity in a web-based app as an error condition. Instead, make the application resilient to interruptions in Internet access. Modern browsers and even many front end frameworks provide tools to make this not only possible but increasingly transparent to not only the end user but also the application developer. 
+The core concept of Offline First is simple: stop treating the lack of connectivity in a web-based app as an error condition. Instead, make the application resilient to interruptions in connectivity. Native frameworks and modern browsers as well as many front end frameworks provide tools to make this not only possible but increasingly transparent to not only the end user but also the application developer. 
 
-Back in 2011, we never had the interest or inclination to try to tackle an entire hospital information system, led alone start an open source project. Instead, we decided to explore offline first principles in service to a smaller problem, a research database need we had for a program inside CURE called [CURE Hydrocephalus](http://cure.org/hydrocephalus). 
+So we started working with the technology. That <i>did not</i> mean we wanted to start an open source project. Far from it.
 
-<img src="/img/hydrodb.png" width="90%" />
+Back in 2011, we never had the interest or inclination to try to tackle an entire hospital information system, led alone start an open source project. Instead, we decided to explore offline first principles in service to a challenging-but-smaller problem, a research database need we had for a program inside CURE called [CURE Hydrocephalus](http://cure.org/hydrocephalus). 
+
+<p>
+  <img src="/img/hydrodb.png" width="90%" /><br/>
+  <em>Reviewing patient records in the CURE offline first hydrocephalus database - an offline first web application built for Chrome</em>
+</p>
 
 By mid-2012, that research database was deployed in 14 countries, primarily in subSaharan Africa. We learned a lot from that project, but now we needed to address the larger issue of a complete HIS (hospital information system) solution.
 
 # 2013: Evaluating Options
-To be clear, we are lazy programmers. We already had too much work to do, and if there were appropriate, affordable solutions out there for our HIS requirements, we would have loved to have found one. 
+Like all good programmers, we're lazy - disinterested in resolving problems. We already had too much work to do supporting CURE, and if there were appropriate, affordable solutions out there for our HIS requirements, we would have <i>loved, loved, loved</i> to have found one. 
 
-We just happen to work at the intersection of two sectors that needs a lot of innovation: nonprofit and health care.
+We just happen to work at the intersection of two sectors that needs a lot of innovation: <b>nonprofit and health care</b>.
 
-So we spent 2013 evaluating technologies and trying to find a solution that could meet the needs of the CURE International network. We knew that:
+So we spent 2013 evaluating technologies and trying to find a solution that could meet the needs of the CURE International network. 
 
-- We were committed to the cloud: not just because of total cost-of-delivery but also because we needed to be able to provide complete remote administration and monitoring. 
-- We were committed to web-based technology: installing and managing software in the fields wasn't an option.
-- We wanted a solution focused on clinical and administrative usability: This was more than just "liking the way it looks." When it comes to user experience, we needed a solution that addressed the very real training and even patient safety issues that a lack of attention to UI and UX can cause.
+We knew that:
+
+- We were committed to the cloud: not just because of total cost-of-delivery or the need to deliver changes uniformly and rapidly but also because we needed to be able to provide complete remote administration and monitoring. 
+- We were committed to web technology: installing and managing software in the fields wasn't an option.
+- We wanted a solution focused on clinical and administrative usability: This was more than just "liking the way it looks." When it comes to user experience, we needed a solution that addressed the very real training and [even patient safety issues](https://medium.com/tragic-design/how-bad-ux-killed-jenny-ef915419879e#.66xdc7kfn) that a lack of attention to UI and UX can cause.
 - We needed a system that could deal with our low-resource requirements: rather than trying to jam our needs into a Western health care model, we needed the flexibility to keep things simple whenever possible.
-- We needed to be able to support it in a low-resource environment: we actually pursued at least two potential offers of free licensing on commercial products. Each time, it came down to the same problems. We weren't convinced that we could successfully implement, and we couldn't afford it - even for free. The hardware costs were significant and even if those systems were donated, we couldn't attract or retain the talent needed to keep those systems running well (to say nothing of the not-very-cloud-friendly nature of many of those offers).
+- We needed a solution that allowed us to carry records outside the hospital walls: our delivery model demanded it. Thus the offline first considerations.
+- We needed to be able to support: we actually pursued at least two potential offers of "free" licensing on commercial products. Each time, it came down to the same problems. We weren't convinced that we could successfully implement, and we couldn't afford it - even for "free." The hardware costs were significant and even if those systems were donated, we couldn't attract or retain the talent needed to keep those systems running well (to say nothing of the not-very-cloud-friendly nature of many of those offerings).
 
 And, we knew that the tide was turning with regards to digital health.
 
-<img src="https://rockhealth.com/wp-content/uploads/2015/12/2015-Year-in-Review_Website_Updated.0011-1200x625.jpeg" width="90%" />
+<p>
+  <img src="https://rockhealth.com/wp-content/uploads/2015/12/2015-Year-in-Review_Website_Updated.0011-1200x625.jpeg" width="90%" alt="2015 analysis of investment in digital health solutions by Rock Health" /><br>
+  <em>Rock Health's 2015 analysis demonstrates a significant trend in the rise of digital health solutions (and therefore investment)</em>
+</p>
 
-So in early, we reexamined the work we had done with our offline first research database and determined to take what we learned there and apply it to a brand new effort.
+So in early, we reexamined the work we had done with our offline first hydrocephalus research database and determined to take what we learned there and apply it to a brand new effort.
 
 # 2014: Starting HospitalRun
-But if we were going to start over, we were convinced we needed to go open source because the onyl sustainable project would be one that was useful for thousands of potential facilities - not just the CURE International network. 
+But if we were going to start over, we were convinced we needed to go open source. The only sustainable project would be one that was useful for thousands of potential facilities - not just the CURE International network. 
 
-So we set out to seriously examine the existing open source health projects. Many of them had done some good work, but for a variety of reasons - either because of a lack of ability to influence the community, the very clear lack of focus on UX, or the practical need we would have to completely rearchitect their undelying technology - we were faced with starting a new project.
+So we set out to seriously examine the existing open source health projects. Many of them had done some good work, but for a variety of reasons - either because of a lack of ability to influence the community, the very clear lack of focus on UX, or the practical need we would have to completely rearchitect their undelying technology - we were faced with the option we didn't want: starting a new project.
 
-<img src="/img/logo-on-white.png" />
+<p>
+  <img src="/img/logo-on-white.png" alt="HospitalRun logo" width="50%"/><br/>
+  <em>The HospitalRun project was unauspiciously launched in 2014 at a piece of D-level commercial real estate in Lemoyne, Pennsylvania.</em>
+</p>
 
-We had a sense that if CURE International - a network of hospitals that was receiving some source of funding from the US and UK - was struggling with this issue, that there could be thousands of other facilities in low-to-medium income countries with the same problems. However, validating that sense with facts was harder than you might think. 
+We had a sense that if CURE International - a network of hospitals that was receiving some source of funding from the US and UK - was struggling with this issue, that there could be thousands of other facilities in low-to-medium income countries with the same problems. However, validating that sense with facts was harder than you might think. There was no clear research answering the question: how many hospitals <i>are there</i> in low-to-medium income countries?
 
 So we did the research ourselves. 
 
-We put together a mashup on UN and WHO data in order to try to estimate how many "hospitals" there are in low-to-medium income countries. The result of that work is published [here](http://goo.gl/38MVD0), and we referenced our estimate, 13,555 hospitals in low-to-medium income countries, in our first justification paper, titled ["Why HospitalRun?"](http://goo.gl/NCJDnJ). A year later, I was speaking with a colleague about that research and was told that our numbers were way off, that we completely underestimated. The bottom line is that there's a huge, unaddressed need.
+We put together a mashup of [UN](http://goo.gl/fKbG9k) and [WHO](http://goo.gl/WlZrgl) data in order to try to estimate how many hospitals are in low-to-medium income countries. The result of that work is published [here](http://goo.gl/38MVD0), and we referenced our estimate, nearly 14,000 hospitals in low-to-medium income countries, in our first justification paper, titled ["Why HospitalRun?"](http://goo.gl/NCJDnJ). Sidenote: A year later, I was speaking with another CTO and contributor to HospitalRun about that research and was told that our numbers were way off - that we completely underestimated. 
 
-So in early 2014, we launched the HospitalRun open source project, choosing Ember and PouchDB for the frontend project and Node and CouchDB for the backend. In September of that year, we did the first early (probably too early) deployment of the system at the CURE hospital in the [Philippines](http://cure.org/philippines), and we're scheduled to reach a private beta of the system this August (with hopefully a v. 1.0 release this November).
+The bottom line is that there's a huge, unaddressed need.
 
-# Having Goals
-But we're not interested in just running the flavor-of-the-decade open source health project that merely chooses today's "cool tools" and fades out in 3-4 years. Instead, we have very specific goals for why we're doing what we're doing.
+So in early 2014, we launched the HospitalRun open source project, choosing Ember and PouchDB for the frontend project and Node and CouchDB for the backend. In September of that year, we did the first early (probably too early) deployment of the system at the CURE hospital in the [Philippines](http://cure.org/philippines), and we're scheduled to reach a private beta of the system August, 2016 (with hopefully a v. 1.0 release this November, 2016).
 
-## Building specifically for low-to-medium income country constraints
+# Goals for HospitalRun
+But we were not interested in just running the flavor-of-the-year open source health project, merely choosing today's "cool tools" and fading out in 3-4 years. Instead, we've worked to establish very specific goals for why we're doing what we're doing. 
+
+Those are:
+
+## Building specifically for low-to-medium income countries
+This is about more than supporting internationalization (which HospitalRun does). It's about seeing the constraints of lower-resource settings as a driver - rather than a constraint - for innovation. When you can't health-care-consultant your way out of a problem, it reframes the opportunity to produce a truly useful solution that is focused on meeting the needs (technical, business, and otherwise) of those environments.
+
+<p>
+  <img src="/img/CURE_Map_June15-1.png" width="90%" alt="Environments like the places CURE and thousands of other health care providers serve can't afford Western solutions on multiple levels" /><br/>
+  <em>Low-to-medium income countries need a solution focused on their needs rather than porting the constraints of Western medicine to the majority world</em>
+</p>
 
 
-## Making Usability the #1 Requirement
+## Making Usability the #1 requirement
+The lack of attention to user experience or even the user interface in electronic health solutions has generated a track record of confusion and cost as high-paid consultants are needed to enforce less-than-optimal solutions onto teams. The settings for which we're building have no such conquistador-like luxury, where teams of health care consultants can enforce change. In many of these settings, there may even be little financial incentive to enforce record-keeping policy. 
 
+Yet rather than lament those constraints, we're choosing to see these settings as an opportunity to focus on the needs of the user(s) - clinical and adminstrative. 
+
+<p>
+  <img src="/img/burning-ships.jpg" width="50%" alt="Cortes burns the ships on the coast of Mexico" /><br/>
+  <em>Hiring a team of highly-paid/highly-qualified consultants because you've "burned the ships" on your decision to implement an EMR/HIS isn't a realistic option in low-to-medium income health care  enviroments</em>
+</p>
+
+But we didn't want to limit our usability goals to just clinical or even adminstrative users. What if we could build a system that was easy to setup, administer and upgrade? And what if we could build an open source project that was... wait for it... easy to contribute to? No more spending a day polishing your secret decoder ring to make a contribution. Could we build a system that allows someone to make a meaningful contribution in 8 hours?
+
+That's what we set out to do with usability: make HospitalRun the most ambitious AND delightful open source health project in the world - for users, administrators, and contributors.
+
+We still think we have a long way to go, but that's the goal - making usability #1.
 
 ## Solving for Time
+A recent survey of Western health care practicioners found that 20% of their time was being spent on administrative tasks that (arguably) had little to do with improving the quantity or quality of care being provided. Much of that time was caused by - rather than improved by - the software they were using. 
+
+<p>
+  <img src="/img/11clock.png" style="max-height:200px" alt="11 o'clock, tick tock" /><br/>
+  <em>"How are we saving time for practioners?" is one of the primary considerations with HospitalRun</em>
+</p>
+
+With HospitalRun, we saw the opportunity to give health care professionals in exceptionally constrained environments back the only resource we can't make more of: their time.
 
 
 ## Embracing Offline First
+Not only because offline first met our "carry records into the field" requirement but also because we believe that it's just the right thing to do with business applications, we wanted to make offline first a real part of the project from the beginning.
 
+<p>
+ <img src="/img/ALA386_designoffline.jpg" alt="offline first" style="max-height:300px" /><br/>
+ <em>HospitalRun embraces the principles of offline first</em>
+</p>
 
 ## More than a Download
-
+Deploying software isn't like installing a refrigerator. It's more like buying an ant farm. Yet far too often (and even particularly today with open source projects), we treat software solutions like a utility that is installed once and expected to meet all our needs until the day it is replaced (much like a kitchen appliance). The reality couldn't be further from the truth. Innovation and support need the opportunity for continuous upgrades, and HospitalRun is committed to a future where the HospitalRun code is only a part of the overall open source project.
 
 ## Partnering to Make a Difference
+It seems to us that HospitalRun:
 
+- as an open source project, 
+- backed / incubated by an NGO,
+- focused on issues of global health and data, and 
+- committed to modern, cloud technologies
+
+holds a tremendous opportunity partnner the NGO, government, and tech sectors in a problem that has mutual interest and benefit.
+
+Moreover, through initiatives like our Hack events, we're seeing tremendous opportunity to engage those with programming, design, project management, and even marketing backgrounds to use their true gifts in service to a cause that has utility and opportunity.
