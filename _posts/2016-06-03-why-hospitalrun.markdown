@@ -96,7 +96,7 @@ But if we were going to start over, we were convinced we needed to go open sourc
 So we set out to seriously examine the existing open source health projects. Many of them had done some good work, but for a variety of reasons - either because of a lack of ability to influence the community, the very clear lack of focus on UX, or the practical need we would have to completely rearchitect their undelying technology - we were faced with the option we didn't want: starting a new project.
 
 <p>
-  <img src="/img/logo-on-white.png" alt="HospitalRun logo" width="50%"/><br/>
+  <img src="/img/screenshot-mock-sm.jpg" alt="HospitalRun" width="90%" /><br/>
   <em>The HospitalRun project was unauspiciously launched in 2014 at a piece of D-level commercial real estate in Lemoyne, Pennsylvania.</em>
 </p>
 
@@ -173,3 +173,8 @@ It seems to us that HospitalRun:
 holds a tremendous opportunity partnner the NGO, government, and tech sectors in a problem that has mutual interest and benefit.
 
 Moreover, through initiatives like our Hack events, we're seeing tremendous opportunity to engage those with programming, design, project management, and even marketing backgrounds to use their true gifts in service to a cause that has utility and opportunity.
+
+# Now what?
+One of the things we're putting a lot of energy into for HospitalRun is the "usability" experience for contributors. Contributors are the fuel that make any open source project like this possible, and we need contributors in coding, design, user experience, marketing, project management, product requirements, and devops. 
+
+If you think you'd be interested in joining the project, we'd love to have you [join our Slack](https://hospitalrun-slackin.herokuapp.com/).
