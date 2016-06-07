@@ -100,6 +100,7 @@ So we set out to seriously examine the existing open source health projects. Man
   <em>The HospitalRun project was unauspiciously launched in 2014 at a piece of D-level commercial real estate in Lemoyne, Pennsylvania.</em>
 </p>
 
+## Quantifying the unaddressed need
 We had a sense that if CURE International - a network of hospitals that was receiving some source of funding from the US, Canada, and the UK - was struggling with this issue, that there could be thousands of other facilities in low-to-medium income countries with the same problems. However, validating that sense with facts was harder than you might think. There was no clear research answering the question: how many hospitals <i>are</i> in low-to-medium income countries?
 
 So we did the research ourselves. 
@@ -186,7 +187,7 @@ Almost as if we worked together... we just might have a fighting chance of chang
 Moreover, through initiatives like our [Hack Day](/lisbon) events, we're seeing tremendous opportunity to engage those with programming, design, devops, project management, and marketing backgrounds to use their true gifts in service to a cause that has utility and opportunity.
 
 # Now what?
-<iframe src="https://player.vimeo.com/video/168893257" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/168893257" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <i>Thanks to our friends at [New Relic](http://newrelic.com) for contributing this video</i>
 
 One of the things we're putting a lot of energy into for HospitalRun is the usability experience for contributors. Contributors are the fuel that make any open source project like this possible, and we need contributors in coding, design, user experience, marketing, project management, product requirements, and devops. 
