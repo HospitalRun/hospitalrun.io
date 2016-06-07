@@ -144,7 +144,7 @@ We still think we have a long way to go, but that's the goal - making usability 
 A recent survey of Western health care practicioners found that 20% of their time was being spent on administrative tasks that (arguably) had little to do with improving the quantity or quality of care being provided. Much of that time was caused by - rather than improved by - the software they were using. 
 
 <p>
-  <img src="/img/11clock.png" style="max-height:200px" alt="11 o'clock, tick tock" /><br/>
+  <img src="/img/11clock.png" style="max-width:200px" alt="11 o'clock, tick tock" /><br/>
   <em>"How are we saving time for users of HospitalRun?" is one of the primary considerations in any feature.</em>
 </p>
 
@@ -181,7 +181,7 @@ It seems to us that HospitalRun:
 
 holds a tremendous opportunity partnner the NGO, government, and tech sectors in a problem that has mutual interest and benefit.
 
-Moreover, through initiatives like our Hack events, we're seeing tremendous opportunity to engage those with programming, design, project management, and even marketing backgrounds to use their true gifts in service to a cause that has utility and opportunity.
+Moreover, through initiatives like our [Hack Day](/lisbon) events, we're seeing tremendous opportunity to engage those with programming, design, project management, and even marketing backgrounds to use their true gifts in service to a cause that has utility and opportunity.
 
 # Now what?
 One of the things we're putting a lot of energy into for HospitalRun is the "usability" experience for contributors. Contributors are the fuel that make any open source project like this possible, and we need contributors in coding, design, user experience, marketing, project management, product requirements, and devops. 
