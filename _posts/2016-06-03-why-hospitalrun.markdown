@@ -10,7 +10,7 @@ categories: hospitalrun
 
 Since this open source project really started to gather momentum in December 2015 after a posting on [Hacker News](https://news.ycombinator.com/item?id=10675275), I've been asked several times to talk about the genesis of HospitalRun and why a few people working for an under-resourced health care charity would be foolish enough to start yet another open source EMR/HIS project. 
 
-This article tries to answer that question: Why Hospital?
+This article tries to answer that question: Why HospitalRun?
 
 # 2011: In Kenya
 The journey that led to HospitalRun started in 2011 at a [CURE International](http://cure.org) hospital in [Kijabe, Kenya](http://cure.org/kenya). 
