@@ -145,7 +145,7 @@ A recent survey of Western health care practicioners found that 20% of their tim
 
 <p>
   <img src="/img/11clock.png" style="max-height:200px" alt="11 o'clock, tick tock" /><br/>
-  <em>"How are we saving time for practioners?" is one of the primary considerations with HospitalRun</em>
+  <em>"How are we saving time for users of HospitalRun?" is one of the primary considerations in any feature.</em>
 </p>
 
 With HospitalRun, we saw the opportunity to give health care professionals in exceptionally constrained environments back the only resource we can't make more of: their time.
@@ -160,7 +160,16 @@ Not only because offline first met our "carry records into the field" requiremen
 </p>
 
 ## More than a Download
-Deploying software isn't like installing a refrigerator. It's more like buying an ant farm. Yet far too often (and even particularly today with open source projects), we treat software solutions like a utility that is installed once and expected to meet all our needs until the day it is replaced (much like a kitchen appliance). The reality couldn't be further from the truth. Innovation and support need the opportunity for continuous upgrades, and HospitalRun is committed to a future where the HospitalRun code is only a part of the overall open source project.
+Deploying software isn't like installing a refrigerator that you plug in, walk away from, and expect to work perfectly until the compressor dies. This is clear to the business world, as the rise of software as a service models are driving home not only the effectiveness but the lower total cost of ownership in signing on to a service that has ongoing, continuous improvement and maintenance. 
+
+Yet far too often (and even particularly today with open source projects), we treat software solutions like a utility that is installed once and expected to meet all our needs until the day it is replaced (much like a kitchen appliance). The reality couldn't be further from the truth. Innovation and support need the opportunity for continuous upgrades, and HospitalRun is committed to a future where the HospitalRun code is only a part of the overall open source project. 
+
+We're building an open source service.
+
+<p>
+ <img src="/img/software-refrigerator.jpg" alt="software isn't a refridgerator" style="max-height:300px" /><br/>
+ <em>Software isn't a refridgerator, so HospitalRun is building a service</em>
+</p>
 
 ## Partnering to Make a Difference
 It seems to us that HospitalRun:
