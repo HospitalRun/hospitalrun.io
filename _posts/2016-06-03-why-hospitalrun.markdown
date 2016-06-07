@@ -183,7 +183,7 @@ holds a tremendous opportunity to partner the NGO, government, and tech sectors 
 
 Almost as if we worked together... we just might have a fighting chance of changing the world.
 
-Moreover, through initiatives like our [Hack Day](/lisbon) events, we're seeing tremendous opportunity to engage those with programming, design, devops, project management, and even marketing backgrounds to use their true gifts in service to a cause that has utility and opportunity.
+Moreover, through initiatives like our [Hack Day](/lisbon) events, we're seeing tremendous opportunity to engage those with programming, design, devops, project management, and marketing backgrounds to use their true gifts in service to a cause that has utility and opportunity.
 
 # Now what?
 One of the things we're putting a lot of energy into for HospitalRun is the "usability" experience for contributors. Contributors are the fuel that make any open source project like this possible, and we need contributors in coding, design, user experience, marketing, project management, product requirements, and devops. 
