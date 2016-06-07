@@ -186,15 +186,14 @@ Almost as if we worked together... we just might have a fighting chance of chang
 Moreover, through initiatives like our [Hack Day](/lisbon) events, we're seeing tremendous opportunity to engage those with programming, design, devops, project management, and marketing backgrounds to use their true gifts in service to a cause that has utility and opportunity.
 
 # Now what?
-One of the things we're putting a lot of energy into for HospitalRun is the "usability" experience for contributors. Contributors are the fuel that make any open source project like this possible, and we need contributors in coding, design, user experience, marketing, project management, product requirements, and devops. 
+<iframe src="https://player.vimeo.com/video/168893257" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<i>Thanks to our friends at [New Relic](http://newrelic.com) for contributing this video</i>
 
-If you think you'd be interested in joining the project, we'd love to have you [join our Slack](https://hospitalrun-slackin.herokuapp.com/).
+One of the things we're putting a lot of energy into for HospitalRun is the usability experience for contributors. Contributors are the fuel that make any open source project like this possible, and we need contributors in coding, design, user experience, marketing, project management, product requirements, and devops. 
+
+If you think you'd be interested in getting involved in the project, we'd love to have you start by [joining our Slack](https://hospitalrun-slackin.herokuapp.com/).
 
 # And Finally, a HUGE Thank you
-To date, dozens of people have contributed to what's been accomplished already with HospitalRun. For everyone who's taken part in the project in these early days, for those who will contribute in the weeks, months, and years to come, and most-importantly for the people who make HospitalRun a regular and recurring part of their contribution to the world, thank you!
+To date, dozens of people have contributed to what's been accomplished already with HospitalRun, and hundreds more are actively tracking with the project. On behalf of the entire HospitalRun core team as well as the kids and families we're serving together - to everyone who's taken part in the project in these early days, for those who will contribute in the weeks, months, and years to come, and most-importantly for the people who make HospitalRun a regular and recurring part of their contribution to the world, thank you!
 
 There are literally thousands of children, mothers, fathers, grandparents, and the like who's lives can, have, and will be impacted... perhaps even saved... by all of us working diligently and collaboratively on this project. 
-
-We can't thank you enough, but we're going to continue to try, by the tangible actions we take and the quality of the project we help lead. 
-
-A sincere thank you on behalf of the entire HospitalRun core team as well as the kids and families we're serving together.
