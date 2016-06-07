@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Why HospitalRun?"
-date:   2016-06-03 12:00:00
+date:   2016-06-06 22:00:00
 author: Joel Worrall
-author_link: http://twitter.com/tangollama
-author_gravatar: 0d10d15c611fd03785dc705acf40e35b
+author_link: http://joelworrall.com
 categories: hospitalrun
 ---
+<i>Note: [Click here](http://goo.gl/NCJDnJ) for the Google Doc justification paper titled, "Why HospitalRun?"</i>
 
 Since this open source project really started to gather momentum in December 2015 after a posting on [Hacker News](https://news.ycombinator.com/item?id=10675275), I've been asked several times to talk about the genesis of HospitalRun and why a few people working for an under-resourced health care charity would be foolish enough to start yet another open source EMR/HIS project. 
 
