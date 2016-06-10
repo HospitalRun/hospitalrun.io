@@ -1,7 +1,25 @@
-name:              HospitalRun
-description:       "Open source software for developing world hospitals."
-url: "http://hospitalrun.io"
-permalink:         /blog/:year/:month/:title
-exclude:           ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md"]
-sass:
-sass_dir:        _sass
+---
+title: Hospitalrun.Github.Io
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+name: HospitalRun
+description: Open source software for developing world hospitals.
+url: http://hospitalrun.io
+permalink: "/blog/:year/:month/:title"
+exclude:
+- script
+- vendor
+- Gemfile
+- Gemfile.lock
+- config.ru
+- Procfile
+- Rakefile
+- readme.md
+sass: 
+sass_dir: _sass

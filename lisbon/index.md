@@ -1,10 +1,9 @@
 ---
+title: Participate in a HospitalRun Hack Day in Lisbon
 layout: event
-title: "Participate in a HospitalRun Hack Day in Lisbon"
 when: June 18th
 where: Lisbon
 ---
-
 
 ## Developers in Lisbon will save the world
 

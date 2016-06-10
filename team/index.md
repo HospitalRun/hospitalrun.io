@@ -1,6 +1,6 @@
 ---
+title: Team Meetings
 layout: demo
-title: "Team Meetings"
 ---
 
 # Monthly Project Meetings

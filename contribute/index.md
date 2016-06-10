@@ -1,6 +1,6 @@
 ---
+title: Contribute to HospitalRun
 layout: demo
-title: "Contribute to HospitalRun"
 ---
 
 # Interested in Contributing to HospitalRun?

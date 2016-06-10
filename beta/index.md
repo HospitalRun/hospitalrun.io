@@ -1,6 +1,6 @@
 ---
+title: HospitalRun Prerelease Beta
 layout: demo
-title: "HospitalRun Prerelease Beta"
 ---
 
 # We're launching a private Beta this August!
