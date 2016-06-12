@@ -75,17 +75,17 @@ So we spent 2013 evaluating technologies and trying to find a solution that coul
 We knew that:
 
 - We were committed to the cloud: not just because of total cost-of-delivery or the need to deliver changes uniformly and rapidly but also because we needed to be able to provide complete remote administration and monitoring. 
-- We were committed to web technology: installing and managing software in the fields wasn't an option.
+- We were committed to web technology: installing and managing software in the field wasn't an option.
 - We wanted a solution focused on clinical and administrative usability: This was more than just "liking the way it looks." When it comes to user experience, we needed a solution that addressed the very real training and [even patient safety issues](https://medium.com/tragic-design/how-bad-ux-killed-jenny-ef915419879e#.66xdc7kfn) that a lack of attention to UI and UX can cause.
-- We needed a system that could deal with our low-resource requirements: rather than trying to jam our needs into a Western health care model, we needed the flexibility to keep things simple whenever possible.
-- We needed a solution that allowed us to carry records outside the hospital walls: our delivery model demanded it. Thus the offline first considerations.
-- We needed to be able to support it: we actually pursued at least two potential offers of "free" licensing on commercial products. Each time, it came down to the same problems. We weren't convinced that we could successfully implement, and we couldn't afford it - even for "free." The hardware costs were significant and even if those systems were donated, we couldn't attract or retain the talent needed to keep those systems running well (to say nothing of the not-very-cloud-friendly nature of many of those offerings).
+- We needed a system that could deal with our low-resource requirements: rather than trying to jam our needs into a Western health care model, we needed the flexibility to keep things as simple and intuitive as possible.
+- We needed a solution that allowed us to carry records outside the hospital walls: our delivery model demanded it. Thus the offline first considerations were a given.
+- We needed to be able to support it: we actually pursued at least two potential offers of "free" licensing on commercial products. Each time, it came down to the same problems. We weren't convinced that we could successfully implement, and we couldn't afford it - even for "free." The hardware costs were significant and even if those systems were donated, we couldn't attract or retain the talent needed to keep those systems running well locally at the hospitals (to say nothing of the not-very-cloud-friendly nature of many of those offerings).
 
 And, we knew that the tide was turning with regards to digital health.
 
 <p>
-  <img src="https://rockhealth.com/wp-content/uploads/2015/12/2015-Year-in-Review_Website_Updated.0011-1200x625.jpeg" width="90%" alt="2015 analysis of investment in digital health solutions by Rock Health" /><br>
-  <em>Rock Health's 2015 analysis demonstrates a significant trend in the rise of digital health solutions (and therefore investment)</em>
+  <img src="/img/2015-Year-in-Review_Website_Updated.0011-1200x625.jpeg" width="90%" alt="2015 analysis of investment in digital health solutions by Rock Health" /><br>
+  <em><a href="https://rockhealth.com/reports/digital-health-funding-2015-year-in-review/" target="_blank">Rock Health's 2015 analysis</a> demonstrates a significant trend in the rise of digital health solutions (and therefore investment)</em>
 </p>
 
 So in early 2014, we reexamined the work we had done with our offline first hydrocephalus research database and determined to take what we learned there and apply it to a brand new effort.
@@ -97,15 +97,15 @@ So we set out to seriously examine the existing open source health projects. Man
 
 <p>
   <img src="/img/screenshot-mock-sm.jpg" alt="HospitalRun" width="90%" /><br/>
-  <em>The HospitalRun project was unauspiciously launched in 2014 at a piece of D-level commercial real estate in Lemoyne, Pennsylvania.</em>
+  <em>The HospitalRun project was unauspiciously launched in 2014 at a piece of <a href="https://www.google.com/maps/place/701+Bosler+Ave,+Lemoyne,+PA+17043/data=!4m2!3m1!1s0x89c8c199d4c8f2b1:0x78b1c766ad2e2f6e?sa=X&ved=0ahUKEwiK28WYtqHNAhWDGD4KHZZaDxkQ8gEIGzAA" target="_blank">D-level commercial real estate in Lemoyne, Pennsylvania</a>.</em>
 </p>
 
 ## Quantifying the unaddressed need
-We had a sense that if CURE International - a network of hospitals that was receiving some source of funding from the US, Canada, and the UK - was struggling with this issue, that there could be thousands of other facilities in low-to-medium income countries with the same problems. However, validating that sense with facts was harder than you might think. There was no clear research answering the question: how many hospitals <i>are</i> in low-to-medium income countries?
+We had a sense that if CURE International - a network of hospitals that was receiving some source of funding from the US, Canada, and the UK - was struggling with this issue, that there could be thousands of other facilities in low-to-medium income countries with the same problems. However, validating that sense with facts was harder than you might think. There seemed to be no clear research answering the question: how many hospitals <i>are</i> in low-to-medium income countries?
 
-So we did the research ourselves. 
+So we did some research ourselves. 
 
-We put together a mashup of [UN](http://goo.gl/fKbG9k) and [WHO](http://goo.gl/WlZrgl) data in order to try to estimate how many hospitals are in low-to-medium income countries. The result of that work is published [here](http://goo.gl/38MVD0), and we referenced our estimate, nearly 14,000 hospitals in low-to-medium income countries, in our first justification paper, titled ["Why HospitalRun?"](http://goo.gl/NCJDnJ). Sidenote: A year later, I was speaking with another CTO and contributor to HospitalRun about that research and was told that our numbers were way off - that we completely underestimated. 
+We put together a mashup of [UN](http://goo.gl/fKbG9k) and [WHO](http://goo.gl/WlZrgl) data in order to try to estimate how many hospitals are in low-to-medium income countries. The result of that work is published [here](http://goo.gl/38MVD0), and we referenced our estimate, nearly 14,000 hospitals in low-to-medium income countries, in our first justification paper, titled ["Why HospitalRun?"](http://goo.gl/NCJDnJ) <i>Sidenote: A year later, I was speaking with another CTO and contributor to HospitalRun about that research and was told that our numbers were way off - that we completely underestimated.</i>
 
 The bottom line is that there's a huge, unaddressed need.
 
@@ -114,7 +114,7 @@ So in early 2014, we launched the HospitalRun open source project, choosing [Emb
 In September of that year, we did the first early (probably too early) deployment of the system at the CURE hospital in the [Philippines](http://cure.org/philippines), and we're scheduled to reach a private beta of the system August, 2016 (with hopefully a v. 1.0 release this November, 2016).
 
 # Goals for HospitalRun
-But we were not interested in just running the flavor-of-the-year open source health project, merely choosing today's "cool tools" and fading out in 3-4 years. Instead, we've worked to establish very specific goals for why we're doing what we're doing. Those are:
+But we were not interested in running the flavor-of-the-year open source health project, merely choosing today's "cool tools" and fading out in 3-4 years. Instead, we've worked to establish very specific goals for why we're doing what we're doing. Those are:
 
 ## 1) Building specifically for low-to-medium income countries
 This is about more than supporting internationalization (which HospitalRun does). Building software for the developing world is about embracing the realities of lower-resource settings as a driver - rather than a constraint - for innovation. When you can't health-care-consultant your way out of a problem, it reframes the opportunity to produce a truly useful solution that is focused on meeting the needs (technical, business, and otherwise) of those environments.
@@ -128,18 +128,16 @@ This is about more than supporting internationalization (which HospitalRun does)
 ## 2) Making Usability the #1 requirement
 The lack of attention to user experience or even the user interface in electronic health solutions has generated a track record of confusion and cost, as high-paid consultants are needed to enforce less-than-optimal solutions onto teams. The settings for which we're building have no such conquistador-like luxury, where teams of health care IT professionals can enforce change. In many of these settings, there may even be little financial incentive to enforce record-keeping policy. 
 
-Yet rather than lament those constraints, we're choosing to see these settings as an opportunity to focus on the needs of the user(s) - clinical and adminstrative. 
+Yet rather than lament those constraints, we're choosing to see these settings as an opportunity to focus on the needs of the user(s) - clinical and adminstrative. So we set out to build a solution that people might even (...dream with me) enjoy using, and we brought UX expertise into the core maintainer team of the project to help hold us accountable to producing the kind of solution strives to delight users.
 
 <p>
   <img src="/img/burning-ships.jpg" width="50%" alt="Cortes burns the ships on the coast of Mexico" /><br/>
   <em>Hiring a team of highly-paid/highly-qualified consultants because you've "burned the ships" on your decision to implement an EMR/HIS isn't a realistic option in low-to-medium income health care  enviroments</em>
 </p>
 
-But we didn't want to limit our usability goals to just clinical or even adminstrative users. What if we could build a system that was easy to setup, administer and upgrade? And what if we could build an open source project that was... wait for it... easy to contribute to? No more spending a day polishing your secret decoder ring to make a contribution. Could we build a system that allows someone to make a meaningful contribution in 8 hours?
+But we didn't want to limit our usability goals to just clinical or even adminstrative users. What if we could build a system that was easy to setup, administer, and upgrade? And what if we could build an open source project that was... wait for it... easy to contribute to? (No more spending a day polishing your secret decoder ring to make a contribution.) Could we build a system that allows someone to make a meaningful contribution in one 8-hour day?
 
-That's what we set out to do with usability: make HospitalRun the most ambitious AND delightful open source health project in the world - for users, administrators, and contributors.
-
-We still think we have a long way to go, but that's the goal - making usability #1.
+That's what we set out to do with usability: make HospitalRun the most ambitious AND delightful open source health project in the world - for users, administrators, and contributors. We still think we have a long way to go, but that's the goal - making usability #1.
 
 ## 3) Solving for Time
 A recent survey of Western health care practicioners found that [20% of their time](http://goo.gl/293J6t) was being spent on administrative tasks that (arguably) had little to do with improving the quantity or quality of care being provided. Much of that time was caused by - rather than improved by - the software they were using. 
@@ -151,9 +149,10 @@ A recent survey of Western health care practicioners found that [20% of their ti
 
 With HospitalRun, we saw the opportunity to give health care professionals in exceptionally constrained environments back the only resource we can't make more of: their time.
 
+Going forward, we're purposing to metric the system to not only inform requirements but also to baseline the time it takes to accomplish common tasks so that future feature development can seek to improve on those measurements. The result of every feature should be time given back to more doctors, nurses, and administrators so that their attention can go where it should - on the patients and families they serve.
 
 ## 4) Embracing Offline First
-Not only because offline first met our "carry records into the field" requirement but also because we believe that it's just the right thing to do with business applications, we wanted to make offline first a real part of the project from the beginning.
+Not only because offline first met our "carry records into the field" requirement but also because we believe that it's just the right thing to do with modern business applications, we wanted to make offline first a core principle of the project from the beginning.
 
 <p>
  <img src="/img/ALA386_designoffline.jpg" alt="offline first" style="max-height:300px" /><br/>
@@ -161,7 +160,7 @@ Not only because offline first met our "carry records into the field" requiremen
 </p>
 
 ## 5) More than a Download
-Deploying software isn't like installing a refrigerator that you plug in, walk away from, and expect to work perfectly until the compressor dies. This is clear to the business world, as the rise of software as a service models are driving home not only the effectiveness but the lower total cost of ownership in signing on to a service that has ongoing, continuous improvement and maintenance. 
+Deploying software isn't like installing a refrigerator that you spec out, buy, plug in, walk away from, and expect to work perfectly until the compressor dies. This is clear to the business world, as the rise of software as a service models are driving home not only the effectiveness but the lower total cost of ownership in signing on to a service that has ongoing, continuous improvement and maintenance. 
 
 Yet far too often (and even particularly today with open source projects), we treat software solutions like a utility that is installed once and expected to meet all our needs until the day it is replaced (much like a kitchen appliance). The reality couldn't be further from the truth. Innovation and support need the opportunity for continuous upgrades, and HospitalRun is committed to a future where the HospitalRun code is only a part of the overall open source project. 
 
@@ -176,15 +175,15 @@ We're building an open source service.
 It seems to us that HospitalRun:
 
 - as an open source project, 
-- backed / incubated by an NGO,
+- backed / incubated by an international NGO,
 - focused on issues of global health and data, and 
 - committed to modern, cloud technologies
 
-holds a tremendous opportunity to partner the NGO, government, and tech sectors in a problem that has mutual interest and benefit for multiple organizations. 
+holds a tremendous opportunity to partner the NGO, government, and tech sectors in a problem that has mutual interest and benefit. 
 
-Almost as if we worked together... we just might have a fighting chance of changing the world.
+It's almost as if, by <b>working together</b>... we just might have a fighting chance of changing the world.
 
-Moreover, through initiatives like our [Hack Day](/lisbon) events, we're seeing tremendous opportunity to engage those with programming, design, devops, project management, and marketing backgrounds to use their true gifts in service to a cause that has utility and opportunity.
+Moreover, through initiatives like our [Hack Day](/lisbon) events, we're seeing tremendous opportunity to engage those with programming, design, devops, project management, and marketing backgrounds to use their true gifts in service to a cause that has utility, opportunity, and innovative technology.
 
 # Now what?
 <iframe src="https://player.vimeo.com/video/168893257" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -192,7 +191,7 @@ Moreover, through initiatives like our [Hack Day](/lisbon) events, we're seeing 
 
 One of the things we're putting a lot of energy into for HospitalRun is the usability experience for contributors. Contributors are the fuel that make any open source project like this possible, and we need contributors in coding, design, user experience, marketing, project management, product requirements, and devops. 
 
-If you think you'd be interested in getting involved in the project, we'd love to have you start by [joining our Slack](https://hospitalrun-slackin.herokuapp.com/).
+If you think you'd be interested in getting involved in the project, we'd love to have you start by [joining our Slack](https://hospitalrun-slackin.herokuapp.com/). At minimum, share this post with someone or someones to help us meet more people who might be interested in [contributing](/contribute).
 
 # And Finally, a HUGE Thank you
 To date, dozens of people have contributed to what's been accomplished already with HospitalRun, and hundreds more are actively tracking with the project. On behalf of the entire HospitalRun core team as well as the kids and families we're serving together - to everyone who's taken part in the project in these early days, for those who will contribute in the weeks, months, and years to come, and most-importantly for the people who make HospitalRun a regular and recurring part of their contribution to the world, thank you!
