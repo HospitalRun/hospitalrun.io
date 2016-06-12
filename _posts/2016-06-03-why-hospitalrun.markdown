@@ -117,7 +117,7 @@ In September of that year, we did the first early (probably too early) deploymen
 But we were not interested in just running the flavor-of-the-year open source health project, merely choosing today's "cool tools" and fading out in 3-4 years. Instead, we've worked to establish very specific goals for why we're doing what we're doing. Those are:
 
 ## 1) Building specifically for low-to-medium income countries
-This is about more than supporting internationalization (which HospitalRun does). Building software for the developing world is about seeing the realities of lower-resource settings as a driver - rather than a constraint - for innovation. When you can't health-care-consultant your way out of a problem, it reframes the opportunity to produce a truly useful solution that is focused on meeting the needs (technical, business, and otherwise) of those environments.
+This is about more than supporting internationalization (which HospitalRun does). Building software for the developing world is about embracing the realities of lower-resource settings as a driver - rather than a constraint - for innovation. When you can't health-care-consultant your way out of a problem, it reframes the opportunity to produce a truly useful solution that is focused on meeting the needs (technical, business, and otherwise) of those environments.
 
 <p>
   <img src="/img/CURE_Map_June15-1.png" width="90%" alt="Environments like the places CURE and thousands of other health care providers serve can't afford Western solutions on multiple levels" /><br/>
