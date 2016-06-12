@@ -1,6 +1,6 @@
 ---
+title: Hack Events
 layout: demo
-title: "Hack Events"
 ---
 
 # Hack Events

@@ -1,6 +1,6 @@
 ---
+title: Participate in a HospitalRun Hack Week
 layout: demo
-title: "Participate in a HospitalRun Hack Week"
 ---
 
 # What's a Hack Week?
