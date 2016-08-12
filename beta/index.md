@@ -33,7 +33,7 @@ By joining this beta, you're not only getting early access to the software, but 
 
 # What are we (the project team of HospitalRun) bringing to the table?
 
-1. Free cloud hosting for your HospitalRun instance (note: this instance should be [paired/synced with a local install of HospitalRun](/img/HospitalRun_deployment.jpeg) that you'll be responsible for deployment, but don't worry we'll couch you through it).
+1. Free cloud hosting for your HospitalRun instance (note: this instance should be [paired/synced with a local install of HospitalRun](/img/HospitalRun_deployment.jpeg) that you'll be responsible for deployment, but don't worry we'll coach you through it).
 2. A team of two vetted contributors to HospitalRun that will meet with you on a regular basis to support you in your implementation.
 3. A communication support channel to partner you with other implementers (as well as contributors) in coaching you through the implementation.
 
