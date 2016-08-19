@@ -8,20 +8,19 @@ If you've made it to this page, we can assume you know what HospitalRun is. If n
 
 As an open source project, we have contributors, quite literally, around the world who are offering their time and talent to this project, all working remotely using tools like [GitHub](https://github.com/HospitalRun). 
 
-A Hack Day is a time when some (or potentially many) of the project team comes together to work on [HospitalRun](https://github.com/HospitalRun) in person and build relationship. Working remotely is awesome and gives many of us the chance to contribute time as we have it. A Hack Day complements that time with opportunity to work on strategic problems in proximity to one another while we build relationship. 
+A Hack Day is a time when some (or potentially many) of the project team comes together to work on [HospitalRun](https://github.com/HospitalRun). Working remotely is awesome and gives many of us the chance to contribute time as we have it. A Hack Day complements that time with opportunity to work on strategic problems in proximity to one another while we build relationship. 
 
 We believe that investment in relationship will help us go further, faster.
 
+## And tell your friends...
 Additionally, we use Hack Days as a way of introducing new potential contributors to the project. (Hint: that could be you.)
 
-So our intention to is run 6-12 Hack Day events (1-2 days in length) annually in various regions around the world. 
-
-You're responsible for getting yourself there, taking the time off to participate, being as chatty as you're willing to be about the experience before and after (i.e. social media love for the project).
-
-Many companies provide time off to work on volunteer efforts, and some will even pay for your airfare if you ask nicely. So give it a shot :)
+Our intention to is run 6-12 Hack Day events (1-2 days in length) annually in various regions around the world. 
 
 # Cool. So how do I participate?
-We vet everyone who participates, so already [being a part of the project team](https://github.com/HospitalRun/hospitalrun-frontend/blob/master/.github/CONTRIBUTING.md) helps; but ultimately, everyone needs to apply using the Google Form below.
+You're responsible for getting yourself there, taking the time off to participate, and being as chatty as you're willing to be about the experience before and after (i.e. social media love for the project). Many companies provide time off to work on volunteer efforts, and some will even pay for your airfare if you ask nicely. So give it a shot :)
+
+We vet everyone who participates, so already [being a part of the project team](https://github.com/HospitalRun/hospitalrun-frontend/blob/master/.github/CONTRIBUTING.md) helps; but ultimately, everyone needs to apply using the links below.
 
 # Upcoming Events
 - <a href="https://docs.google.com/forms/d/e/1FAIpQLScY8IzsHNXuSnwJamdOosE2ZTVBAfG4UO3hDotudUDtq3Ld9w/viewform" target="_blank">Friday and Saturday, September 23-24, 2016, GitHub Headquarters, San Francisco, CA</a>
