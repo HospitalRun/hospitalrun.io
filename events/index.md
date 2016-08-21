@@ -15,7 +15,7 @@ We believe that investment in relationship will help us go further, faster.
 ## And tell your friends...
 Additionally, we use Hack Days as a way of introducing new potential contributors to the project. (Hint: that could be you.)
 
-Our intention to is run 6-12 Hack Day events (1-2 days in length) annually in various regions around the world. 
+Our intention to is run 6-12 Hack Day events (1-2 days in length) annually in various regions around the world. If you want to help us by organizing an event (and finding a venue), <a href="mailto:hello@hospitalrun.io?subject=I+want+to+host+a+Hack+Day">email us please</a>.
 
 # Cool. So how do I participate?
 You're responsible for getting yourself there, taking the time off to participate, and being as chatty as you're willing to be about the experience before and after (i.e. social media love for the project). Many companies provide time off to work on volunteer efforts, and some will even pay for your airfare if you ask nicely. So give it a shot :)
