@@ -23,8 +23,9 @@ You're responsible for getting yourself there, taking the time off to participat
 We vet everyone who participates, so already [being a part of the project team](https://github.com/HospitalRun/hospitalrun-frontend/blob/master/.github/CONTRIBUTING.md) helps; but ultimately, everyone needs to apply using the links below.
 
 # Upcoming Events
-- <a href="https://docs.google.com/forms/d/e/1FAIpQLScY8IzsHNXuSnwJamdOosE2ZTVBAfG4UO3hDotudUDtq3Ld9w/viewform" target="_blank">Friday and Saturday, September 23-24, 2016, GitHub Headquarters, San Francisco, CA</a>
+Stay tuned!
 
 ## Previous Events
+- <a href="https://docs.google.com/forms/d/e/1FAIpQLScY8IzsHNXuSnwJamdOosE2ZTVBAfG4UO3hDotudUDtq3Ld9w/viewform" target="_blank">Friday and Saturday, September 23-24, 2016, GitHub Headquarters, San Francisco, CA</a>
 - <a href="/lisbon" class="nav-link" target="_blank">HospitalRun Hack Day June 19, 2016 10-6PM in Lisbon, hosted and lead by YLD.io</a>
 - <a href="/hack-week" class="nav-link" target="_blank">HospitalRun Hack Week in Tahoe, CA, March 13-19, 2016</a>
