@@ -1,0 +1,18 @@
+---
+layout: default
+title: "HospitalRun Blog"
+id: blog
+---
+
+{% for page in site.posts %}
+<div class='post'>
+
+  <h1><a href='{{ page.url }}'>{{ page.title }}</a></h1>
+
+  {% include post-meta.html %}
+
+  {{ page.excerpt }}
+    <a href='{{ page.url }}' class='read-more-link' title='Read more link'>Read more…</a>
+
+</div>
+{% endfor %}
