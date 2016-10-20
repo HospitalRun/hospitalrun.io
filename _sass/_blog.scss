@@ -1,6 +1,15 @@
-.post {
-  width: 70%;
-  margin-left: 15%;
+.recent-post h1 {
+  font-size: 18px;
+}
+
+.index-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-posts {
+  display: flex;
+  flex-direction: row;
 }
 
 .post h1 a {
@@ -106,3 +115,4 @@
 .post ol { margin-left: 1.35em; }
 
 .post pre code { border: none; }
+

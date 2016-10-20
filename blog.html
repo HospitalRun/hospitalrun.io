@@ -4,15 +4,33 @@ title: "HospitalRun Blog"
 id: blog
 ---
 
-{% for page in site.posts %}
-<div class='post'>
+<section class='blog-posts'>
 
-  <h1><a href='{{ page.url }}'>{{ page.title }}</a></h1>
+  <section class='recent-posts'>
+    <h1>Recent Posts</h1>
+    {% for page in site.posts limit: 4 %}
+    <div class='recent-post'>
+      <h1><a href='{{ page.url }}'>{{ page.title }}</a></h1>
+    </div>
+    {% endfor %}
 
-  {% include post-meta.html %}
+  </section>
 
-  {{ page.excerpt }}
-    <a href='{{ page.url }}' class='read-more-link' title='Read more link'>Read more…</a>
+  <section class='index-list'>
 
-</div>
-{% endfor %}
+  {% for page in site.posts %}
+  <div class='post'>
+
+    <h1><a href='{{ page.url }}'>{{ page.title }}</a></h1>
+
+    {% include post-meta.html %}
+
+    {{ page.excerpt }}
+      <a href='{{ page.url }}' class='read-more-link' title='Read more link'>Read more…</a>
+
+  </div>
+  {% endfor %}
+
+  </section>
+
+</section>
