@@ -6,13 +6,13 @@ id: blog
 
 <section class='blog-posts'>
 
-  <section class='recent-posts'>
-    <h1>Recent Posts</h1>
+  <section class='blog-sidebar'>
+    <h3 class='recent-post-header'>Recent Posts</h3>
+    <div class='recent-posts'>
     {% for page in site.posts limit: 4 %}
-    <div class='recent-post'>
-      <h1><a href='{{ page.url }}'>{{ page.title }}</a></h1>
-    </div>
+      <h2><a href='{{ page.url }}'>{{ page.title }}</a></h2>
     {% endfor %}
+    </div>
 
   </section>
 

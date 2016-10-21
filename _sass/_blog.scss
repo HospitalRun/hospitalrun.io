@@ -1,10 +1,31 @@
-.recent-post h1 {
-  font-size: 18px;
+.blog-sidebar {
+  margin-top: 35px;
+  background-color: $navy-drk;
+  border-radius: 2px;
+}
+
+.recent-post-header {
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.recent-posts {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: lighten($navy-drk, 3%);
+  h2 {
+    padding-left: 25px;
+    font-size: 10px;
+    a {
+      color: $green;
+    }
+  }
 }
 
 .index-list {
   display: flex;
   flex-direction: column;
+  margin-left: 40px;
 }
 
 .blog-posts {
@@ -115,4 +136,3 @@
 .post ol { margin-left: 1.35em; }
 
 .post pre code { border: none; }
-
