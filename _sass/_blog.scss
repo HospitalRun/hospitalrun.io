@@ -1,8 +1,10 @@
 .blog-sidebar {
   margin-top: 35px;
   margin-bottom: 48px;
+  margin-right: 60px;
   background-color: $navy-drk;
   border-radius: 2px;
+  height: 100%;
 }
 
 .recent-post-header {
@@ -28,13 +30,19 @@ h3.recent-post-header {
   }
 }
 
+.post {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .index-list {
   display: flex;
   flex-direction: column;
-  margin-left: 40px;
 }
 
-.blog-posts {
+.blog-posts,
+.post-wrapper {
   display: flex;
   flex-direction: row;
 }
