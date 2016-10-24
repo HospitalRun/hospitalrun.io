@@ -5,45 +5,17 @@ id: blog
 ---
 
 <section class='blog-posts'>
-
   <section class='blog-sidebar'>
-    <h3 class='recent-post-header'>Recent Posts</h3>
-    <div class='recent-posts'>
-    {% for page in site.posts limit: 4 %}
-      <h2><a href='{{ page.url }}'>{{ page.title }}</a></h2>
-    {% endfor %}
-    </div>
-
-    <h3 class='recent-post-header'>Releases</h3>
-    <div class='recent-posts'>
-    {% for category in site.categories %}
-      {% if category contains 'releases' %}
-      {% for posts in category %}
-        {% for post in posts limit: 4 %}
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {% endfor %}
-      {% endfor %}
-      {% endif %}
-    {% endfor %}
-    </div>
-
+    {% include recent-releases.html %}
   </section>
-
   <section class='index-list'>
-
   {% for page in site.posts %}
   <div class='post'>
-
     <h1><a href='{{ page.url }}'>{{ page.title }}</a></h1>
-
     {% include post-meta.html %}
-
     {{ page.excerpt }}
       <a href='{{ page.url }}' class='read-more-link' title='Read more link'>Read more…</a>
-
   </div>
   {% endfor %}
-
   </section>
-
 </section>
