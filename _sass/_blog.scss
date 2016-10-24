@@ -43,6 +43,16 @@ h3.recent-post-header {
 .index-list {
   display: flex;
   flex-direction: column;
+  h1 {
+    margin-bottom: 0px;
+    margin-top: 22px;
+  }
+  p.meta {
+    margin-top: 0px;
+  }
+  .post {
+    margin-bottom: 30px;
+  }
 }
 
 .blog-posts,
@@ -73,9 +83,10 @@ h3.recent-post-header {
 }
 
 .post-header {
-  margin: 10px 0 30px;
+  margin: 0px 0 30px;
 
   h1 {
+    margin-bottom: 0px;
     color: white;
     font-size: 48px;
     letter-spacing: -1.75px;
