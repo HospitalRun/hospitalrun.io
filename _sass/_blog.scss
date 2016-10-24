@@ -1,10 +1,12 @@
 .blog-sidebar {
-  margin-top: 35px;
-  margin-bottom: 48px;
-  margin-right: 60px;
   background-color: $navy-drk;
   border-radius: 2px;
   height: 100%;
+  margin: {
+    top: 35px;
+    bottom: 48px;
+    right: 60px;
+  }
 }
 
 .recent-post-header {
@@ -13,14 +15,18 @@
 }
 
 h3.recent-post-header {
-  margin-top: 10px;
-  margin-bottom: 13px;
+  margin: {
+    top: 10px;
+    bottom: 13px;
+  }
 }
 
 .recent-posts {
-  padding-top: 5px;
-  padding-bottom: 5px;
   background-color: lighten($navy-drk, 3%);
+  padding: {
+    top: 5px;
+    bottom: 5px;
+  }
   h2 {
     padding-left: 25px;
     font-size: 10px;
@@ -31,8 +37,6 @@ h3.recent-post-header {
 }
 
 .post {
-  display: flex;
-  flex-direction: column;
   width: 100%;
 }
 
@@ -84,12 +88,15 @@ h3.recent-post-header {
     color: #818181;
     margin-top: 5px;
   }
-
 }
 
-.post-content { margin: 0 0 30px; }
+.post-content {
+  margin: 0 0 30px;
+}
 
-.post-content > * { margin: 20px 0; }
+.post-content > * {
+  margin: 20px 0;
+}
 
 .post-content h1,
 .post-content h2,
@@ -133,7 +140,9 @@ h3.recent-post-header {
 }
 
 .post-content ul,
-.post-content ol { padding-left: 20px; }
+.post-content ol { 
+  padding-left: 20px;
+}
 
 .post pre,
 .post code {
@@ -144,9 +153,15 @@ h3.recent-post-header {
   font-size: 15px;
 }
 
-.post code { padding: 1px 5px; }
+.post code {
+  padding: 1px 5px;
+}
 
 .post ul,
-.post ol { margin-left: 1.35em; }
+.post ol {
+  margin-left: 1.35em;
+}
 
-.post pre code { border: none; }
+.post pre code {
+  border: none;
+}
