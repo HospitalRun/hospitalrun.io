@@ -84,7 +84,7 @@
   }
 
   pre, code {
-    border: 1px solid #3B4D63;
+    border: 1px solid $navy-gray;
     background-color: $navy-drk;
     padding: 8px 12px;
     border-radius: 3px;
@@ -118,7 +118,7 @@
 
   .meta {
     font-size: 15px;
-    color: #818181;
+    color: $medium-gray;
     margin-top: 5px;
   }
 }
@@ -156,11 +156,10 @@
   }
 
   blockquote {
-    border-left: 4px solid #e8e8e8;
+    border-left: 4px solid $light-gray;
     padding-left: 20px;
     font-size: 18px;
     opacity: .6;
-    letter-spacing: -1px;
     font-style: italic;
     margin: 30px 0;
   }
