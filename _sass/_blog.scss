@@ -1,21 +1,19 @@
 .blog-sidebar {
   background-color: $navy-drk;
-  border-radius: 2px;
+  border-radius: 4px;
   height: 100%;
+  width: 300px;
   margin: {
     top: 35px;
     bottom: 48px;
-    right: 60px;
+    right: 40px;
   }
 }
 
 .sidebar-header {
-  font-size: 20px;
-  padding-left: 25px;
-  margin: {
-    top: 10px;
-    bottom: 13px;
-  }
+  font-size: 18px;
+  padding-left: 20px;
+  margin: 10px 0;
 }
 
 .recent-posts {
@@ -26,11 +24,10 @@
   }
 
   h2 {
-    padding-left: 25px;
-    font-size: 10px;
-    a {
-      color: $green;
-    }
+    padding-left: 20px;
+    font-size: 14px;
+
+    a { color: $green; }
   }
 }
 
@@ -75,13 +72,10 @@
     &:hover {
       color: $green;
       text-decoration: none;
-      border-bottom: 2px solid $green;
     }
   }
-  
-  p.meta {
-    color: $gray-blue;
-  }
+
+  p.meta { color: $gray-blue; }
 
   pre, code {
     border: 1px solid $navy-gray;
@@ -91,13 +85,10 @@
     font-size: 15px;
   }
 
-  code {
-    padding: 1px 5px;
-  }
+  code { padding: 1px 5px; }
 
-  ul, ol {
-    margin-left: 1.35em;
-  }
+  ul,
+  ol { margin-left: 1.35em; }
 
   pre code {
     border: none;
@@ -110,8 +101,8 @@
   h1 {
     margin-bottom: 0px;
     color: white;
-    font-size: 48px;
-    letter-spacing: -1.75px;
+    font-size: 36px;
+    letter-spacing: -1px;
     line-height: 1;
     font-weight: 300;
   }
@@ -131,29 +122,19 @@
     margin: 40px 0 20px;
   }
 
-  h1 {
-    font-size: 36px;
-  }
+  h1 { font-size: 36px; }
 
-  h2 {
-    font-size: 24px;
-  }
+  h2 { font-size: 24px; }
 
-  h3 {
-    font-size: 21px;
-  }
+  h3 { font-size: 21px; }
 
-  h4 {
-    font-size: 18px;
-  }
+  h4 { font-size: 18px; }
 
-  h1, h2 {
-    letter-spacing: -1.25px;
-  }
+  h1,
+  h2 { letter-spacing: -1.25px; }
 
-  h3, h4 {
-    letter-spacing: -1px;
-  }
+  h3,
+  h4 { letter-spacing: -1px; }
 
   blockquote {
     border-left: 4px solid $light-gray;
@@ -163,7 +144,7 @@
     font-style: italic;
     margin: 30px 0;
   }
-  ul, ol {
-    padding-left: 20px;
-  }
+
+  ul,
+  ol { padding-left: 20px; }
 }

@@ -5,10 +5,11 @@ categories:
 - hospitalrun
 - update
 - philippines
+- releases
 layout: post
 ---
 
-This September, HospitalRun will have it's first private release in the Philippines at the Tebow CURE Hospital in Davao City, Mindanao. 
+This September, HospitalRun will have it's first private release in the Philippines at the Tebow CURE Hospital in Davao City, Mindanao.
 
 Look for public demo site by October 1.
 
