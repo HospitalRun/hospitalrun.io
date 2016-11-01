@@ -1,0 +1,169 @@
+.blog-sidebar {
+  background-color: $navy-drk;
+  border-radius: 2px;
+  height: 100%;
+  margin: {
+    top: 35px;
+    bottom: 48px;
+    right: 60px;
+  }
+}
+
+.sidebar-header {
+  font-size: 20px;
+  padding-left: 25px;
+  margin: {
+    top: 10px;
+    bottom: 13px;
+  }
+}
+
+.recent-posts {
+  background-color: lighten($navy-drk, 3%);
+  padding: {
+    top: 5px;
+    bottom: 5px;
+  }
+
+  h2 {
+    padding-left: 25px;
+    font-size: 10px;
+    a {
+      color: $green;
+    }
+  }
+}
+
+.post,
+.index-list {
+  width: 100%;
+}
+
+.index-list {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    margin-bottom: 0px;
+    margin-top: 22px;
+  }
+
+  p.meta {
+    margin-top: 0px;
+  }
+
+  .post {
+    margin-bottom: 30px;
+  }
+}
+
+.blog-posts,
+.post-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.post {
+
+  h1, h2, h3, h4 {
+    color: $gray-blue;
+  }
+
+  h1 a {
+    color: white;
+    font-size: 36px;
+    &:hover {
+      color: $green;
+      text-decoration: none;
+      border-bottom: 2px solid $green;
+    }
+  }
+  
+  p.meta {
+    color: $gray-blue;
+  }
+
+  pre, code {
+    border: 1px solid $navy-gray;
+    background-color: $navy-drk;
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-size: 15px;
+  }
+
+  code {
+    padding: 1px 5px;
+  }
+
+  ul, ol {
+    margin-left: 1.35em;
+  }
+
+  pre code {
+    border: none;
+  }
+}
+
+.post-header {
+  margin: 0px 0 30px;
+
+  h1 {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 48px;
+    letter-spacing: -1.75px;
+    line-height: 1;
+    font-weight: 300;
+  }
+
+  .meta {
+    font-size: 15px;
+    color: $medium-gray;
+    margin-top: 5px;
+  }
+}
+
+.post-content {
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    font-weight: 300;
+    margin: 40px 0 20px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h1, h2 {
+    letter-spacing: -1.25px;
+  }
+
+  h3, h4 {
+    letter-spacing: -1px;
+  }
+
+  blockquote {
+    border-left: 4px solid $light-gray;
+    padding-left: 20px;
+    font-size: 18px;
+    opacity: .6;
+    font-style: italic;
+    margin: 30px 0;
+  }
+  ul, ol {
+    padding-left: 20px;
+  }
+}
