@@ -6,8 +6,6 @@
 }
 
 .blog-sidebar {
-  background-color: $navy-drk;
-  border-radius: 4px;
   height: 100%;
   width: 300px;
   margin: {
@@ -15,21 +13,23 @@
     bottom: 48px;
     right: 40px;
   }
+  background-color: $navy-drk;
+  border-radius: 4px;
   @media (max-width: 1030px) { display: none; }
 }
 
 .sidebar-header {
-  font-size: 18px;
   padding-left: 20px;
   margin: 10px 0;
+  font-size: 18px;
 }
 
 .recent-posts {
-  background-color: lighten($navy-drk, 3%);
   padding: {
     top: 5px;
     bottom: 5px;
   }
+  background-color: lighten($navy-drk, 3%);
 
   h2 {
     padding-left: 20px;
@@ -85,22 +85,22 @@
   }
 
   h1 a {
-    color: white;
     font-size: 36px;
+    color: white;
     &:hover {
-      color: $green;
       text-decoration: none;
+      color: $green;
     }
   }
 
   p.meta { color: $gray-blue; }
 
   pre, code {
-    border: 1px solid $navy-gray;
-    background-color: $navy-drk;
     padding: 8px 12px;
     border-radius: 3px;
     font-size: 15px;
+    border: 1px solid $navy-gray;
+    background-color: $navy-drk;
   }
 
   code { padding: 1px 5px; }
@@ -118,26 +118,26 @@
 
   h1 {
     margin-bottom: 0px;
-    color: white;
     font-size: 36px;
     letter-spacing: -1px;
     line-height: 1;
+    color: white;
     font-weight: 300;
   }
 
   .meta {
+    margin-top: 5px;
     font-size: 15px;
     color: $medium-gray;
-    margin-top: 5px;
   }
 }
 
 .post-content {
 
   h1, h2, h3, h4, h5, h6 {
+    margin: 40px 0 20px;
     line-height: 1;
     font-weight: 300;
-    margin: 40px 0 20px;
   }
 
   h1 { font-size: 36px; }
@@ -155,12 +155,12 @@
   h4 { letter-spacing: -1px; }
 
   blockquote {
-    border-left: 4px solid $light-gray;
+    margin: 30px 0;
     padding-left: 20px;
     font-size: 18px;
-    opacity: .6;
     font-style: italic;
-    margin: 30px 0;
+    border-left: 4px solid $light-gray;
+    opacity: .6;
   }
 
   ul,
