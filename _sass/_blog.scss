@@ -1,3 +1,10 @@
+@mixin center-flex-element($margin) {
+  width: $margin;
+  display: normal;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
 .blog-sidebar {
   background-color: $navy-drk;
   border-radius: 4px;
@@ -8,6 +15,7 @@
     bottom: 48px;
     right: 40px;
   }
+  @media (max-width: 1030px) { display: none; }
 }
 
 .sidebar-header {
@@ -36,6 +44,22 @@
   width: 100%;
 }
 
+.post-wrapper,
+.index-list {
+  @media (max-width: 1030px) {
+    @include center-flex-element(85%)
+  }
+  @media (max-width: 780px) {
+    @include center-flex-element(95%)
+  }
+}
+
+.blog-posts,
+.post-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
 .index-list {
   display: flex;
   flex-direction: column;
@@ -52,12 +76,6 @@
   .post {
     margin-bottom: 30px;
   }
-}
-
-.blog-posts,
-.post-wrapper {
-  display: flex;
-  flex-direction: row;
 }
 
 .post {
