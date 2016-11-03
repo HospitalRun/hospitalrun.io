@@ -27,6 +27,7 @@
 
   .site-nav {
     float: right;
+    @media (max-width: 1030px) { display: none; }
   }
 
   .nav-link {
@@ -34,6 +35,61 @@
     display: inline-block;
     padding: 0 10px;
     line-height: 63px;
+  }
+
+  .hamburger-site-nav {
+    position: fixed; z-index: 999;
+    top: 16px; right: 26px;
+    @include border-radius(4px);
+    background: $green;
+    border: 1px solid rgba(#333,.2);
+    @media (min-width: 1030px) { display: none; }
+
+    .nav-trigger {
+      @include border-radius(4px);
+      padding: 8px;
+      display: block;
+      text-align: right;
+      line-height: 1;
+
+      .menu-icon { display: block; }
+
+    }
+
+    .links {
+      list-style: none;
+      margin: 0;
+      padding: 0 15px 25px;
+      text-align: right;
+      display: none;
+      font-size: 22px;
+
+
+      > li:hover {
+        margin: 0 -16px;
+        padding: 0 15px;
+        background-color: $navy-drk;
+        color: white;
+        a  { color: white; }
+        }
+
+      a { 
+        text-decoration: none;
+        color: $navy-drk;
+      }
+    }
+
+    &:hover {
+       background: $green;
+
+      .links { display: block; }
+
+      .nav-trigger {
+
+        .menu-icon { display: inline-block; }
+
+      }
+    }
   }
 }
 
