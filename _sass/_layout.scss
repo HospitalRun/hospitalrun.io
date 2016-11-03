@@ -93,12 +93,14 @@
   }
 }
 
+
 // Site footer
 
 .site-footer {
   text-align: center;
   padding: 30px 0;
   color: #546A83;
+  @media (max-width: 1030px) { display: none; }
 
   .footer-link {
     color: $white;
