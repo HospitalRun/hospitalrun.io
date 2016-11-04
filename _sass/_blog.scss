@@ -44,14 +44,10 @@
 }
 
 .blog-posts,
-.post-wrapper {
-  display: flex;
-  flex-direction: row;
-}
+.post-wrapper { @include add-flexbox(row); }
 
 .index-list {
-  display: flex;
-  flex-direction: column;
+  @include add-flexbox(column);
 
   h1 {
     margin-bottom: 0px;

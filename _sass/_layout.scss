@@ -5,10 +5,7 @@
 
 .site-header {
 
-  .wrapper {
-    display: flex;
-    flex-direction: row; 
-  }
+  .wrapper { @include add-flexbox(row); }
 
   &.site {
     background: $navy-drk;

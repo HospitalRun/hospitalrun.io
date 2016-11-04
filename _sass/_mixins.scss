@@ -20,6 +20,11 @@
   margin-right: auto; 
 }
 
+@mixin add-flexbox($axis: row) {
+  display: flex;
+  flex-direction: $axis; 
+}
+
 // Clearfix
 //
 // Clears floats via mixin (avoid using as a class).
