@@ -8,7 +8,7 @@
   }
   background-color: $navy-drk;
   border-radius: 4px;
-  @media (max-width: 1030px) { display: none; }
+  @include media_max(1030px) { display: none; }
 }
 
 .sidebar-header {
@@ -39,12 +39,8 @@
 
 .post-wrapper,
 .index-list {
-  @media (max-width: 1030px) {
-    @include center-element(85%)
-  }
-  @media (max-width: 780px) {
-    @include center-element(95%)
-  }
+  @include media_max(1030px) { @include center-element(85%); }
+  @include media_max(780px)  { @include center-element(95%); }
 }
 
 .blog-posts,
