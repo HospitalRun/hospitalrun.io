@@ -1,10 +1,3 @@
-@mixin center-flex-element($margin) {
-  width: $margin;
-  display: normal;
-  margin-left: auto;
-  margin-right: auto; 
-}
-
 .blog-sidebar {
   height: 100%;
   width: 300px;
@@ -47,10 +40,10 @@
 .post-wrapper,
 .index-list {
   @media (max-width: 1030px) {
-    @include center-flex-element(85%)
+    @include center-element(85%)
   }
   @media (max-width: 780px) {
-    @include center-flex-element(95%)
+    @include center-element(95%)
   }
 }
 

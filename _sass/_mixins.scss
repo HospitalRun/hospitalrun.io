@@ -13,6 +13,13 @@
   border-radius: $radius;
 }
 
+@mixin center-element($width) {
+  width: $width;
+  display: normal;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
 // Clearfix
 //
 // Clears floats via mixin (avoid using as a class).
