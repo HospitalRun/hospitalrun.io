@@ -67,17 +67,17 @@
       display: none;
       font-size: 20px;
 
-
-      > li:hover {
+      > a:hover {
         margin: 0 -16px;
-        padding: 0 15px;
+        padding: 0 26px;
         background-color: $navy-drk;
+        opacity: 1;
         color: white;
-        a  { color: white; }
         }
 
       a { 
         text-decoration: none;
+        display: block;
         color: $navy-drk;
       }
     }
