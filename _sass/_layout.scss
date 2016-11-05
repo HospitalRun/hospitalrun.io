@@ -56,7 +56,6 @@
       line-height: 1;
 
       .menu-icon { display: block; }
-
     }
 
     .links {
@@ -67,18 +66,17 @@
       display: none;
       font-size: 20px;
 
-      > a:hover {
-        margin: 0 -16px;
-        padding: 0 26px;
-        background-color: $navy-drk;
-        opacity: 1;
-        color: white;
-        }
-
       a { 
         text-decoration: none;
         display: block;
         color: $navy-drk;
+        &:hover {
+          margin: 0 -16px;
+          padding: 0 26px;
+          background-color: $navy-drk;
+          opacity: 1;
+          color: white;
+        }
       }
     }
 
@@ -90,7 +88,6 @@
       .nav-trigger {
 
         .menu-icon { display: inline-block; }
-
       }
     }
   }
