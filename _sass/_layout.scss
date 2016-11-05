@@ -17,7 +17,7 @@
       margin-right: 51px;
       @include media_max(1030px) { @include center-element(85%); }
       @include media_max(780px)  { @include center-element(95%); }
-      @include media_max(500px) { @include center-element(100%);  }
+      @include media_max(500px)  { @include center-element(100%); }
     }
   }
 
