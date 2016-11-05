@@ -117,7 +117,7 @@
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
-  border-radius: 3px;
+  @include border-radius(3px);
 }
 
 .post pre.terminal code { background-color: #333; }
@@ -141,7 +141,7 @@ body.demo {
     color: $green;
     padding: 2px 6px;
     background: rgba($green,.1);
-    border-radius: 3px;
+    @include border-radius(3px);
     text-transform: uppercase;
   }
 

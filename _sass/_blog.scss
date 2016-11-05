@@ -7,7 +7,7 @@
     right: 40px;
   }
   background-color: $navy-drk;
-  border-radius: 4px;
+  @include border-radius(4px);
   @include media_max(1030px) { display: none; }
 }
 
@@ -83,7 +83,7 @@
 
   pre, code {
     padding: 8px 12px;
-    border-radius: 3px;
+    @include border-radius(3px);
     font-size: 15px;
     border: 1px solid $navy-gray;
     background-color: $navy-drk;
