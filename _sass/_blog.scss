@@ -1,4 +1,5 @@
 .blog-sidebar {
+  @include media_max(1030px) { order: 2; @include center-element(100%); }
   height: 100%;
   width: 300px;
   margin: {
@@ -8,7 +9,6 @@
   }
   background-color: $navy-drk;
   @include border-radius(4px);
-  @include media_max(1030px) { display: none; }
 }
 
 .sidebar-header {
@@ -45,7 +45,10 @@
 }
 
 .blog-posts,
-.post-wrapper { @include add-flexbox(row); }
+.post-wrapper {
+  @include add-flexbox(row);
+  @include media_max(1030px) { @include add-flexbox(column); }
+}
 
 .index-list {
   @include add-flexbox(column);
