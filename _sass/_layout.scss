@@ -48,6 +48,8 @@
     background: $green;
     border: 1px solid rgba(#333,.2);
 
+    .nav-link { line-height: 50px; }
+
     .nav-trigger {
       @include border-radius(4px);
       padding: 8px;
