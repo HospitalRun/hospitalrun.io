@@ -1,27 +1,29 @@
 ---
 title: Coming Soon! HospitalRun 1.0
+subtitle: ...and it's about time.
+author: Joel Worrall
+author_link: http://joelworrall.com
 date: 2016-11-15 00:00:00 Z
 categories:
 - hospitalrun
 - update
 - releases
-subtitle: "...and it's about time."
-author: Joel Worrall
-author_link: http://joelworrall.com
 layout: post
 ---
 
-So by now you're probably wondering, when are we ever going to ship HospitalRun 1.0? 
+So by now you're probably wondering, when are we ever going to ship [HospitalRun 1.0](https://github.com/HospitalRun/hospitalrun-frontend)? 
 
 Well, we finally have some good news to share. After months of iterative requirements work with doctors and partners, we have a GitHub project that defines [what we mean by "done" for release 1.0](https://github.com/HospitalRun/hospitalrun-frontend/projects/2). 
 
-At our current pace, we're confident that HospitalRun 1.0 will be released by or before April 1, 2017; but with your help, it could be a lot sooner!
+## Great! When is it going to be done?
+That depends on you. At our current pace, we're confident that HospitalRun 1.0 will be released by or before April 1, 2017; but with your help, it could be a lot sooner!
 
-Of course, the project development will be ongoing; but we want to get HospitalRun to a state where the project team could feel good about facilities downloading and trying the system. Our hope is that those initial deployments will not only drive more feature development but also the creation of one of our long-term goals: an online service for hosted HospitalRun instances.
+## What does "done" mean?
+Releasing 1.0 is just the first, important milestone in what we believe will be a transformative project. Of course, the project development will be ongoing; but we want to get HospitalRun to a state where the project team could feel good about facilities downloading and trying the system. Our hope is that those initial deployments will not only drive more feature development but also the creation of one of our long-term goals: an online service for hosted HospitalRun instances.
 
 
 
-# The Feature Set for 1.0
+## What is the feature set for HospitalRun 1.0?
 So what precisely is in HospitalRun 1.0? We're glad you asked. Here's the high-level list.
 <ul>
 <li>Electronic Medical Records, focused primarily around outpatient department (OPD) support</li>
@@ -40,7 +42,7 @@ If you're a development and either have contributed to HospitalRun or have consi
 To start, [join the project Slack](https://hospitalrun-slackin.herokuapp.com).
 
 # Interested in deploying HospitalRun?
-And if you're a hospital interested in deployment HospitalRun once it's officially "shipped," you can join the email list below to receive an update as soon as the project is ready to install.
+And if you're a hospital interested in deploying HospitalRun once it's officially "shipped," you can join the email list below to receive an update as soon as the project is ready to install.
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
@@ -52,7 +54,7 @@ And if you're a hospital interested in deployment HospitalRun once it's official
 <div id="mc_embed_signup">
 <form action="//hospitalrun.us13.list-manage.com/subscribe/post?u=b2206ca51af3900756274184b&amp;id=d86a8451fb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL">Subscribe to receive the invite</label>
+	<label for="mce-EMAIL">Subscribe to receive updates</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b2206ca51af3900756274184b_d86a8451fb" tabindex="-1" value=""></div>
