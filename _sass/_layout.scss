@@ -97,12 +97,12 @@
 
 
 // Site footer
+.page-content + .site-footer { @include media_max(1030px) { display: none; } }
 
 .site-footer {
   text-align: center;
   padding: 30px 0;
   color: #546A83;
-  @include media_max(1030px) { display: none; }
 
   .footer-link {
     color: $white;
