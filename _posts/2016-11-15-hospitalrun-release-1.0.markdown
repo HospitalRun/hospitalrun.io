@@ -1,13 +1,13 @@
 ---
 title: Coming Soon! HospitalRun 1.0
-subtitle: ...and it's about time.
-author: Joel Worrall
-author_link: http://joelworrall.com
 date: 2016-11-15 00:00:00 Z
 categories:
 - hospitalrun
 - update
 - releases
+subtitle: "...and it's about time."
+author: Joel Worrall
+author_link: http://joelworrall.com
 layout: post
 ---
 
