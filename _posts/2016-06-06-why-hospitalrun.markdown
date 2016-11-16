@@ -130,14 +130,14 @@ This is about more than supporting internationalization (which HospitalRun does)
 ## 2) Making Usability the #1 requirement
 The lack of attention to user experience or even the user interface in electronic health solutions has generated a track record of confusion and cost, as high-paid consultants are needed to enforce less-than-optimal solutions onto teams. The settings for which we're building have no such conquistador-like luxury, where teams of health care IT professionals can enforce change. In many of these settings, there may even be little financial incentive to enforce record-keeping policy. 
 
-Yet rather than lament those constraints, we're choosing to see these settings as an opportunity to focus on the needs of the user(s) - clinical and adminstrative. So we set out to build a solution that people might even (...dream with me) enjoy using, and we brought UX expertise into the core maintainer team of the project to help hold us accountable to producing the kind of solution strives to delight users.
+Yet rather than lament those constraints, we're choosing to see these settings as an opportunity to focus on the needs of the user(s) - clinical and administrative. So we set out to build a solution that people might even (...dream with me) enjoy using, and we brought UX expertise into the core maintainer team of the project to help hold us accountable to producing the kind of solution strives to delight users.
 
 <p>
   <img src="/img/burning-ships.jpg" width="50%" alt="Cortes burns the ships on the coast of Mexico" /><br/>
   <em>Hiring a team of highly-paid/highly-qualified consultants because you've "burned the ships" on your decision to implement an EMR/HIS isn't a realistic option in low-to-medium income health care  enviroments</em>
 </p>
 
-But we didn't want to limit our usability goals to just clinical or even adminstrative users. What if we could build a system that was easy to setup, administer, and upgrade? And what if we could build an open source project that was... wait for it... easy to contribute to? (No more spending a day polishing your secret decoder ring to make a contribution.) Could we build a system that allows someone to make a meaningful contribution in one 8-hour day?
+But we didn't want to limit our usability goals to just clinical or even administrative users. What if we could build a system that was easy to setup, administer, and upgrade? And what if we could build an open source project that was... wait for it... easy to contribute to? (No more spending a day polishing your secret decoder ring to make a contribution.) Could we build a system that allows someone to make a meaningful contribution in one 8-hour day?
 
 That's what we set out to do with usability: make HospitalRun the most ambitious AND delightful open source health project in the world - for users, administrators, and contributors. We still think we have a long way to go, but that's the goal - making usability #1.
 
