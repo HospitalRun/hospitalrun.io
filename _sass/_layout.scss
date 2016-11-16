@@ -5,15 +5,19 @@
 
 .site-header {
 
+  .wrapper { @include add-flexbox(row); }
+
   &.site {
     background: $navy-drk;
     @include clearfix;
 
     .logo {
-      display: block;
-      float: left;
       padding: 10px 0;
       margin-top: 6px;
+      margin-right: 51px;
+      @include media_max(1030px) { @include center-element(85%); }
+      @include media_max(780px)  { @include center-element(95%); }
+      @include media_max(500px)  { @include center-element(100%); }
     }
   }
 
@@ -26,7 +30,7 @@
   }
 
   .site-nav {
-    float: right;
+    @include media_max(1030px) { display: none; }
   }
 
   .nav-link {
@@ -35,7 +39,62 @@
     padding: 0 10px;
     line-height: 63px;
   }
+
+  .hamburger-site-nav {
+    @include border-radius(4px);
+    @include media_min(1031px) { display: none; }
+    position: fixed; z-index: 999;
+    top: 12px; right: 26px;
+    background: $green;
+    border: 1px solid rgba(#333,.2);
+
+    .nav-link { line-height: 35px; }
+
+    .nav-trigger {
+      @include border-radius(4px);
+      padding: 8px;
+      display: block;
+      text-align: right;
+      line-height: 1;
+
+      .menu-icon { display: block; }
+    }
+
+    .links {
+      list-style: none;
+      margin: 0;
+      padding: 0 15px 25px;
+      text-align: left;
+      display: none;
+      font-size: 20px;
+
+      a { 
+        text-decoration: none;
+        display: block;
+        color: $navy-drk;
+        &:hover {
+          margin: 0 -16px;
+          padding: 0 26px;
+          background-color: $navy-drk;
+          opacity: 1;
+          color: white;
+        }
+      }
+    }
+
+    &:hover {
+       background: $green;
+
+      .links { display: block; }
+
+      .nav-trigger {
+
+        .menu-icon { display: inline-block; }
+      }
+    }
+  }
 }
+
 
 // Site footer
 
@@ -43,6 +102,7 @@
   text-align: center;
   padding: 30px 0;
   color: #546A83;
+  @include media_max(1030px) { display: none; }
 
   .footer-link {
     color: $white;
@@ -51,93 +111,12 @@
   }
 }
 
-// Post styles
-// ----------------------------------------------------------
-
-.post-header {
-  margin: 10px 0 30px;
-
-  h1 {
-    font-size: 42px;
-    letter-spacing: -1.75px;
-    line-height: 1;
-    font-weight: 300;
-  }
-
-  .meta {
-    font-size: 15px;
-    color: #818181;
-    margin-top: 5px;
-  }
-
-}
-
-.post-content { margin: 0 0 30px; }
-
-.post-content > * { margin: 20px 0; }
-
-
-.post-content h1,
-.post-content h2,
-.post-content h3,
-.post-content h4,
-.post-content h5,
-.post-content h6 {
-  line-height: 1;
-  font-weight: 300;
-  margin: 40px 0 20px;
-}
-
-.post-content h2 {
-  font-size: 32px;
-  letter-spacing: -1.25px;
-}
-
-.post-content h3 {
-  font-size: 26px;
-  letter-spacing: -1px;
-}
-
-.post-content h4 {
-  font-size: 20px;
-  letter-spacing: -1px;
-}
-
-.post-content blockquote {
-  border-left: 4px solid #e8e8e8;
-  padding-left: 20px;
-  font-size: 18px;
-  opacity: .6;
-  letter-spacing: -1px;
-  font-style: italic;
-  margin: 30px 0;
-}
-
-.post-content ul,
-.post-content ol { padding-left: 20px; }
-
-.post pre,
-.post code {
-  border: 1px solid #d5d5e9;
-  background-color: #eef;
-  padding: 8px 12px;
-  border-radius: 3px;
-  font-size: 15px;
-}
-
-.post code { padding: 1px 5px; }
-
-.post ul,
-.post ol { margin-left: 1.35em; }
-
-.post pre code { border: none; }
-
 // terminal
 .post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
-  border-radius: 3px;
+  @include border-radius(3px);
 }
 
 .post pre.terminal code { background-color: #333; }
@@ -161,7 +140,7 @@ body.demo {
     color: $green;
     padding: 2px 6px;
     background: rgba($green,.1);
-    border-radius: 3px;
+    @include border-radius(3px);
     text-transform: uppercase;
   }
 
