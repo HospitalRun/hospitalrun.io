@@ -13,7 +13,7 @@ layout: post
 
 So by now you're probably wondering, when are we ever going to ship HospitalRun 1.0? 
 
-Well, we finally have some good news to share. After months of iterative requirements work with doctors, we have a GitHub project that defines [what we mean by "done" for release 1.0](https://github.com/HospitalRun/hospitalrun-frontend/projects/2). 
+Well, we finally have some good news to share. After months of iterative requirements work with doctors and partners, we have a GitHub project that defines [what we mean by "done" for release 1.0](https://github.com/HospitalRun/hospitalrun-frontend/projects/2). 
 
 At our current pace, we're confident that HospitalRun 1.0 will be released by or before April 1, 2017; but with your help, it could be a lot sooner!
 
