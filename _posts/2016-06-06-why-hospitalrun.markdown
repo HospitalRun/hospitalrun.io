@@ -113,7 +113,7 @@ The bottom line is that there's a huge, unaddressed need.
 
 So in early 2014, we launched the HospitalRun open source project, choosing [Ember](http://emberjs.com) and [PouchDB](https://pouchdb.com/) for the front end project and [Node](https://nodejs.org/) and [CouchDB](http://couchdb.apache.org/) for the back end. 
 
-In September of that year, we did the first early (probably too early) deployment of the system at the CURE hospital in the [Philippines](http://cure.org/philippines), and we're scheduled to reach a private beta of the system August, 2016 (with hopefully a v. 1.0 release this November, 2016).
+In September of that year, we did the first early (probably too early) deployment of the system at the CURE hospital in the [Philippines](http://cure.org/philippines), and we're scheduled to release a 1.0 by or before April 1, 2017.
 
 # Goals for HospitalRun
 But we were not interested in running the flavor-of-the-year open source health project, merely choosing today's "cool tools" and fading out in 3-4 years. Instead, we've worked to establish very specific goals for why we're doing what we're doing. Those are:
