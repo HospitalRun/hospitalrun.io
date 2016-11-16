@@ -130,7 +130,7 @@ This is about more than supporting internationalization (which HospitalRun does)
 ## 2) Making Usability the #1 requirement
 The lack of attention to user experience or even the user interface in electronic health solutions has generated a track record of confusion and cost, as high-paid consultants are needed to enforce less-than-optimal solutions onto teams. The settings for which we're building have no such conquistador-like luxury, where teams of health care IT professionals can enforce change. In many of these settings, there may even be little financial incentive to enforce record-keeping policy. 
 
-Yet rather than lament those constraints, we're choosing to see these settings as an opportunity to focus on the needs of the user(s) - clinical and administrative. So we set out to build a solution that people might even (...dream with me) enjoy using, and we brought UX expertise into the core maintainer team of the project to help hold us accountable to producing the kind of solution strives to delight users.
+Yet rather than lament those constraints, we're choosing to see these settings as an opportunity to focus on the needs of the user(s) - clinical and administrative. So we set out to build a solution that people might even (...dream with me) enjoy using, and we brought UX expertise into the core maintainer team of the project to help hold us accountable to producing the kind of solution that strives to delight users.
 
 <p>
   <img src="/img/burning-ships.jpg" width="50%" alt="Cortes burns the ships on the coast of Mexico" /><br/>
