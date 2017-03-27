@@ -37,7 +37,7 @@ So what precisely is in HospitalRun 1.0? We're glad you asked. Here's the high-l
 </ul>
 
 # How can you help?
-If you're a development and either have contributed to HospitalRun or have considered it, now would be a great to help us get 1.0 across the proverbial finish line. You can find the project board [here](https://github.com/HospitalRun/hospitalrun-frontend/projects/2). 
+If you're a developer and either have contributed to HospitalRun or have considered it, now would be a great to help us get 1.0 across the proverbial finish line. You can find the project board [here](https://github.com/HospitalRun/hospitalrun-frontend/projects/2). 
 
 To start, [join the project Slack](https://hospitalrun-slackin.herokuapp.com).
 
