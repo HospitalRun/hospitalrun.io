@@ -65,7 +65,7 @@ Back in 2012, we never had the interest or inclination to try to tackle an entir
   <em>Reviewing patient records in the CURE offline first hydrocephalus database - an offline first web application built for Chrome</em>
 </p>
 
-By mid-2012, that research database was deployed in 14 countries, primarily in subSaharan Africa. We learned a lot from that project, but now we needed to address the larger issue of a complete HIS (hospital information system) solution.
+By Fall 2012, that research database was deployed in 14 countries, primarily in subSaharan Africa. We learned a lot from that project, but now we needed to address the larger issue of a complete HIS (hospital information system) solution.
 
 # 2013: Evaluating Options
 Like all good programmers, we're lazy - disinterested in <i>re</i>-solving problems. We already had too much work to do supporting CURE, and if there were appropriate, affordable solutions out there for our HIS requirements, we would have <i>loved, loved, loved</i> to have found one.
