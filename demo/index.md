@@ -1,55 +1,59 @@
 ---
-title: Accessing the HospitalRun demo site
-layout: demo
+title: Accessing the HospitalRun Demo Site
+layout: default
 ---
 
-# Accessing the HospitalRun demo site
+<div class="tryit-hero">
+  <h1 class="hero-heading">Accessing the HospitalRun Demo Site</h1>
+  <p>Go to <a href="https://beta.hospitalrun.io" target="_blank">https://beta.hospitalrun.io</a> and use any of the following login credentials to demo the software as a user in each of the these default roles (you can change permissions in your own instance).</p>
+</div>
 
-## Visit: [beta.hospitalrun.io](https://beta.hospitalrun.io/){:target="_blank"}
+<div class="tryit-content">
+  <div class="columns">
+    <div class="col-4">
+      <h3 class="feature-heading">Clinical</h3>
 
-## Account info
-Use any of the following login credentials to demo the software as a user with these permissions.
+      <h4>Doctor</h4>
+      <p>ID: hr.doctor@hospitalrun.io<br/>PW: HRt3st12</p>
 
-### Hospital Admin role
-**id:** hr.hospital.admin@hospitalrun.io
-**pw:** HRt3st12
+      <h4>Nurse</h4>
+      <p>ID: hr.nurse@hospitalrun.io<br/>PW: HRt3st12</p>
 
-### Business Office role
-**id:** hr.business.office@hospitalrun.io
-**pw:** HRt3st12
+      <h4>Nurse Manager</h4>
+      <p>ID: hr.nurse.manager@hospitalrun.io<br/>PW: HRt3st12</p>
 
-### Doctor role
-**id:** hr.doctor@hospitalrun.io
-**pw:** HRt3st12
+      <h4>Social Worker</h4>
+      <p>ID: hr.social.worker@hospitalrun.io<br/>PW: HRt3st12</p>
 
-### Imaging Technician role
-**id:** hr.imaging.tech@hospitalrun.io
-**pw:** HRt3st12
+    </div>
 
-### Inventory Manager role
-**id:** hr.inventory.manager@hospitalrun.io
-**pw:** HRt3st12
+    <div class="col-4">
+      <h3 class="feature-heading">Administrative</h3>
 
-### Lab Technician role
-**id:** hr.lab.tech@hospitalrun.io
-**pw:** HRt3st12
+      <h4>Hospital Administrator</h4>
+      <p>ID: hr.hospital.admin@hospitalrun.io<br/>PW: HRt3st12</p>
 
-### Nurse Manager role
-**id:** hr.nurse.manager@hospitalrun.io
-**pw:** HRt3st12
+      <h4>Business Office</h4>
+      <p>ID: hr.hospital.office@hospitalrun.io<br/>PW: HRt3st12</p>
 
-### Nurse role
-**id:** hr.nurse@cureinternational.org
-**pw:** HRt3st12
+      <h4>Inventory Manager</h4>
+      <p>ID: hr.inventory.manager@hospitalrun.io<br/>PW: HRt3st12</p>
 
-### Patient Administrator role
-**id:** hr.patient.admin@hospitalrun.io
-**pw:** HRt3st12
+      <h4>Patient Administrator</h4>
+      <p>ID: hr.patient.admin@hospitalrun.io<br/>PW: HRt3st12</p>
+    </div>
 
-### Pharmacist role
-**id:** hr.pharmacist@hospitalrun.io
-**pw:** HRt3st12
+    <div class="col-4">
+      <h3 class="feature-heading">Support</h3>
 
-### Social Worker role
-**id:** hr.social.worker@hospitalrun.io
-**pw:** HRt3st12
+      <h4>Imaging Technician</h4>
+      <p>ID: hr.imaging.tech@hospitalrun.io<br/>PW: HRt3st12</p>
+
+      <h4>Lab Technician</h4>
+      <p>ID: hr.lab.tech@hospitalrun.io<br/>PW: HRt3st12</p>
+
+      <h4>Pharmacist</h4>
+      <p>ID: hr.pharmacist@hospitalrun.io<br/>PW: HRt3st12</p>
+    </div>
+  </div>
+</div>
