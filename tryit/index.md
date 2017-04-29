@@ -15,7 +15,7 @@ layout: default
       <div class="screenshot">
         <img src="/img/screenshot-mock-sm.jpg" alt="HospitalRun user interface screenshot" class="screenshot-img" width="240" border="0">
       </div>
-      <p>Download and start using HospitalRun on your desktop. Later, <em>graduate</em> to a server implementation.</p>
+      <p>Start using HospitalRun on your desktop. Later, <em>graduate</em> to a server implementation.</p>
       <a href="https://releases.hospitalrun.io/updates/macos/HospitalRun.dmg" class="cta secondary">Mac</a>
       <a href="https://releases.hospitalrun.io/updates/win32/HospitalRun.exe" class="cta secondary">Windows</a>
     </div>
