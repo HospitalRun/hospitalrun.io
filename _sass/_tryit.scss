@@ -3,9 +3,14 @@
 
 .tryit-hero {
   text-align: center;
-  
+
   .hero-heading {
     margin-top: 0.67em;
+    line-height: 2.5rem;
+  }
+
+  p {
+    font-size: 1.25rem;
   }
 }
 
@@ -28,6 +33,7 @@
     .screenshot-img {
       width: auto;
       height: 135px;
+      border-radius: 3px;
     }
   }
 }
