@@ -1,0 +1,64 @@
+// Try It styles
+// ---------------------------------------/
+
+.tryit-hero {
+  text-align: center;
+
+  .hero-heading {
+    margin-top: 0.67em;
+    line-height: 2.5rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+.tryit-content {
+  padding: 20px 0 30px;
+
+  .feature-heading {
+    font-size: 1.625rem;
+    color: $green;
+    margin: 0 0 25px;
+  }
+
+  .columns {
+    text-align: center;
+
+    .cta {
+      margin: 10px auto;
+    }
+
+    h3 {
+      line-height: 1rem;
+      font-size: 1.25rem;
+      margin-bottom: 0px;
+    }
+
+    p {
+      margin: .5rem .5rem 2rem .5rem;
+    }
+
+    .screenshot-img {
+      width: auto;
+      height: 135px;
+      border-radius: 3px;
+    }
+  }
+}
+
+.columns {
+  @include clearfix();
+}
+
+.col-4 {
+  margin: 0 0 60px;
+  padding: 0 40px;
+
+  @include media_min($bp_mobile) {
+    float: left;
+    width: percentage(4 / 12);
+    margin: 0;
+  }
+}
