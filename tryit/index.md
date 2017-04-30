@@ -17,6 +17,7 @@ layout: default
       </div>
       <p>Start using HospitalRun on your desktop. Later, <em>graduate</em> to a server implementation.</p>
       <a href="https://releases.hospitalrun.io/updates/macos/HospitalRun.dmg" class="cta secondary">Mac</a>
+      <p>Want a Windows install? <br/>Contribute <a href="https://github.com/HospitalRun/hospitalrun-frontend/issues/1074" target="_blank">here</a> or <a href="https://github.com/HospitalRun/hospitalrun-frontend/issues/1075" target="_blank">here</a>.</p>
       <!--<a href="https://releases.hospitalrun.io/updates/win32/HospitalRun.exe" class="cta secondary">Windows</a>-->
     </div>
 
@@ -25,8 +26,9 @@ layout: default
       <div class="screenshot">
         <img src="/img/HospitalRun_deployment.jpeg" alt="HospitalRun Deployment Guide" class="screenshot-img" width="240" border="0"></a>
       </div>
-      <p>Follow the <a href="https://github.com/HospitalRun/hospitalrun-server/blob/master/DEPLOYMENT_GUIDE.md">installation instructions</a> to deploy HospitalRun to a private server or cloud service.</p>
-      <a href="https://github.com/HospitalRun/hospitalrun-server/blob/master/DEPLOYMENT_GUIDE.md" class="cta secondary">Install Instructions</a>
+      <p>Follow the <a href="https://github.com/HospitalRun/hospitalrun-server/blob/master/DEPLOYMENT_GUIDE.md" target="_blank">installation instructions</a> to deploy HospitalRun to a private server or cloud service.</p>
+      <a href="https://github.com/HospitalRun/hospitalrun-server/blob/master/DEPLOYMENT_GUIDE.md" class="cta secondary" target="_blank">Install Instructions</a>
+      <p>Help <a href="https://github.com/HospitalRun/hospitalrun-server" target="_blank">improve and enhance</a> the install instructions.</p>
     </div>
 
     <div class="col-4">
@@ -36,6 +38,7 @@ layout: default
       </div>
       <p>The <a href="/demo">demo site</a> is another great way to review what's available in HospitalRun.</p>
       <a href="/demo" class="cta secondary">Go to the Demo</a>
+      <p>Join our <a href="https://hospitalrun-slackin.herokuapp.com" target="_blank">Slack</a> and help improve the #demo experience.</p>
     </div>
   </div>
 </div>
