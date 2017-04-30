@@ -17,7 +17,7 @@ layout: default
       </div>
       <p>Start using HospitalRun on your desktop. Later, <em>graduate</em> to a server implementation.</p>
       <a href="https://releases.hospitalrun.io/updates/macos/HospitalRun.dmg" class="cta secondary">Mac</a>
-      <a href="https://releases.hospitalrun.io/updates/win32/HospitalRun.exe" class="cta secondary">Windows</a>
+      <!--<a href="https://releases.hospitalrun.io/updates/win32/HospitalRun.exe" class="cta secondary">Windows</a>-->
     </div>
 
     <div class="col-4">
