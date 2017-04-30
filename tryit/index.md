@@ -24,7 +24,7 @@ layout: default
     <div class="col-4">
       <h2 class="feature-heading">Install It</h2>
       <div class="screenshot">
-        <img src="/img/HospitalRun_deployment.jpeg" alt="HospitalRun Deployment Guide" class="screenshot-img" width="240" border="0"></a>
+        <img src="/img/HospitalRun_deployment.jpeg" alt="HospitalRun Deployment Guide" class="screenshot-img" width="240" border="0">
       </div>
       <p>Follow the <a href="https://github.com/HospitalRun/hospitalrun-server/blob/master/DEPLOYMENT_GUIDE.md" target="_blank">installation instructions</a> to deploy HospitalRun to a private server or cloud service.</p>
       <a href="https://github.com/HospitalRun/hospitalrun-server/blob/master/DEPLOYMENT_GUIDE.md" class="cta secondary" target="_blank">Install Instructions</a>
