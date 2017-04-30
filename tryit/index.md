@@ -28,7 +28,7 @@ layout: default
       </div>
       <p>Follow the <a href="https://github.com/HospitalRun/hospitalrun-server/blob/master/DEPLOYMENT_GUIDE.md" target="_blank">installation instructions</a> to deploy HospitalRun to a private server or cloud service.</p>
       <a href="https://github.com/HospitalRun/hospitalrun-server/blob/master/DEPLOYMENT_GUIDE.md" class="cta secondary" target="_blank">Install Instructions</a>
-      <p>Help <a href="https://github.com/HospitalRun/hospitalrun-server" target="_blank">improve and enhance</a> the install instructions.</p>
+      <p>Help <a href="https://github.com/HospitalRun/hospitalrun-server" target="_blank">improve and enhance</a> the deployment process.</p>
     </div>
 
     <div class="col-4">
