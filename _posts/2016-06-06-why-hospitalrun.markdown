@@ -5,7 +5,7 @@ categories:
 - hospitalrun
 layout: post
 author: Joel Worrall
-author_link: http://joelworrall.com
+author_url: http://joelworrall.com
 ---
 
 <i>Note: [Click here](http://goo.gl/NCJDnJ) for the Google Doc justification paper titled, "Why HospitalRun?"</i>

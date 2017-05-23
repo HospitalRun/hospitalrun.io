@@ -7,13 +7,13 @@ categories:
 - releases
 subtitle: "...and it's about time."
 author: Joel Worrall
-author_link: http://joelworrall.com
+author_url: http://joelworrall.com
 layout: post
 ---
 
-So by now you're probably wondering, when are we ever going to ship [HospitalRun 1.0](https://github.com/HospitalRun/hospitalrun-frontend)? 
+So by now you're probably wondering, when are we ever going to ship [HospitalRun 1.0](https://github.com/HospitalRun/hospitalrun-frontend)?
 
-Well, we finally have some good news to share. After months of iterative requirements work with doctors and partners, we have a GitHub project that defines [what we mean by "done" for release 1.0](https://github.com/HospitalRun/hospitalrun-frontend/projects/2). 
+Well, we finally have some good news to share. After months of iterative requirements work with doctors and partners, we have a GitHub project that defines [what we mean by "done" for release 1.0](https://github.com/HospitalRun/hospitalrun-frontend/projects/2).
 
 ## Great! When is it going to be done?
 That depends on you. At our current pace, we're confident that HospitalRun 1.0 will be released by or before April 1, 2017; but with your help, it could be a lot sooner!
@@ -37,7 +37,7 @@ So what precisely is in HospitalRun 1.0? We're glad you asked. Here's the high-l
 </ul>
 
 # How can you help?
-If you're a developer and either have contributed to HospitalRun or have considered it, now would be a great to help us get 1.0 across the proverbial finish line. You can find the project board [here](https://github.com/HospitalRun/hospitalrun-frontend/projects/2). 
+If you're a developer and either have contributed to HospitalRun or have considered it, now would be a great to help us get 1.0 across the proverbial finish line. You can find the project board [here](https://github.com/HospitalRun/hospitalrun-frontend/projects/2).
 
 To start, [join the project Slack](https://hospitalrun-slackin.herokuapp.com).
 
