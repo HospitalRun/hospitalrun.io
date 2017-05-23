@@ -30,7 +30,7 @@ You can [try it](/tryit) on your desktop thanks to the magic of [Electron](http:
 # What shipped?
 If you want a complete list of all the changes, you can of course read the [Change log](https://github.com/HospitalRun/hospitalrun-frontend/blob/master/CHANGELOG.md), but I'll try to offer a rundown of the numerous features.
 
-## Basic modules
+## Core Modules
 _The stuff you need to get work done._
 
 * Patients, including history, diagnosis, orders, and procedures
