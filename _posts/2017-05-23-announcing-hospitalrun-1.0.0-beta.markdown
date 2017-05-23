@@ -42,7 +42,7 @@ _The stuff you need to get work done._
 * Consumable Inventory, including stock on hand predictive reports
 * Labs Queue (not yet integrated with a LIS)
 * Imaging Queue (not yet integrated with a PACS)
-* Medication ordering that is tied to the comsumable inventory system
+* Medication ordering that is tied to the consumable inventory system
 * Basic billing, including handling discount profiles for charitable and discounted work
 * Incident Management, tracing quality issues within a facility
 * Partially-configurable Roles and permissions
@@ -58,9 +58,9 @@ _The stuff that's arguably the most special, important things about the project.
 * Near-complete internationalization (ember-i18n)
 * Repo-enforced code standards (thanks to eslint)
 * Automated integration testing (thanks to Travis CI)
+* Over 1,000 acceptance tests
 * A donated Demo environment (thanks to Microsoft Bizspark)
 * Incredible traceability on the project repository for issues, projects, and code (thanks to GitHub)
-* Over 1,000 acceptance tests (thanks to PhantomJS)
 
 ## Key Time-saving Features
 _The stuff we're arguably most proud of._
@@ -71,7 +71,7 @@ _The stuff we're arguably most proud of._
 * "Grow with you" Lookup lists: start with empty metadata, lock down your system (per meta data field) as you are ready to formalize your taxonomies
 * Google Apps authentication
 * A relatively intuitive user interface
-* Inventory-aware consumption of Medication and Supplies, helping resource-constrained environments plan to deliver only what they have available.
+* Inventory-aware consumption of Medication and Supplies, helping resource-constrained environments plan to deliver only what they have available
 
 # With Gratitude
 In total this release involved nearly __100__ code contributors and over __3,000__ commits. Thank you to everyone involved in producing this first, important step for the project. We believe that HospitalRun can and will do a lot of good in the world because of you.
