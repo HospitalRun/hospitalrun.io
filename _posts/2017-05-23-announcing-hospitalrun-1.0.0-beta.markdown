@@ -1,11 +1,11 @@
 ---
-title: "Announcing HospitalRun 1.0.0 Beta"
+title: Announcing HospitalRun 1.0.0 Beta
 date: 2017-05-23 00:00:00 Z
 categories:
 - hospitalrun
 - update
 - releases
-subtitle: "Better late than never!"
+subtitle: Better late than never!
 author: Joel Worrall
 author_url: http://joelworrall.com
 layout: post
