@@ -17,10 +17,8 @@ layout: default
       </div>
       <p>Start using HospitalRun on your desktop right away. Later, <em>graduate</em> to a server instance.</p>
       <a href="https://releases.hospitalrun.io/updates/macos/HospitalRun.dmg" class="cta secondary">Mac</a>
-      <a href="https://releases.hospitalrun.io/updates/win32x64/HospitalRun-win32-x64.zip" class="cta secondary">Windows (64 bit)</a>
-      <p>Want a Windows installer? <br/>Contribute <a href="https://github.com/HospitalRun/hospitalrun-frontend/issues/1074" target="_blank">here</a> or <a href="https://github.com/HospitalRun/hospitalrun-frontend/issues/1075" target="_blank">here</a>.</p>
-      <!--<a href="https://releases.hospitalrun.io/updates/win32/HospitalRun.exe" class="cta secondary">Windows (32 bit)</a>
-      <a href="https://releases.hospitalrun.io/updates/win32x64/HospitalRun.exe" class="cta secondary">Windows (64 bit)</a>-->
+      <a href="https://releases.hospitalrun.io/updates/win32x64/HospitalRun.exe" class="cta secondary">Windows (64 bit)</a>
+      <p>Want a 32-bit Windows installer? <br/>Contribute <a href="https://github.com/HospitalRun/hospitalrun-frontend/issues/1074" target="_blank">here</a>.</p>
     </div>
 
     <div class="col-4">
