@@ -67,6 +67,7 @@ _The stuff we're arguably most proud of._
 
 * Custom forms with current support for Patients, Social Work, Visits, Outpatient Reports, Labs, Incidents, Operative Plans and Reports, and Discharge Reports
 * Shortcode support, allowing common text to be "short-handed" into all text fields
+* Operative plans that become one-click operative reports
 * "Grow with you" Lookup lists: start with empty metadata, lock down your system (per meta data field) as you are ready to formalize your taxonomies
 * Google Apps authentication
 * A relatively intuitive user interface
