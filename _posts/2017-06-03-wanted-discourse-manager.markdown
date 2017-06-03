@@ -1,11 +1,11 @@
 ---
-title: "Wanted: Discourse Manager"
+title: 'Wanted: Discourse Manager'
 date: 2017-06-03 00:00:00 Z
 categories:
 - hospitalrun
 - contributors
 - support
-subtitle: "Here's your chance to make a huge contribution."
+subtitle: Here's your chance to make a huge contribution.
 author: Joel Worrall
 author_url: http://joelworrall.com
 layout: post
