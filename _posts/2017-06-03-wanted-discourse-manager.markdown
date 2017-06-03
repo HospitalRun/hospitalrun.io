@@ -11,7 +11,7 @@ author_url: http://joelworrall.com
 layout: post
 ---
 
-Since [Announcing the Release of the HospitalRun 1.0 beta](http://hospitalrun.io/blog/2017/05/announcing-hospitalrun-1.0.0-beta), we've had over __1,000 downloads__ of the [desktop build](http://hospitalrun.io/tryit) and many more have deployed the [server installation](https://github.com/HospitalRun/hospitalrun-server/blob/master/DEPLOYMENT_GUIDE.md).
+Since [Announcing the Release of the HospitalRun 1.0 beta](http://hospitalrun.io/blog/2017/05/announcing-hospitalrun-1.0.0-beta), we've had almost __1,000 downloads__ of the [desktop build](http://hospitalrun.io/tryit) and many more have deployed the [server installation](https://github.com/HospitalRun/hospitalrun-server/blob/master/DEPLOYMENT_GUIDE.md).
 
 Good news: people are starting to use HospitalRun.
 
