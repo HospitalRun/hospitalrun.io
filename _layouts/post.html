@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class='post-wrapper'> 
+<div class='post-wrapper'>
   <section class='blog-sidebar'>
     {% include recent-releases.html %}
     {% include recent-posts.html %}
@@ -10,6 +10,7 @@ layout: default
   <div class="post">
     <header class="post-header">
       <h1>{{ page.title }}</h1>
+      <p><i>{{ page.subtitle }}</i></p>
       {% include post-meta.html %}
     </header>
     <article class="post-content">
