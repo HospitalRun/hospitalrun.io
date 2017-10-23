@@ -15,10 +15,10 @@ layout: default
       <div class="screenshot">
         <img src="/img/screenshot-mock-sm.jpg" alt="HospitalRun user interface screenshot" class="screenshot-img" width="240" border="0">
       </div>
-      <p>Start using HospitalRun on your desktop. Later, <em>graduate</em> to a server implementation.</p>
+      <p>Start using HospitalRun on your desktop right away. Later, <em>graduate</em> to a server instance.</p>
       <a href="https://releases.hospitalrun.io/updates/macos/HospitalRun.dmg" class="cta secondary">Mac</a>
-      <p>Want a Windows install? <br/>Contribute <a href="https://github.com/HospitalRun/hospitalrun-frontend/issues/1074" target="_blank">here</a> or <a href="https://github.com/HospitalRun/hospitalrun-frontend/issues/1075" target="_blank">here</a>.</p>
-      <!--<a href="https://releases.hospitalrun.io/updates/win32/HospitalRun.exe" class="cta secondary">Windows</a>-->
+      <a href="https://releases.hospitalrun.io/updates/win32x64/HospitalRun.exe" class="cta secondary">Windows (64 bit)</a>
+      <p>Want a 32-bit Windows installer? <br/>Contribute <a href="https://github.com/HospitalRun/hospitalrun-frontend/issues/1074" target="_blank">here</a>.</p>
     </div>
 
     <div class="col-4">
