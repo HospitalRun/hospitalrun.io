@@ -1,22 +1,22 @@
 @media screen and (min-width: 280px) {
     .each-partner {
         width: 100%;
-        background-color: #273647;
+        background-color: #ffffff;
     }
     .partner-logo{
       width: 200px;
-      height: 8vw;
+      height: 100px;
       padding: 1%;
     }
     .partner-post{
       padding-top: 5px;
       padding-bottom: 5px;
-      background-color: rgb(232, 235, 236);
     }
     .each-partner {
     display: inline-block;
     margin-right: 40px;
     margin-bottom: 40px;
+    border-radius: 10px;
     }
 }
 @media screen and (min-width: 480px) {
@@ -25,7 +25,8 @@
     }
     .each-partner {
         width: 39%;
-        background-color: #273647;
+        background-color: #ffffff;
+        border-radius: 10px;
     }
     .partner-logo{
       width:155px;
@@ -37,7 +38,8 @@
     }
     .each-partner {
         width: 39%;
-        background-color: #273647;
+        background-color: #ffffff;
+        border-radius: 10px;
     }
     .partner-logo{
       width:275px;
@@ -46,7 +48,8 @@
 @media screen and (min-width: 980px) {
     .each-partner {
         width: 28%;
-        background-color: #273647;
+        background-color: #ffffff;
+        border-radius: 10px;
     }
     .partner-logo{
       width:250px;
@@ -58,7 +61,8 @@
     }
     .each-partner {
         width: 28%;
-        background-color: #273647;
+        background-color: #ffffff;
+        border-radius: 10px;
     }
     .partner-logo{
       width:250px;
@@ -73,7 +77,8 @@
 
     .each-partner {
         width: 28%;
-        background-color: #273647;
+        background-color: #ffffff;
+        border-radius: 10px;
     }
     .partner-logo{
       width:400px;
@@ -84,8 +89,10 @@
     text-align: center;
     margin: 10px 0;
     font-size: 18px;
+    color: #000000;
+    font-weight: bold;
 }
 .partner-heading{
     text-align: center;
-    margin-bottom: 4vw;
+    margin-bottom: 50px;
 }
