@@ -24,6 +24,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
+dt {
+  color: $green;
+  font-weight: bold;
+  line-height: 25px;
+}
+
 a         {
   color: $green;
   text-decoration: none;
