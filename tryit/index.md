@@ -17,6 +17,7 @@ layout: default
       </div>
       <p>Start using HospitalRun on your desktop right away. Later, <em>graduate</em> to a server instance.</p>
       <a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/" class="cta secondary">Releases</a>
+      <p>Download the executable binary for your target environment or an archive of the source code.</p>
     </div>
 
     <div class="col-4">
