@@ -30,7 +30,7 @@ layout: default
       <p>Help <a href="https://github.com/HospitalRun/hospitalrun-server" target="_blank">improve and enhance</a> the deployment process.</p>
     </div>
 
-    <div class="col-4">
+    <!--<div class="col-4">
       <h2 class="feature-heading">Demo It</h2>
       <div class="screenshot">
         <img src="/img/screenshot-mock-sm.jpg" alt="HospitalRun user interface screenshot" class="screenshot-img" width="240" border="0">
@@ -38,6 +38,6 @@ layout: default
       <p>The <a href="/demo">demo site</a> is another great way to review what's available in HospitalRun.</p>
       <a href="/demo" class="cta secondary">Go to the Demo</a>
       <p>Join our <a href="https://hospitalrun-slackin.herokuapp.com" target="_blank">Slack</a> and help improve the #demo experience.</p>
-    </div>
+    </div>-->
   </div>
 </div>
