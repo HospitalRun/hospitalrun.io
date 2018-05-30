@@ -62,3 +62,13 @@
     margin: 0;
   }
 }
+.col-2 {
+  margin: 0 0 60px;
+  padding: 0 40px;
+
+  @include media_min($bp_mobile) {
+    float: left;
+    width: percentage(6 / 12);
+    margin: 0;
+  }
+}

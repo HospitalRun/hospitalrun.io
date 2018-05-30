@@ -10,7 +10,7 @@ layout: default
 
 <div class="tryit-content">
   <div class="columns">
-    <div class="col-4">
+    <div class="cols">
       <h2 class="feature-heading">Download It</h2>
       <div class="screenshot">
         <img src="/img/screenshot-mock-sm.jpg" alt="HospitalRun user interface screenshot" class="screenshot-img" width="240" border="0">
@@ -20,7 +20,7 @@ layout: default
       <p>Download the executable binary for your target environment or an archive of the source code.</p>
     </div>
 
-    <div class="col-4">
+    <div class="col-2">
       <h2 class="feature-heading">Install It</h2>
       <div class="screenshot">
         <img src="/img/HospitalRun_deployment.jpeg" alt="HospitalRun Deployment Guide" class="screenshot-img" width="240" border="0">
@@ -30,7 +30,7 @@ layout: default
       <p>Help <a href="https://github.com/HospitalRun/hospitalrun-server" target="_blank">improve and enhance</a> the deployment process.</p>
     </div>
 
-    <!--<div class="col-4">
+    <!--<div class="col-2">
       <h2 class="feature-heading">Demo It</h2>
       <div class="screenshot">
         <img src="/img/screenshot-mock-sm.jpg" alt="HospitalRun user interface screenshot" class="screenshot-img" width="240" border="0">
