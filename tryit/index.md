@@ -10,7 +10,7 @@ layout: default
 
 <div class="tryit-content">
   <div class="columns">
-    <div class="cols-2">
+    <div class="col-2">
       <h2 class="feature-heading">Download It</h2>
       <div class="screenshot">
         <img src="/img/screenshot-mock-sm.jpg" alt="HospitalRun user interface screenshot" class="screenshot-img" width="240" border="0">
