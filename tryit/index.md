@@ -5,7 +5,7 @@ layout: default
 
 <div class="tryit-hero">
   <h1 class="hero-heading">Great Options to Try HospitalRun</h1>
-  <p>Looking to use HospitalRun to support your clinic or hospital? Here are three ways to start.</p>
+  <p>Looking to use HospitalRun to support your clinic or hospital? Here are some ways to start.</p>
 </div>
 
 <div class="tryit-content">
