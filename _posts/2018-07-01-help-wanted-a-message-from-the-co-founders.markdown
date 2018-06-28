@@ -32,7 +32,7 @@ Which is to say, everything changes, and today is an announcement of a change fo
 # Maintaining
 John and I have decided that we can no longer give (and to be honest haven't been giving) HospitalRun the time and attention it needs; and as a result, we're looking to hand off the primary technical leadership of HospitalRun to someone(s) else who can take the project wherever it still needs to go. I'm happy to stay involved as a promoter and supporter, but our hope is that a group of worthy "someones" will raise their hands, asking for control of the repos.
 
-Joel Glovier has indicated an interest in staying connected with the project as a maintainer. John and I have both agreed that we don't have the time and attention to be a part of the project in that way any longer.
+Joel Glovier has indicated an interest in staying connected with the project as a maintainer. John and I have agreed that neither of us can be a part of the project in that way going forward.
 
 # "I want to help!"
 HospitalRun has been a wonderful experience for each of us - one that I can highly recommend. If you're thinking about throwing in with the project, the weekly stream of interest in my inbox can attest to the continued need for the project. It's been a genuine privilege to be a part of it, and I think it still can be for you.
