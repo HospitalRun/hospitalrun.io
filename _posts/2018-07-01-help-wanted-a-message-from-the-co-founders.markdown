@@ -14,7 +14,7 @@ In 2014 when [John](https://twitter.com/jkleinsc){:target="_blank"}, [Joel](http
 
 In that respect, progress - not the project - has always been the aim. I've often said, "If HospitalRun solves a problem, great. If it's just prior work to a better, more sustainable solution, that's just as great." We saw a problem that needed a solution, and we leveraged the vantage point we had (at the time all as current or recent employees of [CURE International](http://cure.org){:target="_blank"}) to pursue a solution. 
 
-I'd say we got pretty far.
+I'd say _the community_ got pretty far.
 
 # Since then...
 Four and a half years is a long time for anything in the tech world, and (not surprisingly) a lot has changed for each of the co-founders. 
