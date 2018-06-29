@@ -20,7 +20,7 @@ I'd say _the community_ got pretty far.
 Four and a half years is a long time for anything in the tech world, and (not surprisingly) a lot has changed for each of the co-founders. 
 
 - John Kleinschmidt is now working full-time as an open source maintainer as a part of the [Electron](https://electronjs.org/){:target="_blank"} team at GitHub
-- Joel Glovier, after a 6 year stint at GitHub, is now the head of design at [Netlify](https://netlify.com){:target="_blank"}
+- Joel Glovier, after a 5 year stint at GitHub, is now the head of design at [Netlify](https://netlify.com){:target="_blank"}
 - I'm now working for [New Relic](https://newrelic.com){:target="_blank"} as well as teaching part-time as a Computer Science instructor at my alma-mater, [Messiah College](https://messiah.edu){:target="_blank"}
 
 None of us are working directly in the healthcare or nonprofit sectors any longer, each of us have had numerous family, career, and life events since founding HospitalRun, and each of us have struggled to bring the kind of time and attention that the project deserves. 
