@@ -1,6 +1,6 @@
 ---
 title: Help Wanted
-date: 2018-06-27 12:00:00 Z
+date: 2018-07-01 12:00:00 Z
 categories:
 - hospitalrun
 subtitle: A message from the co-founders
@@ -10,9 +10,9 @@ layout: post
 ---
 
 # 4.5 Years Ago...
-In 2014 when [John](https://twitter.com/jkleinsc){:target="_blank"}, [Joel](https://twitter.com/jglovier){:target="_blank"}, and [I](https://twitter.com/tangollama){:target="_blank"} (yes there are two Joel's) started this project, I could have never imagined how far we'd get. We are and always have been aspirational co-founders / maintainers of [HospitalRun](http://github.com/hospitalrun){:target="_blank"}, starting the project in the hopes that our work would motivate other, more qualified, better-resourced teams to take up the cause. 
+In 2014 when [John](https://twitter.com/jkleinsc){:target="_blank"}, [Joel](https://twitter.com/jglovier){:target="_blank"}, and [I](https://twitter.com/tangollama){:target="_blank"} (yes there are two Joel's) started this project, I could have never imagined how far the project would progress to today. We are and always have been aspirational co-founders / maintainers of [HospitalRun](http://github.com/hospitalrun){:target="_blank"}, starting the project in the hopes that our work would motivate other, more qualified, better-resourced teams to take up the cause. 
 
-In that respect, progress - not the project - has always been the aim. I've often said, "If HospitalRun solves a problem, great. If it's just prior work to a better, more sustainable solution, that's just as great." We saw a problem that needed a solution, and we leveraged the vantage point we had (at the time all as current or recent employees of [CURE International](http://cure.org){:target="_blank"}) to pursue a solution. 
+In that respect, progress - not the project - has always been the aim. I've often said, "If HospitalRun solves a problem, great. If it's just prior work to a better, more sustainable solution, that's just as great." We saw a human problem that could be significantly aided by better software, and we leveraged the vantage point we had (at the time all as current or recent employees of [CURE International](http://cure.org){:target="_blank"}) to pursue a solution. 
 
 I'd say _the community_ got pretty far.
 
