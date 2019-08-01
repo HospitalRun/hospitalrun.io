@@ -1,9 +1,10 @@
-hospitalrun.github.io
+HospitalRun website
 =====================
 
-Marketing site for HospitalRun. Powered by GitHub Pages and Jekyll.
+This project contains the current HospitalRun website.
+Powered by [GitHub Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/docs/).
 
-## To run locally
+## Running / Development
 
 1. Clone repo: `git clone git@github.com:HospitalRun/hospitalrun.github.io.git`
 2. Install Ruby from https://rubyinstaller.org/downloads/. It is advisable to install Ruby 'WITH DEVKIT' as older versions of Ruby and the pacakages don't support Bundler. So pick the right installer depending on your OS system type.
