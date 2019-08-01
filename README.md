@@ -1,4 +1,4 @@
-HospitalRun website
+HospitalRun website [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/hospitalrun)
 =====================
 
 This project contains the current HospitalRun website.
