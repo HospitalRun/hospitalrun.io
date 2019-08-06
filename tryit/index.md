@@ -11,13 +11,13 @@ layout: default
 <div class="tryit-content">
   <div class="columns">
     <div class="col-2">
-      <h2 class="feature-heading">Download It</h2>
+      <h2 class="feature-heading">Try It</h2>
       <div class="screenshot">
         <img src="/img/screenshot-mock-sm.jpg" alt="HospitalRun user interface screenshot" class="screenshot-img" width="240" border="0">
       </div>
-      <p>Start using HospitalRun on your desktop right away. Later, <em>graduate</em> to a server instance.</p>
-      <a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/" class="cta secondary">Releases</a>
-      <p>Download the executable binary for your target environment or an archive of the source code.</p>
+      <p>Try HospitalRun using the demo instance directly on your desktop browser.</p>
+      <a href="https://beta.hospitalrun.io" class="cta secondary">Try now</a>
+      <p>Sign-in using administrator credentials <em>hradmin</em> - <em>test</em>.</p>
     </div>
 
     <div class="col-2">
