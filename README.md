@@ -1,8 +1,15 @@
-HospitalRun website [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/hospitalrun)
-=====================
+# HospitalRun Website
+
+<div align="center">
+
+[![dependabot](https://badgen.net/dependabot/dependabot/dependabot-core/?icon=dependabot)](https://github.com/HospitalRun/components)  [![MIT](https://badgen.net/github/license/HospitalRun/components)](https://github.com/HospitalRun/components/blob/master/LICENSE) [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/hospitalrun)
+
+</div>
 
 This project contains the current HospitalRun website.
 Powered by [GitHub Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/docs/).
+
+---
 
 ## Running / Development
 
