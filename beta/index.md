@@ -1,10 +1,11 @@
 ---
 title: HospitalRun Prerelease Beta
-layout: demo
+layout: default
 ---
 
 # We're launching a private Beta this August!
-After months of early field testing, we're hoping to launch a 3-month beta of HospitalRun this August. 
+
+After months of early field testing, we're hoping to launch a 3-month beta of HospitalRun this August.
 
 Beta candidates need to apply for access to the official beta. You can do that by signing up for this email list.
 
@@ -40,15 +41,17 @@ By joining this beta, you're not only getting early access to the software, but 
 # What are you (as a Beta site) required to provide?
 
 1. Your own local server (a relatively low-cost piece of hardware that we'll help you decide on).
-2. Your own implementation services (i.e. you own your implementation. we coach you through it).  
+2. Your own implementation services (i.e. you own your implementation. we coach you through it).
 3. A single point of contact back to your assigned HospitalRun project contacts.
 
-As a part of the Beta group, you'll have a direct impact on where the project is headed for version 1.0 (scheduled to be released late in 2016) and beyond. 
+As a part of the Beta group, you'll have a direct impact on where the project is headed for version 1.0 (scheduled to be released late in 2016) and beyond.
 
 # Questions
- If you have questions that are not already written out or answered here, email us at <mailto:hello@hospitalrun.io>.
- 
+
+If you have questions that are not already written out or answered here, email us at <mailto:hello@hospitalrun.io>.
+
 # Want to Help?
+
 We're also vetting contributors to participate in the beta. To get involved, you need to do/have three things:
 
 1. Have a [GitHub account](http://github.com).
