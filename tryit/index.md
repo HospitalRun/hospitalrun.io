@@ -16,8 +16,9 @@ layout: default
         <img src="/img/screenshot-mock-sm.jpg" alt="HospitalRun user interface screenshot" class="screenshot-img" width="240" border="0">
       </div>
       <p>Try HospitalRun using the demo instance directly on your desktop browser.</p>
-      <a href="https://beta.hospitalrun.io" class="cta secondary">Try now</a>
-      <p>Sign-in using administrator credentials <em>hradmin</em> - <em>test</em>.</p>
+      <a href="https://beta.hospitalrun.io" class="cta secondary" style="pointer-events: none; border: 1px solid grey;">Try now</a>
+      <p>Coming soon</p>
+      <!-- <p>How to <a href="https://hospitalrun.io/demo/">accessing</a> the HospitalRun demo site.</p> -->
     </div>
 
     <div class="col-2">
