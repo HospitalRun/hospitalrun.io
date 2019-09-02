@@ -8,20 +8,20 @@ collections:
   uploads:
     title: Uploads
     output: true
-name: HospitalRun
-description: Open source software for developing world hospitals.
+name: HospitalRun - Open source software for developing world hospitals
+description: Free, open source, easy-to-use software for developing world healthcare.
 url: http://hospitalrun.io
 permalink: "/blog/:year/:month/:title"
 plugins:
   - jekyll-sitemap
 exclude:
-- script
-- vendor
-- Gemfile
-- Gemfile.lock
-- config.ru
-- Procfile
-- Rakefile
-- readme.md
-sass: 
+  - script
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - config.ru
+  - Procfile
+  - Rakefile
+  - readme.md
+sass:
 sass_dir: _sass
