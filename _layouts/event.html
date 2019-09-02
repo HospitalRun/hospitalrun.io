@@ -1,80 +1,84 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body class="page-event">
-    <div class="top">
-      {% include home/header.html %}
+<body class="page-event">
+  <div class="top">
+    {% include home/header.html %}
 
-      <p>
-        More than 1.7 billion people are living in under-developed countries,
-      </p>
-      <p>
-        where there's less than one hospital for every 100,000 people.
-      </p>
-      <p>
-        To make it worse, these scarce hospitals can't afford an IT system.
-      </p>
-      <p>
-        Qualified physicians are spending more than 20% of their time in administration.
-      </p>
-      <p>
-        With the right software we can reduce all that wasted time.
-      </p>
-      <p>
-        We can make more people get the help they need.
-      </p>
-      <p>
-        We can save lives.
-      </p>
+    <p>
+      More than 1.7 billion people are living in under-developed countries,
+    </p>
+    <p>
+      where there's less than one hospital for every 100,000 people.
+    </p>
+    <p>
+      To make it worse, these scarce hospitals can't afford an IT system.
+    </p>
+    <p>
+      Qualified physicians are spending more than 20% of their time in administration.
+    </p>
+    <p>
+      With the right software we can reduce all that wasted time.
+    </p>
+    <p>
+      We can make more people get the help they need.
+    </p>
+    <p>
+      We can save lives.
+    </p>
 
-      <h3>
-        HospitalRun is a web-based, offline-first, open source EMR project for developing world hospitals.
-      </h3>
+    <h3>
+      HospitalRun is a web-based, offline-first, open source EMR project for developing world hospitals.
+    </h3>
 
-      <p>
-        In {{ page.when }} {{ page.where }} will come together to push this forward.
-      </p>
+    <p>
+      In {{ page.when }} {{ page.where }} will come together to push this forward.
+    </p>
 
-      <div class="cta-row">
-        <a href="https://ti.to/yldio/hospitalrun-lisbon" class="cta primary">Sign me up!</a>
-      </div>
-
-      <p>
-        <i>
-          Are you a capable developer?
-        </i>
-        &nbsp; &nbsp;
-        <i>
-          What have you been using your skills for?
-        </i>
-        <br>
-        With an ever bigger demand for developers, it's easy to forget
-        about the truly positive things you can do with your skills.
-        <br>
-        <i>
-          What are you doing?
-        </i>
-      </p>
-
+    <div class="cta-row">
+      <a href="https://ti.to/yldio/hospitalrun-lisbon" class="cta primary">Sign me up!</a>
     </div>
 
-    <div class="page-content">
-      <div class="wrapper">
+    <p>
+      <i>
+        Are you a capable developer?
+      </i>
+      &nbsp; &nbsp;
+      <i>
+        What have you been using your skills for?
+      </i>
+      <br>
+      With an ever bigger demand for developers, it's easy to forget
+      about the truly positive things you can do with your skills.
+      <br>
+      <i>
+        What are you doing?
+      </i>
+    </p>
+
+  </div>
+
+  <div class="page-content">
+    <div class="wrapper">
       {{ content }}
-      </div>
     </div>
+  </div>
 
-    {% include footer.html %}
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-98265531-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  {% include footer.html %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98265531-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-98265531-1');
-</script>
-    </body>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-98265531-1');
+  </script>
+</body>
+
 </html>
