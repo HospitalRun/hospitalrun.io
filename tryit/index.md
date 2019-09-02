@@ -17,7 +17,7 @@ layout: default
       </div>
       <p>Try <a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/tag/1.0.0-beta" target="_blank" rel="noopener">HospitalRun v1.0.0-beta</a> directly on your PC/Mac/Linux. <br/><strong>This demo is not developed for a production environment.</strong></p>
       <p>
-      <ul class="demo-list-download">
+      <ul style="text-align: left;">
       <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-1.0.0-beta-full.nupkg" rel="noopener" target="_blank" >HospitalRun-1.0.0-beta-full.nupkg</a></li>
       <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-darwin-x64.zip" rel="noopener" target="_blank">HospitalRun-darwin-x64.zip</a></li>
       <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-win32-x64.zip"  target="_blank" rel="noopener" >HospitalRun-win32-x64.zip</a></li>
