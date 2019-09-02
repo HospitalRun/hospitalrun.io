@@ -5,7 +5,7 @@ layout: default
 
 <div class="tryit-hero">
   <h1 class="hero-heading">Accessing the HospitalRun Demo Site</h1>
-  <p>Go to <a href="https://beta.hospitalrun.io" target="_blank">https://beta.hospitalrun.io</a> and use any of the following credentials.</p>
+  <p>Go to <a href="https://beta.hospitalrun.io" target="_blank" rel="noopener" >https://beta.hospitalrun.io</a> and use any of the following credentials.</p>
 </div>
 
 <div class="tryit-content">
@@ -55,5 +55,6 @@ layout: default
       <h3>Pharmacist</h3>
       <p>hr.pharmacist@hospitalrun.io<br/>PW: HRt3st12</p>
     </div>
+
   </div>
 </div>

@@ -31,6 +31,6 @@ Stay tuned!
 
 ## Previous Events
 
-- <a href="https://docs.google.com/forms/d/e/1FAIpQLScY8IzsHNXuSnwJamdOosE2ZTVBAfG4UO3hDotudUDtq3Ld9w/viewform" target="_blank">Friday and Saturday, September 23-24, 2016, GitHub Headquarters, San Francisco, CA</a>
-- <a href="/lisbon" class="nav-link" target="_blank">HospitalRun Hack Day June 19, 2016 10-6PM in Lisbon, hosted and lead by YLD.io</a>
-- <a href="/hack-week" class="nav-link" target="_blank">HospitalRun Hack Week in Tahoe, CA, March 13-19, 2016</a>
+- <a href="https://docs.google.com/forms/d/e/1FAIpQLScY8IzsHNXuSnwJamdOosE2ZTVBAfG4UO3hDotudUDtq3Ld9w/viewform" target="_blank" rel="noopener" >Friday and Saturday, September 23-24, 2016, GitHub Headquarters, San Francisco, CA</a>
+- <a href="/lisbon" class="nav-link" target="_blank" rel="noopener" >HospitalRun Hack Day June 19, 2016 10-6PM in Lisbon, hosted and lead by YLD.io</a>
+- <a href="/hack-week" class="nav-link" target="_blank" rel="noopener" >HospitalRun Hack Week in Tahoe, CA, March 13-19, 2016</a>

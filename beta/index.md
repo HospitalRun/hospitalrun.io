@@ -17,7 +17,7 @@ Beta candidates need to apply for access to the official beta. You can do that b
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="mc_embed_signup">
-<form action="//hospitalrun.us13.list-manage.com/subscribe/post?u=b2206ca51af3900756274184b&amp;id=d86a8451fb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="//hospitalrun.us13.list-manage.com/subscribe/post?u=b2206ca51af3900756274184b&amp;id=d86a8451fb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" rel="noopener"  novalidate>
     <div id="mc_embed_signup_scroll">
 	<label for="mce-EMAIL">Subscribe to receive the Beta invite</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
