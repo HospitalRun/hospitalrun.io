@@ -12,6 +12,8 @@ name: HospitalRun
 description: Open source software for developing world hospitals.
 url: http://hospitalrun.io
 permalink: "/blog/:year/:month/:title"
+plugins:
+  - jekyll-sitemap
 exclude:
 - script
 - vendor
