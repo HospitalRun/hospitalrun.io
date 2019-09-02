@@ -20,7 +20,12 @@ body {
   color: $text_color;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 300;
 }
 
@@ -30,7 +35,7 @@ dt {
   line-height: 25px;
 }
 
-a         {
+a {
   color: $green;
   text-decoration: none;
 
@@ -48,11 +53,24 @@ a         {
 // Utility
 
 .wrapper:before,
-.wrapper:after { content:""; display:table; }
-.wrapper:after { clear: both; }
+.wrapper:after {
+  content: "";
+  display: table;
+}
+
+.wrapper:after {
+  clear: both;
+}
+
 .wrapper {
   max-width: 1084px;
   padding: 0 30px;
   margin: 0 auto;
   zoom: 1;
+}
+
+// Customization
+
+.demo-list-download {
+  text-align: left;
 }

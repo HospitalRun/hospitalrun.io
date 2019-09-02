@@ -4,7 +4,7 @@ layout: default
 ---
 
 <div class="tryit-hero">
-  <h1 class="hero-heading">Great Options to Try HospitalRun</h1>
+  <h1 class="hero-heading">Great options to try HospitalRun</h1>
   <p>Looking to use HospitalRun to support your clinic or hospital? Here are some ways to start.</p>
 </div>
 
@@ -15,10 +15,19 @@ layout: default
       <div class="screenshot">
         <img src="/img/screenshot-mock-sm.jpg" alt="HospitalRun user interface screenshot" class="screenshot-img" width="240" border="0">
       </div>
-      <p>Try HospitalRun using the demo instance directly on your desktop browser.</p>
-      <a href="https://beta.hospitalrun.io" class="cta secondary" style="pointer-events: none; border: 1px solid grey;">Try now</a>
-      <p>Coming soon</p>
-      <!-- <p>How to <a href="https://hospitalrun.io/demo/">accessing</a> the HospitalRun demo site.</p> -->
+      <p>Try <a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/tag/1.0.0-beta" target="_blank" rel="noopener">HospitalRun v1.0.0-beta</a> directly on your PC/Mac/Linux. <br/><strong>This demo is not developed for a production environment.</strong></p>
+      <p>
+      <ul class="demo-list-download">
+      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-1.0.0-beta-full.nupkg" rel="noopener" target="_blank">HospitalRun-1.0.0-beta-full.nupkg</a></li>
+      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-darwin-x64.zip" rel="noopener" target="_blank">HospitalRun-darwin-x64.zip</a></li>
+      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-win32-x64.zip" rel="noopener" target="_blank">HospitalRun-win32-x64.zip</a></li>
+      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-win32.zip" rel="noopener" target="_blank">HospitalRun-win32.zip</a></li>
+      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun.dmg" rel="noopener" target="_blank">HospitalRun.dmg</a></li>
+      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun.exe" rel="noopener" target="_blank">HospitalRun.exe</a></li>
+      </ul>
+      </p>
+      <!-- <a href="https://beta.hospitalrun.io" class="cta secondary" style="pointer-events: none; border: 1px solid grey;">Try now</a>
+      <p>How to <a href="https://hospitalrun.io/demo/">accessing</a> the HospitalRun demo site.</p>  -->
     </div>
 
     <div class="col-2">
@@ -26,7 +35,8 @@ layout: default
       <div class="screenshot">
         <img src="/img/HospitalRun_deployment.jpeg" alt="HospitalRun Deployment Guide" class="screenshot-img" width="240" border="0">
       </div>
-      <p>Follow the <a href="https://github.com/HospitalRun/hospitalrun-server/blob/1.0.0-beta/DEPLOYMENT_GUIDE.md" target="_blank">installation instructions</a> to deploy HospitalRun to a private server or cloud service.</p>
+      <p>Follow the <a href="https://github.com/HospitalRun/hospitalrun-server/blob/1.0.0-beta/DEPLOYMENT_GUIDE.md" target="_blank">installation instructions</a> to deploy HospitalRun v1.0.0-beta to a private server or cloud service.<br/><strong>Legacy version is not ready for a production environment.</strong>
+      </p>
       <a href="hhttps://github.com/HospitalRun/hospitalrun-server/blob/1.0.0-beta/DEPLOYMENT_GUIDE.md" class="cta secondary" target="_blank">Install Instructions</a>
       <p>Help <a href="https://github.com/HospitalRun/hospitalrun-server" target="_blank">improve and enhance</a> the deployment process.</p>
     </div>
