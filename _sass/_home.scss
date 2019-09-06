@@ -139,6 +139,21 @@
     }
   }
 
+  .img-so {
+    padding-bottom: 0.8em;
+    margin-left: 2em;
+
+    @include media_max($bp_mobile) {
+      padding-top: 2em;
+      margin-right: 2.1em;
+    }
+
+    @include media_max($bp_tablet) {
+      padding-top: 2em;
+      margin-right: 2.1em;
+    }
+  }
+
   .read-more {
     font-size: 1.625rem;
     margin-bottom: 0;
