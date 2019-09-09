@@ -37,7 +37,7 @@ layout: default
       </div>
       <p>Follow the <a href="https://github.com/HospitalRun/hospitalrun-server/blob/1.0.0-beta/DEPLOYMENT_GUIDE.md" target="_blank" rel="noopener" >installation instructions</a> to deploy HospitalRun v1.0.0-beta to a private server or cloud service.<br/><strong>Legacy version is not ready for a production environment.</strong>
       </p>
-      <a href="hhttps://github.com/HospitalRun/hospitalrun-server/blob/1.0.0-beta/DEPLOYMENT_GUIDE.md" class="cta secondary" target="_blank" rel="noopener" >Install Instructions</a>
+      <a href="https://github.com/HospitalRun/hospitalrun-server/blob/1.0.0-beta/DEPLOYMENT_GUIDE.md" class="cta secondary" target="_blank" rel="noopener" >Install Instructions</a>
       <p>Help <a href="https://github.com/HospitalRun/hospitalrun-server" target="_blank" rel="noopener" >improve and enhance</a> the deployment process.</p>
     </div>
 
