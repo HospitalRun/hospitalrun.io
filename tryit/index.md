@@ -20,7 +20,6 @@ layout: default
       <ul style="text-align: left;">
       <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-1.0.0-beta-full.nupkg" rel="noopener" target="_blank" >HospitalRun-1.0.0-beta-full.nupkg</a></li>
       <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-darwin-x64.zip" rel="noopener" target="_blank">HospitalRun-darwin-x64.zip</a></li>
-      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-win32-x64.zip"  target="_blank" rel="noopener" >HospitalRun-win32-x64.zip</a></li>
       <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-win32.zip" target="_blank" rel="noopener" >HospitalRun-win32.zip</a></li>
       <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun.dmg" target="_blank" rel="noopener" >HospitalRun.dmg</a></li>
       <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun.exe" target="_blank" rel="noopener" >HospitalRun.exe</a></li>
