@@ -15,14 +15,13 @@ layout: default
       <div class="screenshot">
         <img src="/img/screenshot-mock-sm.jpg" alt="HospitalRun user interface screenshot" class="screenshot-img" width="240" border="0">
       </div>
-      <p>Try <a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/tag/1.0.0-beta" target="_blank" rel="noopener">HospitalRun v1.0.0-beta</a> directly on your PC/Mac/Linux. <br/><strong>This demo is not developed for a production environment.</strong></p>
+      <p>Try the <STRONG>DEMO</STRONG> HospitalRun v1.0.0-beta directly on your PC/Mac. <br/><strong>This demo is not developed for a production environment.</strong></p>
       <p>
       <ul style="text-align: left;">
-      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-1.0.0-beta-full.nupkg" rel="noopener" target="_blank" >HospitalRun-1.0.0-beta-full.nupkg</a></li>
-      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-darwin-x64.zip" rel="noopener" target="_blank">HospitalRun-darwin-x64.zip</a></li>
-      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-win32.zip" target="_blank" rel="noopener" >HospitalRun-win32.zip</a></li>
-      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun.dmg" target="_blank" rel="noopener" >HospitalRun.dmg</a></li>
-      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun.exe" target="_blank" rel="noopener" >HospitalRun.exe</a></li>
+      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-darwin-x64.zip" rel="noopener" target="_blank">HospitalRun-darwin-x64.zip <STRONG>DEMO</STRONG></a></li>
+      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun-win32.zip" target="_blank" rel="noopener" >HospitalRun-win32.zip <STRONG>DEMO</STRONG></a></li>
+      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun.dmg" target="_blank" rel="noopener" >HospitalRun.dmg <STRONG>DEMO</STRONG></a></li>
+      <li><a href="https://github.com/HospitalRun/hospitalrun-frontend/releases/download/1.0.0-beta/HospitalRun.exe" target="_blank" rel="noopener" >HospitalRun.exe <STRONG>DEMO</STRONG></a></li>
       </ul>
       </p>
       <!-- <a href="https://beta.hospitalrun.io" class="cta secondary" style="pointer-events: none; border: 1px solid grey;">Try now</a>
