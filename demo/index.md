@@ -4,8 +4,8 @@ layout: default
 ---
 
 <div class="tryit-hero">
-  <h1 class="hero-heading">Accessing the HospitalRun Demo Site</h1>
-  <p>Go to <a href="https://beta.hospitalrun.io" target="_blank" rel="noopener" >https://beta.hospitalrun.io</a> and use any of the following credentials.</p>
+  <h1 class="hero-heading">Accessing the HospitalRun demo site</h1>
+  <p>Go to <a href="https://demo.hospitalrun.io" target="_blank" rel="noopener" >https://demo.hospitalrun.io</a> and use any of the following credentials.</p>
 </div>
 
 <div class="tryit-content">
