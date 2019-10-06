@@ -6,7 +6,7 @@ layout: default
 <div class="tryit-hero">
   <h1 class="hero-heading">Accessing the HospitalRun 1.0.0-beta online demo</h1>
   <p>Go to <a href="https://demo.hospitalrun.io" target="_blank" rel="noopener" >https://demo.hospitalrun.io</a> and use any of the following credentials.</p>
-  <p>The demo is only compatible with Chrome and Firefox.</p>
+  <p>For a better experience we recommend Google Chrome.</p>
 </div>
 
 <div class="tryit-content">
