@@ -206,7 +206,7 @@ Moreover, through initiatives like our [Hack Day](/lisbon) events, we're seeing 
 
 One of the things we're putting a lot of energy into for HospitalRun is the usability experience for contributors. Contributors are the fuel that make any open source project like this possible, and we need contributors in coding, design, user experience, marketing, project management, product requirements, and devops.
 
-If you think you'd be interested in getting involved in the project, we'd love to have you start by [joining our Slack](https://hospitalrun-slackin.herokuapp.com/). At minimum, share this post with someone or someones to help us meet more people who might be interested in [contributing](/contribute).
+If you think you'd be interested in getting involved in the project, we'd love to have you start by [joining our Slack](https://hospitalrun-slack.herokuapp.com/). At minimum, share this post with someone or someones to help us meet more people who might be interested in [contributing](/contribute).
 
 # And Finally, a HUGE Thank you
 

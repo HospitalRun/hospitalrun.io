@@ -33,7 +33,7 @@ layout: default
       </div>
       <p>The <a href="/demo">demo site</a> is another great way to review what's available in version 1.0.0-beta.</p>
       <a href="/demo" class="cta secondary">Go to the Demo</a>
-      <p>Join our <a href="https://hospitalrun-slackin.herokuapp.com" target="_blank" rel="noopener" >Slack</a> and help improve the #demo experience.</p>
+      <p>Join our <a href="https://hospitalrun-slack.herokuapp.com" target="_blank" rel="noopener" >Slack</a> and help improve the #demo experience.</p>
     </div>
 
   </div>

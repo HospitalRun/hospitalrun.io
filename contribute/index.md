@@ -9,7 +9,7 @@ Currently, there are a few ways to contribute. As the project grows, they'll be 
 
 ## Become a Code Contributor
 
-HospitalRun is proudly built with technologies like [Node](http://nodejs.org), [React](https://reactjs.org), [Fastify](https://www.fastify.io/) and [CouchDB](http://couchdb.apache.org/). If you work with those technologies already or have software development experience and are interested in learning them, consider [contributing to HospitalRun](https://github.com/HospitalRun/hospitalrun-frontend/blob/master/.github/CONTRIBUTING.md). If you're serious about contributing, we also encourage you to [join our Slack](https://hospitalrun-slackin.herokuapp.com/), where the majority of the project communication happens.
+HospitalRun is proudly built with technologies like [Node](http://nodejs.org), [React](https://reactjs.org), [Fastify](https://www.fastify.io/) and [CouchDB](http://couchdb.apache.org/). If you work with those technologies already or have software development experience and are interested in learning them, consider [contributing to HospitalRun](https://github.com/HospitalRun/hospitalrun-frontend/blob/master/.github/CONTRIBUTING.md). If you're serious about contributing, we also encourage you to [join our Slack](https://hospitalrun-slack.herokuapp.com/), where the majority of the project communication happens.
 
 ## Make a financial contribution to support the development and deployment of HospitalRun
 

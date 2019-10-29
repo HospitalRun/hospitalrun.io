@@ -27,7 +27,7 @@ We'd like to stand up a [Discourse](http://discourse.com) instance for user and 
 
 Ideally, we're invite someone to **lead** our user community management function. Maybe that's you.
 
-If you're interested, let's talk. [Email me](mailto:joel@hospitalrun.io) or find me on the project [Slack](https://hospitalrun-slackin.herokuapp.com/). Find me at [@tangollama](https://hospitalrun.slack.com/messages/@tangollama/).
+If you're interested, let's talk. [Email me](mailto:joel@hospitalrun.io) or find me on the project [Slack](https://hospitalrun-slack.herokuapp.com/). Find me at [@tangollama](https://hospitalrun.slack.com/messages/@tangollama/).
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]: http://jekyllrb.com
