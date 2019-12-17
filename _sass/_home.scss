@@ -2,7 +2,6 @@
 // ---------------------------------------/
 
 .page-home {
-
   .page-top {
     overflow: hidden;
     background-image: url(/img/bg-img-patients.jpg);
@@ -25,7 +24,6 @@
 }
 
 .home-hero {
-
   .cta-row {
     max-width: 485px;
     margin: 0 auto 56px;
@@ -69,7 +67,7 @@
     border-radius: 5px;
     margin: 0 auto -25px;
     max-width: 90%;
-    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -91,7 +89,6 @@
   }
 
   .why-hospitalrun {
-
     blockquote {
       margin: 0;
     }
@@ -110,7 +107,6 @@
   }
 
   .sponsors {
-
     img {
       width: 200px;
       height: auto;
@@ -154,6 +150,21 @@
     }
   }
 
+  .img-cl {
+    padding-bottom: 0.8em;
+    margin-left: 2em;
+
+    @include media_max($bp_mobile) {
+      padding-top: 2em;
+      margin-right: 2.1em;
+    }
+
+    @include media_max($bp_tablet) {
+      padding-top: 2em;
+      margin-right: 2.1em;
+    }
+  }
+
   .read-more {
     font-size: 1.625rem;
     margin-bottom: 0;
@@ -163,7 +174,7 @@
       line-height: 1.6rem;
     }
 
-    >a {
+    > a {
       border-bottom: 1px solid;
 
       &:hover {
