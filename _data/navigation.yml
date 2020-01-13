@@ -1,0 +1,27 @@
+- text: Project
+  submenu:
+    - text: Features
+      url: /features
+    - text: Try it
+      url: /demo
+    - text: Hospital Stories
+      url: /stories
+    - text: FAQs
+      url: /faq
+    - text: Roadmap
+      url: /roadmap
+    - text: Team
+      url: /team
+- text: Blog
+  url: /blog
+- text: Docs
+  url: https://github.com/HospitalRun/hospitalrun-docs
+  submenu:
+    - text: Users
+      url: https://github.com/HospitalRun/hospitalrun-docs
+    - text: Developers
+      url: https://github.com/HospitalRun/hospitalrun-docs
+- text: Contribute
+  url: /contribute
+- text: Contact
+  url: /contacts

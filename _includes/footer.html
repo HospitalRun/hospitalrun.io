@@ -1,12 +1,104 @@
-<footer class="site-footer">
-  <div class="wrapper">
-
-    <nav class="footer-nav">
-      <a href="/blog/2016/06/why-hospitalrun" class="footer-link">Why HospitalRun?</a>&bull;
-      <a href="https://github.com/hospitalrun" class="footer-link">Source</a> &bull;
-      <a href="/blog" class="footer-link">Blog</a> &bull;
-      <a href="/contribute" class="footer-link">Contribute</a> &bull;
-      <a href="/tryit" class="footer-link">Try it</a>
-    </nav>
+<!-- Start Footer Area -->
+<footer class="footer-area bg-color3">
+  <div class="footer-wrapper section-spacing bminus-30">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <div class="footer-widget wow fadeIn" data-wow-duration="1s">
+            <h5 class="footer-title heading-5">About HospitalRun</h5>
+            <p>
+              An offline-first electronic health record (EHR) and hospital information system (HIS) web application.
+              HospitalRun is built to provide the most modern information system possible to the least resourced environments.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-3">
+          <div class="footer-widget wow fadeIn" data-wow-duration="2s">
+            <h5 class="footer-title heading-5">More resources</h5>
+            <ul class="footer-category list-inline">
+              <li><a href="/team">Team</a></li>
+              <li><a href="/roadmap">Roadmap</a></li>
+               <li><a href="/features">Features</a></li>
+              <li><a href="/demo">Demo </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-3">
+          <div class="footer-widget wow fadeIn" data-wow-duration="4s">
+            <h5 class="footer-title heading-5">Follow Us</h5>
+            <ul class="footer-socials list-inline">
+              {% if site.facebook %}
+              <li class="list-inline-item">
+                <a href="{{ site.facebook }}"><i class="fa fa-facebook"></i></a>
+              </li>
+              {% endif %} {% if site.github %}
+              <li class="list-inline-item">
+                <a href="{{ site.github }}"><i class="fa fa-github"></i></a>
+              </li>
+              {% endif %} {% if site.twitter %}
+              <li class="list-inline-item">
+                <a href="{{ site.twitter }}"><i class="fa fa-twitter"></i></a>
+              </li>
+              {% endif %} {% if site.instagram %}
+              <li class="list-inline-item">
+                <a href="{{ site.instagram }}"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </li>
+              {% endif %} {% if site.linkedin %}
+              <li class="list-inline-item">
+                <a href="{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
+              </li>
+              {% endif %} {% if site.reddit %}
+              <li class="list-inline-item">
+                <a href="{{ site.reddit }}"><i class="fa fa-reddit"></i></a>
+              </li>
+              {% endif %} {% if site.youtube %}
+              <li class="list-inline-item">
+                <a href="{{ site.youtube }}"><i class="fa fa-youtube"></i></a>
+              </li>
+              {% endif %} {% if site.reddit %} <li class="list-inline-item">
+                <a href="{{ site.reddit }}"><i class="fa fa-reddit"></i></a>
+              </li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <div class="footer-wrapper">
+    <div class="container">
+      <div class="footer-copyright text-center">
+        <p>
+          &copy; Copyright {{ site.time | date: "%Y" }}
+          <a href="https://openjsf.org/">OpenJS Foundation</a>. Hosted by
+            <a href="https://openjsf.org/">OpenJS Foundation</a><br/>
+          <span style="white-space: nowrap">
+            <a href="https://www.iubenda.com/privacy-policy/14279530"
+              >Privacy Policy</a
+            > | <a href="https://www.iubenda.com/cookie-policy/14279530"
+              >Cookie Policy</a
+            >
+          </span>
+          <br/>
+        {% if page.icon-credits %}
+        <span style="font-size: 0.8rem">
+          Icons made by
+          <a href="https://www.flaticon.com/authors/geotatah">geotatah</a> from
+          <a href="https://www.flaticon.com" target="_blank">www.flaticon.com</a>
+        </p>
+        {% endif %}
+        {% if page.pexels %}
+        <span style="font-size: 0.8rem">
+          Thumbnail photo by <a href="https://www.pexels.com">Pexels</a>
+        </p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <a href="#" class="home-top"
+    ><i class="fa fa-angle-up" aria-hidden="true"></i
+  ></a>
 </footer>
+<!-- End Footer Area -->

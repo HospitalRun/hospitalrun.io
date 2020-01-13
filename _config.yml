@@ -1,27 +1,85 @@
----
-title: Hospitalrun.Github.Io
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-name: HospitalRun - Open source software for developing world hospitals
-description: Free, open source, easy-to-use software for developing world healthcare.
-url: http://hospitalrun.io
-permalink: "/blog/:year/:month/:title"
+# Site settings
+title: "HospitalRun - Open source software for developing world hospitals"
+title_credits: "HospitalRun"
+email: "hello@hospitalrun.io"
+description: "Free, easy-to-use software for developing world healthcare."
+keywords: "hospitalrun, nodejs, react, offline-first application, docker, modern hospital information system"
+baseurl: ""
+url: "https://hospitalrun-next.netlify.com"
+cover_image: "https://hospitalrun.io/img/bg-img-patients.jpg"
+# facebook: "https://www.facebook.com"
+twitter: "https://twitter.com/hospitalrun"
+github: "https://github.com/HospitalRun/"
+linkedin: "https://www.linkedin.com/company/27045539"
+youtube: "https://www.youtube.com/channel/UCkHnYX7XQlam77j4Wx6NJCA"
+
+## Theme Options
+twitter_username: hospitalrun
+github_username: hospitalrun
+
+# Build settings
+markdown: kramdown
+theme: minima
 plugins:
-  - jekyll-sitemap
-exclude:
-  - script
-  - vendor
-  - Gemfile
-  - Gemfile.lock
-  - config.ru
-  - Procfile
-  - Rakefile
-  - readme.md
-sass:
-sass_dir: _sass
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-archives
+  - jekyll-extract-element
+  - jekyll-seo-tag
+
+# Tag Options
+tag_page_layout: tag_page
+tag_page_dir: tag
+permalink: /blog/:title/
+
+collections:
+  team_members:
+    output: true
+    permalink: /team_members/:path/
+  testimonials:
+    output: true
+    permalink: /testimonials/:path/
+  # docs:
+  #   output: true
+  #   permalink: /docs/:title/
+
+###################################################################
+# Site configuration for the Jekyll 2 Pagination Gem
+###################################################################
+pagination:
+  enabled: true
+  debug: true
+  collection: "posts"
+  per_page: 5
+  permalink: "/pages/:num/" # Pages are simple html files
+  title: ":title - page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+  category: "posts"
+  tag: ""
+  locale: ""
+  trail:
+    before: 2
+    after:
+  extension: "html"
+  indexpage: "index"
+
+autopages:
+  enabled: true
+  collections:
+    layouts:
+      - "tag_page.html"
+    title: " :coll" # :coll is replaced by the collection name
+    permalink: "/:coll/"
+
+  tags:
+    layouts:
+      - "tag_page.html"
+    title: ":tag" # :tag is replaced by the tag name
+    permalink: "/tag/:tag"
+
+feed:
+  collections:
+    posts:
+      path: "/index.xml"

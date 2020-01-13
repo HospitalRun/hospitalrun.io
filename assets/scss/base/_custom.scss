@@ -1,0 +1,549 @@
+// set the correct link/hover color for the following sections
+.single-content,
+.page-title,
+.admin-comment,
+.footer-copyright p,
+.looking-for-service:hover .looking-for-content p,
+.timeline-wrapper,
+.contribute-page .feature-content p {
+  @extend %HR-link;
+  @extend %link-highlight;
+}
+
+.looking-for-content:hover a,
+.timeline-wrapper a,
+.contribute-page .feature-content p a {
+  font-weight: 500;
+}
+
+.home-top {
+  z-index: 999;
+}
+
+p {
+  font-family: $font-base-default;
+  font-size: $font-size-default;
+}
+
+.header-navigation {
+  .navigation-box {
+    #navigation-menu {
+      top: 74px;
+      padding: 0 !important;
+
+      .donate-wrapper {
+        @media (max-width: 991px) {
+          background-color: $HR-primary;
+        }
+
+        .btn-donate {
+          font-weight: 600;
+          @media (max-width: 991px) {
+            background-color: transparent !important;
+            border: none;
+            margin: auto;
+            padding: 0.5rem;
+          }
+          @media (min-width: 992px) {
+            padding: 0.25rem 1rem;
+            margin: 0.6rem 0 0 1.5rem;
+          }
+        }
+      }
+    }
+
+    .header-logo {
+      @include mobile {
+        margin: 10px 0;
+        width: 140px;
+      }
+    }
+
+    .navigation-navbar .menu-collapser .collapse-button {
+      top: 24px;
+
+      @include mobile {
+        top: 20px;
+      }
+    }
+  }
+}
+
+// small device header nav dropdown menu
+@media (max-width: 990px) {
+  .header-navigation {
+    .navigation-box {
+      #navigation-menu {
+        li {
+          a {
+            color: $HR-background !important;
+            padding-left: 30px !important;
+            padding-right: 30px !important;
+          }
+
+          .sub-toggle {
+            i {
+              top: 5px;
+              font-size: 32px;
+              &:before {
+                color: $HR-background;
+              }
+            }
+          }
+
+          &:hover, &:focus, &.active
+
+          /*&, .active*/
+ {
+            background-color: $HR-background !important;
+            color: $HR-primary !important;
+
+            .sub-toggle {
+              i {
+                pointer-events: none;
+                &:before {
+                  color: $feature-white;
+                }
+              }
+            }
+
+            a {
+              color: inherit !important;
+            }
+          }
+
+          .themeix-dropdown-item {
+            li {
+              background-color: transparent !important;
+
+              a {
+                color: $HR-background !important;
+              }
+
+              &:hover {
+                a {
+                  color: $HR-primary !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+li {
+  font-family: $font-base-default;
+}
+
+.looking-for-service {
+  .btn {
+    border: 2px solid transparent;
+  }
+
+  &:hover .btn:active {
+    border: 2px solid $HR-primary;
+  }
+}
+
+.sponsor-section {
+  @include tablet {
+    margin-bottom: $margin-small;
+    text-align: center;
+  }
+}
+
+.bg-coverblog {
+  background-size: cover;
+}
+
+.doc-sidebar-menu li a {
+  border-bottom: 1px solid $HR-background;
+  display: block;
+  padding: 5px 15px;
+  background: lighten($HR-background, 5%);
+  color: #fff;
+  line-height: 2;
+
+  &:hover {
+    background: lighten($HR-background, 8%);
+    color: $hover-color;
+  }
+}
+
+.single-post {
+  em {
+    font-weight: 600;
+    color: $HR-subtitle;
+  }
+
+  a {
+    font-weight: 500;
+    text-decoration: underline !important;
+  }
+
+  .cta {
+    width: 225px;
+    border-radius: 5px;
+    font-size: 1.125rem;
+    line-height: 46px;
+    text-align: center;
+    display: inline-block;
+
+    &:hover {
+      text-decoration: none !important;
+    }
+
+    &.primary {
+      background: $HR-secondary;
+      color: white;
+
+      &:hover {
+        background: $HR-primary;
+      }
+    }
+
+    &.secondary {
+      background: transparent;
+      border: 1px solid $HR-secondary;
+      margin-left: 30px;
+      color: $HR-secondary;
+
+      &:hover {
+        color: $hover-color;
+        border: 1px solid $hover-color;
+      }
+
+      @include mobile {
+        margin-left: auto;
+      }
+    }
+  }
+
+  @include mobile {
+    display: block;
+    margin: 0 auto 20px;
+  }
+}
+
+.download-service {
+  margin-top: $margin-default;
+  margin-bottom: $margin-default;
+
+  @include tablet {
+    margin-bottom: $margin-default;
+    margin-top: 0;
+  }
+
+  .download-tile {
+    margin-bottom: $margin-small;
+
+    h5 {
+      margin-bottom: 5px;
+      font-weight: $font-weight-semi;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .download-list {
+    margin: 0;
+  }
+}
+
+.page-title-area {
+  // defaults to center aligned
+  > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    &.bg-image-align-top {
+      top: -30px;
+      height: unset;
+      object-fit: unset;
+    }
+
+    &.bg-image-align-bottom {
+      bottom: -30px;
+      height: unset;
+      object-fit: unset;
+    }
+  }
+
+  .page-title-wrapper {
+    @include mobile {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+}
+
+// Sliders
+
+.host {
+  opacity: 0.7;
+  width: 80%;
+
+  @media (min-width: 576px) {
+    width: 40%;
+  }
+
+  // host card image
+  .OpenJS-Foundation.card {
+    padding: 1.6rem 2rem;
+    box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+  }
+}
+
+.sponsor-slider {
+  .owl-item img {
+    @media (min-width: 769px) {
+      padding: 0 2rem;
+    }
+  }
+
+  .owl-stage {
+    display: flex;
+    align-items: center;
+  }
+
+  .company-logo {
+    padding: 2rem 0;
+    opacity: 0.7;
+  }
+}
+
+.team-carousel {
+  .owl-nav {
+    line-height: 14px;
+    text-align: center;
+    margin-top: $margin-default;
+  }
+
+  // fixes missing slider buttons
+  .owl-prev {
+    margin-right: 20px;
+
+    &:before {
+      content: "";
+      background-image: url(../../assets/images/testimonial-left.png);
+      -webkit-filter: grayscale(100%);
+      /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      background-repeat: no-repeat;
+      width: 23px;
+      height: 16px;
+      display: block;
+    }
+
+    &:hover:before {
+      filter: none;
+    }
+
+    span {
+      display: none;
+    }
+  }
+
+  .owl-next {
+    &:before {
+      content: "";
+      content: "";
+      background-image: url(../../assets/images/testimonial-right.png);
+      -webkit-filter: grayscale(100%);
+      /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      background-repeat: no-repeat;
+      width: 23px;
+      height: 16px;
+      display: block;
+    }
+
+    &:hover:before {
+      filter: none;
+    }
+
+    span {
+      display: none;
+    }
+  }
+}
+
+.footer-widget {
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.footer-title:before {
+  @include mobile {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+.icon-svg {
+  width: 80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+
+  svg {
+    path,
+    rect {
+      fill: $HR-primary;
+    }
+  }
+
+  &.medium {
+    width: 50px;
+    height: 50px;
+  }
+
+  &.small {
+    width: 40px;
+    height: 40px;
+  }
+
+  &.x-small {
+    width: 30px;
+    height: 30px;
+  }
+
+  &.auto {
+    width: unset;
+    height: unset;
+  }
+}
+
+// Features page
+.features-page {
+  em {
+    display: inline-block;
+    margin-top: 0.6rem;
+    line-height: 1.3;
+    color: $HR-secondary;
+  }
+
+  .features-area,
+  .tryit {
+    background-color: $HR-background;
+
+    .page-title,
+    p {
+      color: $feature-white;
+    }
+
+    h4 {
+      color: $HR-secondary;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .page-title {
+      a {
+        text-decoration: underline !important;
+
+        &:hover {
+          font-weight: 600;
+        }
+      }
+    }
+
+    p > a {
+      color: $feature-white;
+      text-decoration: underline !important;
+
+      &:hover {
+        color: $hover-color;
+      }
+    }
+  }
+
+  .feature-bottom {
+    background-color: #f2f6fb;
+
+    h4 {
+      a {
+        display: inline-flex;
+        align-items: flex-end;
+        color: $HR-secondary !important;
+        text-decoration: underline !important;
+        padding-bottom: 3px;
+
+        &:hover {
+          color: $hover-color !important;
+        }
+      }
+    }
+  }
+
+  .tryit {
+    img {
+      border-radius: 6px;
+    }
+
+    ul {
+      li {
+        color: $HR-secondary;
+
+        a {
+          color: white;
+          @extend %link-highlight;
+        }
+      }
+    }
+  }
+}
+// modal
+.modal-content {
+  border-radius: 0.4rem !important;
+}
+
+.modal-header {
+  background-color: $HR-background;
+
+  h5 {
+    color: $HR-primary;
+  }
+
+  button span {
+    font-size: 32px;
+    color: white !important;
+  }
+}
+
+.modal-body {
+  padding: 1rem !important;
+
+  .modal-search-form:focus {
+    border: 2px solid $HR-primary;
+  }
+
+  input {
+    background-color: #f3f5f7 !important;
+  }
+
+  button:hover i {
+    color: $HR-primary;
+  }
+}
+
+// v-aligns contacts feature cards
+.feature-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+}

@@ -1,0 +1,13 @@
+
+- title: "Free, easy-to-use software for
+developing <span>world healthcare</span>."
+  button_label: "Help project"
+  button_link: "https://opencollective.com/hospitalrun"
+
+- title: "<span>HospitalRun</span> is an offline-first EHR/HIS application."
+  button_label: "Collaborate"
+  button_link: "https://github.com/HospitalRun"
+
+- title: "Built to provide a modern HIS to the <span>least resourced environments</span>."
+  button_label: "Try it"
+  button_link: "/tryit"

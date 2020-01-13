@@ -1,0 +1,28 @@
+- title: General Questions
+  id: faqaccordion1
+  subfaq:
+    - question: Is HospitalRun free?
+      answer: Yes, the software is open source and licensed under MIT. Infrastructure costs and dedicated support are excluded.
+
+    - question: Where can I go if I want to make a donation?
+      answer: You can visit our official page on OpenCollection. Thank you for every dollar/euro!
+
+- title: Usage/Installation Questions
+  id: faqaccordion2
+  subfaq:
+    - question: Can the current version be deployed in a production environment?
+      answer: No, but it can always be used as a complementary system pending version 2. Currently, it is used in some African hospitals that need an offline-first solution. We recommend using it through Docker.
+    - question: What does “production environment” mean?
+      answer: Production environment is a term used mostly by developers to describe the setting where software and other products are actually put into operation for their intended uses by end users.
+    - question: For future versions, will I need to restart the entire process again?
+      answer: Yes, the installation system will be partly different. However, we will provide a data export/import system.
+    - question: Do you need internet to use HospitalRun?
+      answer: The software also works without any Internet connection. However, it is recommended to connect the computer to the Internet to automatically synchronize the database data.
+
+- title: Support Question
+  id: faqaccordion3
+  subfaq:
+    - question: Where can I get help?
+      answer: You can visit our Slack channel, Spectrum or email us. You can find all the details on the contact page.
+    - question: If I have trouble installing the software, who can I contact?
+      answer: For bugs you can open a report on GitHub, otherwise you can visit our Slack channel, Spectrum or email us.

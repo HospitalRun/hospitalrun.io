@@ -1,3 +1,11 @@
 _site
 *.scssc
 .DS_Store
+
+node_modules/
+
+Gemfile.lock
+package-lock.json
+Gemfile.lock-old
+package-lock.json-old
+.ruby-version

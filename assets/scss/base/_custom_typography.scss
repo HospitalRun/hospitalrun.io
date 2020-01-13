@@ -1,0 +1,28 @@
+%HR-link {
+  a {
+    @include transition(0.06s cubic-bezier(0.075, 0.82, 0.165, 1));
+
+    @include mobile {
+      text-decoration: underline !important;
+    }
+
+    @media (min-width: 576px) {
+      text-decoration: none;
+    }
+
+    &:hover {
+      font-weight: 500;
+      text-decoration: underline !important;
+    }
+  }
+}
+
+%link-highlight {
+  a {
+    color: $HR-secondary;
+
+    &:hover {
+      color: $hover-color;
+    }
+  }
+}
