@@ -1,5 +1,7 @@
 - text: Project
   submenu:
+    - text: Why HospitalRun?
+      url: /blog/why-hospitalrun/
     - text: Features
       url: /features
     - text: Try it
