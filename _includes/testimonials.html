@@ -10,10 +10,9 @@
         {% for testimonial in site.data.testimonials %}
         <div class="item">
           <div class="testimonial-item">
-            {% comment %} <div class="testimonial-author"><img src="{{testimonial.image_url}}" alt="{{testimonial.name}}"></div> {% endcomment %}
+            <div class="testimonial-author"><img src="{{testimonial.image_url}}" alt="{{testimonial.name}}"></div>
             <div class="testimonial-content">
               <p>{{testimonial.desc}}</p>
-              {% comment %} <input type="text" class="rating rating5" readonly value="{{testimonial.rating}}" /> {% endcomment %}
               <h4 class="testimonial-name heading-4"><a href="{{testimonial.url}}">{{testimonial.name}}</a></h4>
               <h6 class="testimonial-subname heading-6">{{testimonial.designation}}</h6>
             </div>

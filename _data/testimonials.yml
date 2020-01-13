@@ -1,11 +1,11 @@
 - name: Joël Schmid
   designation: Co-President of KamerunGO!
   url: https://kamerungo.org/
-  desc: Hospitalrun is an intuitive and user-friendly hospital management system which we are using in our medical center in Cameroon. The implementation and setup is smooth and easy with the provided docker containers. Furthermore, using CouchDB allows us to synchronize the data from a local server from the center into the cloud (if internet is available). Therefore, foreign consultants are able to check a patients record and based on the information consult the local medical employees.
-The HR Team is very supportive and working on an awesome solution.
-#   image_url: assets/images/testimonial-img.png
+  desc: Hospitalrun is an intuitive and user-friendly hospital management system which we are using in our medical center in Cameroon. The implementation and setup is smooth and easy with the provided docker containers. Furthermore, using CouchDB allows us to synchronize the data from a local server from the center into the cloud (if internet is available). Therefore, foreign consultants are able to check a patients record and based on the information consult the local medical employees. The HR Team is very supportive and working on an awesome solution.
+  image_url: assets/img/Schmid_Joel_KamerunGO.png
 
 - name: Paul Berthe
   designation: Physician/Surgeon
   url: http://www.homeofdignity.org/
   desc: Here at The Home of Dignity, a last-resort palliative care center in rural Liberia, we were in need of an electronic healthcare records (EHR) software so we could transition from paper-based records. We found HospitalRun online and are simply with the results! Not only were we able to digitalise our 600 patient records, but we can now track all of our patient appointments, medical supplies, and lab results! Thanks to the main devs Matteo Vivona and Maksim Sinik, we managed to deploy HospitalRun as an offline-first cloud-based server. As we have a poor internet connection, that allows us to enter data on different computers offline and sync them once at the end of the day! Not only is HospitalRun free, but the beautiful interface and great customer service is miles better than any other software on the market. We will be working in partnership with them for many years to come!
+  image_url: assets/img/HomeofDignity.png
