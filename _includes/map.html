@@ -26,30 +26,30 @@
 
 
 
-            L.marker([6.4343021,-10.7641088]).addTo(mymap)
+            L.marker([6.4343021, -10.7641088]).addTo(mymap)
               .bindPopup("<b>Home of Dignity</b><br />Liberia");
-            L.marker([3.8302938,11.3703663]).addTo(mymap)
+            L.marker([3.8302938, 11.3703663]).addTo(mymap)
               .bindPopup("<b>KarerunGO!</b><br />Cameroon");
-            L.marker([9.5488929,43.9943136]).addTo(mymap)
+            L.marker([9.5488929, 43.9943136]).addTo(mymap)
               .bindPopup("<b>Warsan Relief Organization</b><br />Republic of Somaliland");
-            L.marker([17.4126274,78.2679603]).addTo(mymap)
+            L.marker([17.4126274, 78.2679603]).addTo(mymap)
               .bindPopup("<b>Jeev Healthcare</b><br />India");
-            L.marker([10.8052056,106.6660006]).addTo(mymap)
+            L.marker([10.8052056, 106.6660006]).addTo(mymap)
               .bindPopup("<b>MRN CLINIC</b><br />Vietnam");
-            L.marker([9.9710364,76.2382529]).addTo(mymap)
+            L.marker([9.9710364, 76.2382529]).addTo(mymap)
               .bindPopup("<b>Smile Dental Clinic</b><br />India");
-            L.marker([30.0634164,31.2502987]).addTo(mymap)
+            L.marker([30.0634164, 31.2502987]).addTo(mymap)
               .bindPopup("<b>Coptic Hospital</b><br />Egypt");
-            L.marker([6.4206193,39.2043382]).addTo(mymap)
-              .bindPopup("<b>Al-Siha Medical Center</b><br />Zanzibar");  
+            L.marker([-6.4206193, 39.2043382]).addTo(mymap)
+              .bindPopup("<b>Al-Siha Medical Center</b><br />Zanzibar");
 
             L.tileLayer(
               'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-                  '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-                  'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                id: 'mapbox.streets'
-              }).addTo(mymap);
+              attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+                '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+                'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+              id: 'mapbox.streets'
+            }).addTo(mymap);
 
             var popup = L.popup();
           </script>
