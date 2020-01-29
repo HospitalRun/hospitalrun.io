@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+  <!--Google Tag Manager -->
+  <script>
+  {% include gtm.js %}
+  </script>
+  <!--End Google Tag Manager -->
   <!-- meta -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -71,15 +76,14 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Kanit:300,400,500,600" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet" />
-  <!-- Cookie Bar -->
-  <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/stub.js"></script><script type="text/javascript">
-  var _iub = _iub || [];
-  _iub.csConfiguration = {"lang":"en","siteId":1679188,"enableCMP":true,"googleAdsPreferenceManagement":true,"cookiePolicyId":14279530, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-bottom-right" }};
-  </script><script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  {% include gtm.html %}
+  <!-- End Google Tag Manager (noscript) -->
   {{ content }}
+  {% include cookie-consent.html %}
   <!-- Add Javascript File -->
   <script src="{{ site.baseurl }}/assets/js/build.min.js"></script>
   <script>
@@ -93,9 +97,7 @@
           }, 500);
         }
       });
-
     });
   </script>
 </body>
-
 </html>
