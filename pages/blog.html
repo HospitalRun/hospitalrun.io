@@ -1,0 +1,59 @@
+---
+layout: page
+header-image: /assets/img/kenya_medical_records.jpg
+title: Blog
+permalink: /blog
+description: "Project updates, software release news and more about the community around HospitalRun."
+keywords: "release, updates, blog, news, community, hospitalrun"
+pagination:
+  enabled: true
+---
+
+<!-- Start Blog  Area -->
+<div class="blog-area bg-color1">
+  <div class="blog-wrapper section-spacing">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-lg-8 mx-auto">
+          {% for post in paginator.posts %}
+          <article
+            class="blog-post blog-spacing wow fadeIn"
+            data-wow-duration="1s"
+          >
+            <div class="blog-content">
+              <h3 class="heading-3">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </h3>
+              <div class="post-excerpt">
+                {{ post.content | truncatewords: 30 }}
+              </div>
+            </div>
+            <ul class="blog-meta list-inline">
+              {% if post.author %}
+              <li class="list-inline-item">
+                <img
+                  src="{{ site.baseurl }}/assets/images/blog-author.png"
+                  alt="{{ post.title }}"
+                />
+                <a href="{{ post.author_url }}">{{ post.author }}</a>
+              </li>
+              {% endif %} {% if post.date %}
+              <li class="list-inline-item">
+                <img
+                  src="{{ site.baseurl }}/assets/images/blog-date.png"
+                  alt="{{ post.title }}"
+                />{{ post.date | date_to_long_string }}
+              </li>
+              {% endif %}
+            </ul>
+          </article>
+          {% endfor %} {% include pagination.html %}
+        </div>
+        <div class="col-md-5 col-lg-4 pl-5">
+          {% include sidebar.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Blog Area -->

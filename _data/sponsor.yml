@@ -1,0 +1,19 @@
+- name: DigitalOcean
+  image: /assets/img/DO_Logo_Horizontal_Blue.png
+  url: https://www.digitalocean.com/
+
+- name: netlify
+  image: /assets/img/netlify-logo-light.png
+  url: https://www.netlify.com/
+
+- name: saucelabs
+  image: /assets/img/saucelabs-logo.png
+  url: https://saucelabs.com/
+
+- name: cloudflare project galileo
+  image: /assets/img/cloudflare-galileo-logo.png
+  url: https://www.cloudflare.com/galileo/
+
+- name: nucleode
+  image: /assets/img/nucleode-logo.png
+  url: https://www.nucleode.com/

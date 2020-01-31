@@ -1,0 +1,24 @@
+.btn-style2 {
+  &:hover {
+    color: $hover-color !important;
+  }
+}
+
+.btn-style6 {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: $HR-primary !important;
+  color: $HR-background !important;
+  border: 2px solid transparent;
+
+  &:hover {
+    color: $feature-white !important;
+    background-color: transparent !important;
+    border: 2px solid $HR-primary;
+  }
+}

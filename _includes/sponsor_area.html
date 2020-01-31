@@ -1,0 +1,46 @@
+<div class="team-area bg-color1">
+  <div class="team-wrapper section-spacing pb-0">
+    <div class="container">
+      <div class="section-title wow fadeInUp" data-wow-duration="2s">
+        <h2 class="heading-2">Behind HospitalRun</h2>
+        <p>Our sponsors and partners who believed in this humanitarian project.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Start Company Area -->
+  <div class="company-area bg-color1">
+    <div class="company-wrapper section-spacing pt-0">
+      <div class="container">
+        <div class="slider-1 py-5 px-5">
+          <div class="sponsor-section text-center">
+            <h3 class="heading-3">Hosted by</h3>
+          </div>
+          <div class="host mx-auto">
+            <div class="OpenJS-Foundation card">
+              <a href="https://openjsf.org/"
+                ><img
+                  src="{{ site.baseurl }}/assets/img/openjsf-logo-color.png"
+                  alt="OpenJS-Foundation"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="slider-2 py-sm-5 px-2 px-sm-0">
+          <div class="sponsor-section text-center">
+            <h3 class="heading-3">Sponsored by</h3>
+          </div>
+          <div class="sponsor-slider owl-carousel bg-color3 rounded px-3">
+            {% for logo in site.data.sponsor %}
+            <div class="company-logo">
+              <a href="{{ logo.url }}"
+                ><img src="{{ logo.image }}" alt="{{ logo.name }}"
+              /></a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Company Area -->

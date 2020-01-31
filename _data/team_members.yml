@@ -1,0 +1,49 @@
+- name: Maksim Sinik
+  url: https://opencollective.com/fox1t
+  designation: Lead Maintainer
+  image_url: assets/img/maksims.jpg
+  github_url: https://github.com/fox1t
+  twitter_url: https://twitter.com/maksimsinik
+  website_url: https://maksim.dev
+
+- name: Matteo Vivona
+  url: https://opencollective.com/matteovivona
+  designation: Project Maintainer
+  image_url: assets/img/matteov.jpg
+  github_url: https://github.com/tehKapa
+  twitter_url: https://twitter.com/kapa89
+  website_url: https://matteovivona.it/
+
+- name: Jack Meyer
+  url: https://www.jackcmeyer.com/
+  designation: Maintainer
+  image_url: assets/img/jackm.jpg
+  github_url: https://github.com/jackcmeyer
+  twitter_url: https://twitter.com/jackcmeyer
+  website_url: https://www.jackcmeyer.com/
+
+- name: Grace Lau
+  url: http://graceglau.com/
+  designation: Lead UX Designer
+  image_url: assets/img/gracel.jpg
+  github_url: https://github.com/lauggh
+  website_url: http://graceglau.com/
+
+- name: Michael Daly
+  url: https://github.com/MichaelDalyDev
+  designation: Maintainer
+  image_url: assets/img/michaeld.jpg
+  github_url: https://github.com/MichaelDalyDev
+  website_url: https://github.com/MichaelDalyDev
+
+- name: Stefano Casasola
+  url: https://github.com/irvelervel
+  designation: Maintainer
+  image_url: assets/img/stefanoc.jpg
+  github_url: https://github.com/irvelervel
+
+- name: Daniele Piccolo
+  url: https://www.linkedin.com/in/danielepiccolo/?originalSubdomain=it
+  designation: Medical Supervisor
+  image_url: assets/img/danielep.jpg
+  website_url: https://www.linkedin.com/in/danielepiccolo/?originalSubdomain=it

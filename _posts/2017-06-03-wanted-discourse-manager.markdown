@@ -1,17 +1,18 @@
 ---
-title: 'Wanted: Discourse Manager'
+title: "Wanted: Discourse Manager"
 date: 2017-06-03 00:00:00 Z
-categories:
-- hospitalrun
-- contributors
-- support
-subtitle: Here's your chance to make a huge contribution.
+tags: ["v1.0.0", contributor, support]
+pexels: true
+post_image: https://images.pexels.com/photos/303040/pexels-photo-303040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
 author: Joel Worrall
-author_url: http://joelworrall.com
-layout: post
+author_url: https://github.com/tangollama
+author_image: https://avatars1.githubusercontent.com/u/929261?s=460&v=4
+author_designation: Founder
+author_bio: Director, Programmability at New Relic. Co-founder at HospitalRun. Teacher, charity guy, & accidental marketer. Throughout the Interwebs, I am @tangollama.
+excerpt: Since Announcing the Release of the HospitalRun 1.0 beta, we've had almost 1,000 downloads of the desktop build and many more have deployed the server installation.
 ---
 
-Since [Announcing the Release of the HospitalRun 1.0 beta](http://hospitalrun.io/blog/2017/05/announcing-hospitalrun-1.0.0-beta), we've had almost **1,000 downloads** of the [desktop build](http://hospitalrun.io/tryit) and many more have deployed the [server installation](https://github.com/HospitalRun/hospitalrun-server/blob/1.0.0-beta/DEPLOYMENT_GUIDE.md).
+Since [Announcing the Release of the HospitalRun 1.0 beta](http://hospitalrun.io/blog/2017/05/announcing-hospitalrun-1.0.0-beta), we've had almost **1,000 downloads** of the [desktop build](http://hospitalrun.io/tryit) and many more have deployed the [server installation](https://github.com/HospitalRun/hospitalrun-server/blob/master/DEPLOYMENT_GUIDE.md).
 
 Good news: people are starting to use HospitalRun.
 

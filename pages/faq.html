@@ -1,0 +1,58 @@
+---
+layout: page
+permalink: /faq
+header-image: /assets/img/surgery-hospital-bg.jpg
+title: FAQ
+add_to_menu: true
+description: "Looking for answers? This is the right section for you. In the FAQs we try to answer the most frequently asked questions."
+keywords: "faq, answer, project, hospitalrun"
+---
+
+<!-- Start FAQ Area -->
+<section class="page-area bg-color1">
+  <div class="page-wrapper section-spacing">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-content-box">
+            <p>Looking for answers? This is the right section for you. In the FAQs we try to answer the most frequently asked questions.
+            </p>
+
+            {% assign x = 0 %}
+            {% assign y = 0 %}
+            {% for faq in site.data.faq_page %}
+            {% assign y = y | plus:1 %}
+            <h4 class="heading-4 pt-3">{{faq.title}}</h4>
+            <div class="accordion faq-accordion mb-3" id="faqaccordion{{y}}">
+              {% for questions in faq.subfaq %}
+              {% assign x = x | plus:1 %}
+              <div class="card">
+                <div class="card-header" id="headingOne{{x}}">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne{{x}}"
+                      aria-expanded="true">
+                      Q: {{questions.question}}
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne{{x}}" class="collapse {% if x == 0 %}show{% endif %}"
+                  aria-labelledby="headingOne{{x}}" data-parent="#faqaccordion{{y}}">
+                  <div class="card-body">
+                    <b>Answer:</b> {{questions.answer}}
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+            {% endfor %}
+
+            {% comment %} <p>
+
+            </p> {% endcomment %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End FAQ Area -->
