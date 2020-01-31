@@ -48,7 +48,7 @@ collections:
 ###################################################################
 pagination:
   enabled: true
-  debug: true
+  debug: false
   collection: "posts"
   per_page: 5
   permalink: "/pages/:num/" # Pages are simple html files
