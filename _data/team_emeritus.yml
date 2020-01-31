@@ -1,0 +1,22 @@
+- name: Joel Worrall
+  url: http://joelworrall.com/
+  designation: Project Founder
+  image_url: assets/img/joelw.jpg
+  github_url: https://github.com/tangollama
+  twitter_url: https://twitter.com
+  website_url: http://joelworrall.com/
+
+- name: Joel Glovier
+  url: https://opencollective.com/joelglovier
+  designation: Project Founder
+  image_url: assets/img/joelg.png
+  github_url: https://github.com/jglovier
+  twitter_url: https://twitter.com/jglovier
+  website_url: https://joelglovier.com/
+
+- name: John Kleinschmidt
+  url: https://opencollective.com/jkleinsc
+  designation: Project Founder
+  image_url: assets/img/johnk.jpeg
+  github_url: https://github.com/jkleinsc
+  twitter_url: https://twitter.com/jkleinsc
