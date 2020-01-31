@@ -10,7 +10,7 @@
       <div class="timeline">
         <ul>
           {% for roadmap in site.data.future_roadmap %}
-          <li>
+          <li class="{{roadmap.state}}">
             <div class="timeline-content">
               <h4 class="heading-4">{{roadmap.name}}</h4>
               <p class="timeline-time">{{roadmap.date}}</p>

@@ -1,14 +1,15 @@
 - name: v2.0.0-pre
   date: 2020
   description: Setup all applications, CI/CD pipeline for all applications, Develop basic component library
+  state: active
 
 - name: v2.0.0-beta1
   date: 2020
-  description: Development of the modules Patient Management, Appointment/Visit Scheduling, Financial Management, Inventory Management, Medication Management, Incident Management, Dashboard, Administration, Hosting/Distribution
+  description: Development Patient Management, Appointment/Visit Scheduling, Financial Management, Inventory Management, Medication Management, Incident Management, Dashboard, Administration, Hosting/Distribution
 
 - name: v2.0.0-beta2
   date: 2020
-  description: Development of the modules P2P Chat, Notification System, Custom Hospital Branding, Data Import
+  description: Development P2P Chat, Notification System, Custom Hospital Branding, Data Import
 
 - name: v3.0.0
   date: 2021
@@ -16,4 +17,4 @@
 
 - name: v4.0.0
   date: 2021
-  description: Development of the modules Quality Measurement and Clinical Decision Support
+  description: Development Quality Measurement and Clinical Decision Support
