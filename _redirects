@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://hospitalrun.netlify.com/* http://hospitalrun.io/:splat 301!
