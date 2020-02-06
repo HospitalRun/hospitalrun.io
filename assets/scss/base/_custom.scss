@@ -25,6 +25,11 @@ p {
   font-size: $font-size-default;
 }
 
+.footer-copyright p {
+  font-size: 0.6rem;
+  line-height: 1.4;
+}
+
 .header-navigation {
   .navigation-box {
     #navigation-menu {
