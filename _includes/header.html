@@ -95,7 +95,7 @@
               {% endif %}
 
               <li class="{{ active }}{% if link.submenu %} themeix-dropdown has-children{% endif %}">
-                <a href="{{ link.url|prepend:site.baseurl }}">{{ link.text }}</a>
+                <a href="{{ link.url|prepend:site.baseurl }}" {% if link.submenu %} style="pointer-events: none"{% endif %}>{{ link.text }}</a>
 
                 {% if link.submenu %}
                 <ul class="themeix-dropdown-item" role="menu">
