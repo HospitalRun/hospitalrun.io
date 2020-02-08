@@ -1,6 +1,6 @@
 # HospitalRun website 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/43e5071f-bdaf-43ec-be74-5bf464403034/deploy-status)](https://app.netlify.com/sites/hospitalrun-website/deploys) ![Jekyll](https://img.shields.io/badge/Jekyll-v3.8.6-red?style=flat&logo=jekyll)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/43e5071f-bdaf-43ec-be74-5bf464403034/deploy-status)](https://app.netlify.com/sites/hospitalrun-website/deploys) ![Jekyll](https://img.shields.io/badge/Jekyll-v3.8.6-red?style=flat&logo=jekyll) [![Total alerts](https://img.shields.io/lgtm/alerts/g/HospitalRun/hospitalrun.io.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/HospitalRun/hospitalrun.io/alerts/)
 
 #### With Jekyll 3 it was necessary to switch from GitHub Pages to Netlify.
 
