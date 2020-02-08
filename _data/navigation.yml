@@ -23,11 +23,6 @@
     - text: Team
       url: /team
 - text: Docs
-  url: https://github.com/HospitalRun/hospitalrun-docs
-  submenu:
-    - text: Users (WIP)
-      url: https://github.com/HospitalRun/hospitalrun-docs
-    - text: Developers (WIP)
-      url: https://github.com/HospitalRun/hospitalrun-docs
+  url: https://docs.hospitalrun.io
 - text: Contact
   url: /contacts
