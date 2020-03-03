@@ -69,7 +69,7 @@
   <div class="footer-wrapper">
     <div class="container">
       <div class="footer-copyright text-center">
-        <p>Copyright <a href="https://openjsf.org">OpenJS Foundation</a> and <a
+        <p style="font-size: 0.8rem; line-height: 2;">Copyright <a href="https://openjsf.org">OpenJS Foundation</a> and <a
             href="https://hospitalrun.io">HospitalRun</a> contributors. All rights reserved. The <a
             href="https://openjsf.org">OpenJS Foundation</a> has registered trademarks and uses trademarks. For a list
           of trademarks of the <a href="https://openjsf.org">OpenJS Foundation</a>, please see our <a
@@ -90,13 +90,20 @@
             Icons made by
             <a href="https://www.flaticon.com/authors/geotatah">geotatah</a> from
             <a href="https://www.flaticon.com" target="_blank">www.flaticon.com</a>
-        </p>
+        </span>
         {% endif %}
         {% if page.pexels %}
         <span style="font-size: 0.5rem">
           Thumbnail photo by <a href="https://www.pexels.com">Pexels</a>
-          </p>
+          </span>
           {% endif %}
+      {% if page.infographics %}
+      <span style="font-size: 0.5rem">
+            Infographics made by
+            <a href="https://www.freepik.com">freepik</a>
+          </span>
+      {% endif %}
+      </p>
       </div>
     </div>
   </div>
