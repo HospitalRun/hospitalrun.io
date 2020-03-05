@@ -23,6 +23,6 @@
   id: faqaccordion3
   subfaq:
     - question: Where can I get help?
-      answer: You can visit our Slack channel, Spectrum or email us. You can find all the details on the contact page.
+      answer: You can visit our Slack channel or email us. You can find all the details on the contact page.
     - question: If I have trouble installing the software, who can I contact?
-      answer: For bugs you can open a report on GitHub, otherwise you can visit our Slack channel, Spectrum or email us.
+      answer: For bugs you can open a report on GitHub, otherwise you can visit our Slack channel or email us.
