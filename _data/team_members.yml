@@ -31,16 +31,28 @@
 
 - name: Michael Daly
   url: https://github.com/MichaelDalyDev
-  designation: Maintainer
+  designation: Core Contributor
   image_url: assets/img/michaeld.jpg
   github_url: https://github.com/MichaelDalyDev
   website_url: https://github.com/MichaelDalyDev
 
 - name: Stefano Casasola
   url: https://github.com/irvelervel
-  designation: Maintainer
+  designation: Core Contributor
   image_url: assets/img/stefanoc.jpg
   github_url: https://github.com/irvelervel
+
+- name: Stefano Miceli
+  url: https://github.com/StefanoMiC
+  designation: Lead UI Designer
+  image_url: assets/img/stefanom.jpg
+  github_url: https://github.com/StefanoMiC
+
+- name: Kumiko Kashii
+  url: https://www.linkedin.com/in/kkashii
+  designation: Core Contributor
+  image_url: assets/img/kumikok.jpg
+  github_url: https://github.com/kumikokashii
 
 - name: Daniele Piccolo
   url: https://www.linkedin.com/in/danielepiccolo/?originalSubdomain=it

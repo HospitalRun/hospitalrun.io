@@ -1,17 +1,17 @@
-# HospitalRun website 
+# HospitalRun website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/43e5071f-bdaf-43ec-be74-5bf464403034/deploy-status)](https://app.netlify.com/sites/hospitalrun-website/deploys) ![Jekyll](https://img.shields.io/badge/Jekyll-v3.8.6-red?style=flat&logo=jekyll) [![Total alerts](https://img.shields.io/lgtm/alerts/g/HospitalRun/hospitalrun.io.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/HospitalRun/hospitalrun.io/alerts/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/43e5071f-bdaf-43ec-be74-5bf464403034/deploy-status)](https://app.netlify.com/sites/hospitalrun-website/deploys) ![Jekyll](https://img.shields.io/badge/Jekyll-v3.8.7-red?style=flat&logo=jekyll) [![Total alerts](https://img.shields.io/lgtm/alerts/g/HospitalRun/hospitalrun.io.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/HospitalRun/hospitalrun.io/alerts/)
 
 #### With Jekyll 3 it was necessary to switch from GitHub Pages to Netlify.
 
-## Development 
+## Development
 
 hospitalrun.io is made with Jekyll a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving on Netlify.
 
 If you already have a full Ruby development environment with all headers and RubyGems installed, you can follow this simple step:
 
-1) Run `bundle install` to install the dependencies 
-2) Run `bundle exec jekyll serve` to start the Jekyll server
+1. Run `bundle install` to install the dependencies
+2. Run `bundle exec jekyll serve` to start the Jekyll server
 
 ## Directory structure
 
