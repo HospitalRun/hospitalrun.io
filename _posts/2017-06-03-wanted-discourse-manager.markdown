@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Wanted: Discourse Manager"
 date: 2017-06-03 00:00:00 Z
 tags: ["v1.0.0", contributor, support]
