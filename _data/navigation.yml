@@ -22,6 +22,8 @@
       url: /contribute
     - text: Team
       url: /team
+    - text: Standards
+      url: /standards
 - text: Docs
   url: https://docs.hospitalrun.io
 - text: Contact
