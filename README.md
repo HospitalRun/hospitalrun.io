@@ -83,7 +83,7 @@ If you already have a full Ruby development environment with all headers and Rub
 ├── package.json
 ├── pages
 │   ├── blog.html
-│   ├── community.html
+│   ├── standards.html
 │   ├── contacts.html
 │   ├── contribute.html
 │   ├── demo.html
