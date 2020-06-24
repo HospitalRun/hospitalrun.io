@@ -67,7 +67,6 @@ If you already have a full Ruby development environment with all headers and Rub
 │   ├── 2014-08-25-hospitalrun-early-release-in-september-2014.md
 │   ├── 2016-06-06-why-hospitalrun.md
 │   ├── 2017-05-23-announcing-hospitalrun-1.0.0-beta.markdown
-│   ├── 2017-06-03-wanted-discourse-manager.markdown
 │   ├── 2018-02-26-roadmap-to-hospitalrun-1.0.markdown
 │   ├── 2018-07-01-help-wanted-a-message-from-the-co-founders.markdown
 │   └── 2019-08-07-a-new-beginning.md
