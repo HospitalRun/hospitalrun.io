@@ -12,4 +12,5 @@ group :jekyll_plugins do
   gem 'distillery'
   gem 'jekyll-archives'
   gem 'jekyll-seo-tag'
+
 end
