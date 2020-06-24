@@ -24,7 +24,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
-  - jekyll-extract-element
+  - distillery
   - jekyll-seo-tag
 
 # Tag Options
