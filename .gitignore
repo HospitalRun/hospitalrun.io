@@ -7,3 +7,4 @@ node_modules/
 Gemfile.lock
 package-lock.json
 .ruby-version
+.jekyll-cache
