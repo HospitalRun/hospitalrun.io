@@ -82,7 +82,6 @@ If you already have a full Ruby development environment with all headers and Rub
 ├── package.json
 ├── pages
 │   ├── blog.html
-│   ├── community.html
 │   ├── contacts.html
 │   ├── contribute.html
 │   ├── demo.html
@@ -92,6 +91,7 @@ If you already have a full Ruby development environment with all headers and Rub
 │   ├── map.html
 │   ├── privacy-policy.html
 │   ├── roadmap.html
+│   ├── standards.html
 │   ├── team.html
 │   └── tryit.html
 ├── robots.txt
