@@ -34,7 +34,6 @@
   designation: Core Contributor
   image_url: assets/img/michaeld.jpg
   github_url: https://github.com/MichaelDalyDev
-  website_url: https://github.com/MichaelDalyDev
 
 - name: Stefano Casasola
   url: https://github.com/irvelervel
@@ -53,6 +52,18 @@
   designation: Core Contributor
   image_url: assets/img/kumikok.jpg
   github_url: https://github.com/kumikokashii
+  
+- name: Blessed Tabvirwa
+  url: http://blestab.wordpress.com/
+  designation: Core Contributor
+  image_url: assets/img/blessedt.jpg
+  github_url: https://github.com/blestab
+  
+- name: MaryEtta Morris
+  url: https://github.com/morrme
+  designation: Core Contributor
+  image_url: assets/img/maryettam.jpg
+  github_url: https://github.com/morrme
 
 - name: Daniele Piccolo
   url: https://www.linkedin.com/in/danielepiccolo/?originalSubdomain=it
