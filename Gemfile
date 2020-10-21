@@ -11,5 +11,7 @@ group :jekyll_plugins do
   gem 'jekyll-extract-element'
   gem 'jekyll-archives'
   gem 'jekyll-seo-tag'
+  gem "kramdown-parser-gfm"
+
 
 end
