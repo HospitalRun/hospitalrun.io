@@ -11,7 +11,9 @@ hospitalrun.io is made with Jekyll a simple, blog-aware, static site generator. 
 If you already have a full Ruby development environment with all headers and RubyGems installed, you can follow this simple step:
 
 1. Run `bundle install` to install the dependencies
-2. Run `bundle exec jekyll serve` to start the Jekyll server
+2. Run `bundle exec jekyll build` to build on local
+3. Run `bundle exec jekyll serve` to start the Jekyll server
+
 
 ## Directory structure
 
