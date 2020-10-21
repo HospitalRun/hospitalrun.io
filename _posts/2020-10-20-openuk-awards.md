@@ -7,7 +7,7 @@ pexels: true
 post_image: /assets/images/OpenUKAward2020.jpg
 author: Matteo Vivona
 author_url: https://github.com/tehKapa
-author_image: https://avatars2.githubusercontent.com/u/1620916?s=460&v=4
+author_image: https://avatars0.githubusercontent.com/u/6388707?s=460&u=9c551875a4a050559c6a536c3cdf8ac6eb1a0972&v=4
 author_designation: Project maintainer
 author_bio: SRE and Cloud Architect. Kubernetes enthusiast.
 excerpt: We are pleased to announce that we have accepted the first prize at the OpenUK Awards!
