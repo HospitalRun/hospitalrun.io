@@ -35,12 +35,6 @@
   image_url: assets/img/michaeld.jpg
   github_url: https://github.com/MichaelDalyDev
 
-- name: Stefano Casasola
-  url: https://github.com/irvelervel
-  designation: Core Contributor
-  image_url: assets/img/stefanoc.jpg
-  github_url: https://github.com/irvelervel
-
 - name: Stefano Miceli
   url: https://github.com/StefanoMiC
   designation: Lead UI Designer
@@ -52,13 +46,13 @@
   designation: Core Contributor
   image_url: assets/img/kumikok.jpg
   github_url: https://github.com/kumikokashii
-  
+
 - name: Blessed Tabvirwa
   url: http://blestab.wordpress.com/
   designation: Core Contributor
   image_url: assets/img/blessedt.jpg
   github_url: https://github.com/blestab
-  
+
 - name: MaryEtta Morris
   url: https://github.com/morrme
   designation: Core Contributor
@@ -70,3 +64,9 @@
   designation: Medical Supervisor
   image_url: assets/img/danielep.jpg
   website_url: https://www.linkedin.com/in/danielepiccolo/?originalSubdomain=it
+
+- name: You
+  url: https://hospitalrun-slack.herokuapp.com/
+  designation: Join the Core Team!
+  image_url: assets/img/core-member.png
+  website_url: https://hospitalrun-slack.herokuapp.com/

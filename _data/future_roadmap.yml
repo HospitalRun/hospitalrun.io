@@ -4,17 +4,17 @@
   state: active
 
 - name: v2.0.0-beta1
-  date: 2020
+  date: 2021
   description: Development Patient Management, Appointment/Visit Scheduling, Financial Management, Inventory Management, Medication Management, Incident Management, Dashboard, Administration, Hosting/Distribution
 
 - name: v2.0.0-beta2
-  date: 2020
+  date: 2021
   description: Development P2P Chat, Notification System, Custom Hospital Branding, Data Import
 
 - name: v3.0.0
-  date: 2021
+  date: 2022
   description: Development of a PWA that allows patients to book appointments, set reminders and see medical information
 
 - name: v4.0.0
-  date: 2021
+  date: 2022
   description: Development Quality Measurement and Clinical Decision Support
