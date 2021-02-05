@@ -13,11 +13,3 @@
 - name: cloudflare project galileo
   image: /assets/img/cloudflare-galileo-logo.png
   url: https://www.cloudflare.com/galileo/
-
-- name: gitpod
-  image: /assets/img/gitpod-logo.png
-  url: https://gitpod.io
-
-- name: nucleode
-  image: /assets/img/nucleode-logo.png
-  url: https://www.nucleode.com/
