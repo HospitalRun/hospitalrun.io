@@ -13,7 +13,7 @@ layout: post
 excerpt: Back in May of 2017, we announced that HospitalRun 1.0 was available in beta.
 ---
 
-Back in May of 2017, we announced that <a href="/blog/2017/05/announcing-hospitalrun-1.0.0-beta" target="hr2">HospitalRun 1.0 was available in beta</a>. Since then, we've had thousands of downloads of the <a href="/tryit" target="hr2">Electron app</a> and thousands more deploy the Docker image. There's been good and bad feedback, and throughout all of that, the entire original core team has undergone huge transitions in our day jobs (as in 2 of the 3 of us changed jobs), which has hampered the pace the project.
+Back in May of 2017, we announced that <a href="/blog/announcing-hospitalrun-1.0.0-beta" target="hr2">HospitalRun 1.0 was available in beta</a>. Since then, we've had thousands of downloads of the <a href="/tryit" target="hr2">Electron app</a> and thousands more deploy the Docker image. There's been good and bad feedback, and throughout all of that, the entire original core team has undergone huge transitions in our day jobs (as in 2 of the 3 of us changed jobs), which has hampered the pace the project.
 
 # Determining the 1.0 Feature Set
 

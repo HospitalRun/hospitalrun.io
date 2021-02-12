@@ -26,7 +26,7 @@ pagination:
           <article class="blog-post blog-spacing wow fadeIn" data-wow-duration="1s">
             {% if post.post_image %}
             <div class="blog-img">
-              <a href="single.html"><img src="{{post.post_image}}" alt="{{post.title}}" /></a>
+              <a href="{{post.url}}"><img src="{{post.post_image}}" alt="{{post.title}}" /></a>
             </div>
             {% endif %}
             <div class="blog-content">

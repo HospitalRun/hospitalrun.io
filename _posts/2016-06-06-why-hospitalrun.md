@@ -202,7 +202,7 @@ holds a tremendous opportunity to partner the NGO, government, and tech sectors 
 
 It's almost as if, by <b>working together</b>... we just might have a fighting chance of changing the world.
 
-Moreover, through initiatives like our [Hack Day](/lisbon) events, we're seeing tremendous opportunity to engage those with programming, design, devops, project management, and marketing backgrounds to use their true gifts in service to a cause that has utility, opportunity, and innovative technology.
+Moreover, through initiatives like our Hack Day events, we're seeing tremendous opportunity to engage those with programming, design, devops, project management, and marketing backgrounds to use their true gifts in service to a cause that has utility, opportunity, and innovative technology.
 
 # Now what?
 
