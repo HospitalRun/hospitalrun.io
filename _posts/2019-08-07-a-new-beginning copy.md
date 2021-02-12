@@ -13,7 +13,7 @@ author_bio: Software and Cloud Architect. DevOps philosophy lover. Container ent
 excerpt: I am Maksim Sinik and I am very excited and honoured to announce that I am the new Lead Maintainer of the HospitalRun project.
 ---
 
-Hi! First of all, let me introduce myself: I am Maksim Sinik and I am very excited and honoured to announce that I am the new Lead Maintainer of the HospitalRun project. My interest in HR started some time ago when I read [this](https://hospitalrun.io/blog/2018/07/help-wanted-a-message-from-the-co-founders) post: I immediately thought that such a amazing project should not be abandoned and that all the efforts of hundreds of contributors should not be in vain!
+Hi! First of all, let me introduce myself: I am Maksim Sinik and I am very excited and honoured to announce that I am the new Lead Maintainer of the HospitalRun project. My interest in HR started some time ago when I read [this](https://hospitalrun.io/blog/help-wanted-a-message-from-the-co-founders) post: I immediately thought that such a amazing project should not be abandoned and that all the efforts of hundreds of contributors should not be in vain!
 
 I contacted Joel and after an intense chat we agreed that I would take over the management of HospitalRun. We discussed about the major issues and what the direction of the project should be. We both agreed that the codebase is old and difficult to contribute to for the today's standards. Unfortunately we had to make a hard decision, but I'm sure that it will pay in terms of contributions and future features: a complete rewrite of HR to adapt it to the modern cloud world.
 
