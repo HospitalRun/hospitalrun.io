@@ -78,6 +78,9 @@ autopages:
       - "tag_page.html"
     title: ":tag" # :tag is replaced by the tag name
     permalink: "/tag/:tag"
+    slugify:
+      mode: "pretty"
+      case: false
 
 feed:
   collections:
