@@ -12,3 +12,5 @@
 #   button_link: "/tryit"
 
 - title: "The project has been <span>archived</span>. Thank you to all <span>contributors</span>, <span>maintainers</span>, <span>friends</span> and <span>sponsors</span>."
+  button_label: "GitHub"
+  button_link: "https://github.com/HospitalRun"
