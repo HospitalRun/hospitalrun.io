@@ -1,28 +1,31 @@
-- text: Project
-  submenu:
-    - text: Why HospitalRun?
-      url: /blog/why-hospitalrun/
-    - text: Features
-      url: /features
-    - text: Try it
-      url: /demo
-    - text: FAQs
-      url: /faq
-    - text: Roadmap
-      url: /roadmap
-    - text: Deploy it
-      url: http://eepurl.com/c7uKJ5
-- text: Blog
-  url: /blog
-- text: Community
-  submenu:
-    - text: Hospital Stories
-      url: /stories
-    - text: Contribute
-      url: /contribute
-    - text: Standards
-      url: /standards
-- text: Docs
-  url: https://docs.hospitalrun.io
-- text: Contact
-  url: /contacts
+# - text: Project
+#   submenu:
+#     - text: Why HospitalRun?
+#       url: /blog/why-hospitalrun/
+#     - text: Features
+#       url: /features
+#     - text: Try it
+#       url: /demo
+#     - text: FAQs
+#       url: /faq
+#     - text: Roadmap
+#       url: /roadmap
+#     - text: Deploy it
+#       url: http://eepurl.com/c7uKJ5
+# - text: Blog
+#   url: /blog
+# - text: Community
+#   submenu:
+#     - text: Hospital Stories
+#       url: /stories
+#     - text: Contribute
+#       url: /contribute
+#     - text: Standards
+#       url: /standards
+# - text: Docs
+#   url: https://docs.hospitalrun.io
+# - text: Contact
+#   url: /contacts
+
+- text: GitHub
+  url: https://github.com/HospitalRun
